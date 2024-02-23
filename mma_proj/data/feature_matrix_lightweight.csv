@@ -1,0 +1,1276 @@
+fighter_f_name_fighter1,fighter_l_name_fighter1,fighter_f_name_fighter2,fighter_l_name_fighter2,f_1,f_2,knockdowns,total_strikes_att,total_strikes_succ,sig_strikes_att,sig_strikes_succ,takedown_att,takedown_succ,submission_att,reversals,ctrl_time,num_rounds,finish_round,finish_time,title_fight,weight_class,gender,result,result_details
+Mateusz,Gamrot,Rafael,Fiziev,2976.0,2884.0,0.0,34.0,19.0,32.0,18.0,0.0,0.0,0.0,0.0,0:00,5,2,2:03,F,Lightweight,M,KO/TKO,"to    
+      Leg Injury"
+Mateusz,Gamrot,Arman,Tsarukyan,350.0,2884.0,1.0,264.0,110.0,247.0,95.0,8.0,1.0,0.0,0.0,1:39,5,5,5:00,F,Lightweight,M,Decision,Unanimous
+Mateusz,Gamrot,Diego,Ferreira,3007.0,2884.0,0.0,104.0,37.0,101.0,36.0,0.0,0.0,0.0,0.0,0:00,3,2,3:26,F,Lightweight,M,KO/TKO,Knee to Body On Ground
+Mateusz,Gamrot,Beneil,Dariush,3296.0,2884.0,1.0,138.0,67.0,130.0,59.0,0.0,0.0,0.0,0.0,0:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mateusz,Gamrot,Jeremy,Stephens,542.0,2884.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0:03,3,1,1:05,F,Lightweight,M,Submission,Kimura From Side Control
+Mateusz,Gamrot,Scott,Holtzman,2522.0,2884.0,0.0,48.0,10.0,48.0,10.0,1.0,0.0,0.0,0.0,0:00,3,2,1:22,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Ilia,Topuria,Jai,Herbert,2583.0,380.0,1.0,94.0,50.0,63.0,22.0,0.0,0.0,0.0,0.0,0:07,3,2,1:07,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Charles,Rosa,TJ,Brown,3652.0,949.0,0.0,141.0,88.0,99.0,58.0,8.0,6.0,3.0,2.0,7:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Sayles,Jordan,Leavitt,2085.0,799.0,0.0,37.0,22.0,20.0,9.0,6.0,1.0,3.0,0.0,2:48,3,2,2:05,F,Lightweight,M,Submission,Inverted Triangle On Ground
+Charles,Jourdain,Desmond,Green,2727.0,2320.0,0.0,152.0,85.0,144.0,78.0,4.0,4.0,0.0,0.0,2:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jorge,Masvidal,Tim,Means,1752.0,1819.0,0.0,161.0,68.0,133.0,43.0,1.0,0.0,0.0,1.0,0:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jorge,Masvidal,Michael,Chiesa,3478.0,1819.0,1.0,66.0,35.0,53.0,24.0,5.0,2.0,0.0,0.0,2:42,3,2,4:59,F,Lightweight,M,Submission,D'Arce Choke On Ground
+Jorge,Masvidal,Daron,Cruickshank,3349.0,1819.0,1.0,87.0,23.0,83.0,19.0,3.0,2.0,1.0,0.0,0:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,Salas,Tim,Means,1752.0,888.0,2.0,46.0,30.0,42.0,26.0,0.0,0.0,0.0,0.0,0:19,3,1,1:06,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Justin,Salas,Jason,Saggo,900.0,888.0,0.0,56.0,31.0,35.0,20.0,0.0,0.0,0.0,1.0,2:21,3,1,4:31,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Justin,Salas,Thiago,Tavares,440.0,888.0,0.0,24.0,20.0,11.0,7.0,1.0,1.0,1.0,0.0,1:18,3,1,2:38,F,Lightweight,M,Submission,Rear Naked Choke
+Justin,Salas,Aaron,Riley,1038.0,888.0,0.0,172.0,26.0,172.0,26.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Justin,Salas,Anton,Kuivanen,2158.0,888.0,0.0,117.0,39.0,115.0,38.0,0.0,0.0,0.0,0.0,0:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bernardo,Magalhaes,Tim,Means,1752.0,1919.0,0.0,186.0,98.0,170.0,83.0,0.0,0.0,0.0,0.0,0:59,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bernardo,Magalhaes,Henry,Martinez,1837.0,1919.0,0.0,146.0,18.0,146.0,18.0,0.0,0.0,0.0,0.0,0:14,3,3,5:00,F,Lightweight,M,Decision,Split
+Alex,Oliveira,Gilbert,Burns,3616.0,1398.0,0.0,69.0,37.0,44.0,17.0,5.0,2.0,2.0,0.0,4:01,3,3,4:14,F,Lightweight,M,Submission,Armbar On Ground
+Alex,Oliveira,Will,Brooks,3665.0,1398.0,0.0,37.0,29.0,17.0,16.0,8.0,4.0,0.0,0.0,3:45,3,3,3:30,F,Lightweight,M,KO/TKO,Punches to Head From Half Guard
+Charlie,Ontiveros,Gabriel,Benitez,3803.0,1380.0,0.0,74.0,47.0,60.0,37.0,2.0,1.0,0.0,0.0,1:24,3,1,3:33,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Charlie,Ontiveros,Steve,Garcia,2871.0,1380.0,0.0,87.0,70.0,49.0,34.0,5.0,3.0,0.0,0.0,5:55,3,2,1:51,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Christos,Giagos,Daniel,Zellhuber,23.0,2846.0,0.0,101.0,36.0,101.0,36.0,0.0,0.0,1.0,0.0,0:17,3,2,3:26,F,Lightweight,M,Submission,Anaconda Choke On Ground
+Christos,Giagos,Arman,Tsarukyan,350.0,2846.0,1.0,37.0,27.0,31.0,22.0,1.0,0.0,0.0,0.0,0:11,3,1,2:09,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Christos,Giagos,Charles,Oliveira,1401.0,2846.0,0.0,60.0,28.0,60.0,28.0,4.0,2.0,1.0,0.0,1:21,3,2,3:22,F,Lightweight,M,Submission,Rear Naked Choke
+Christos,Giagos,Ricky,Glenn,2817.0,2846.0,0.0,11.0,2.0,11.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,1:35,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Christos,Giagos,Gilbert,Burns,3616.0,2846.0,0.0,26.0,18.0,13.0,7.0,1.0,1.0,2.0,0.0,3:36,3,1,4:57,F,Lightweight,M,Submission,Armbar On Ground
+Christos,Giagos,Thiago,Moises,1643.0,2846.0,0.0,9.0,7.0,4.0,3.0,2.0,1.0,1.0,0.0,2:34,3,1,3:05,F,Lightweight,M,Submission,Rear Naked Choke
+Christos,Giagos,Damir,Hadzovic,2678.0,2846.0,0.0,87.0,42.0,61.0,24.0,1.0,1.0,0.0,0.0,2:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Christos,Giagos,Mizuto,Hirota,2544.0,2846.0,0.0,86.0,47.0,55.0,19.0,0.0,0.0,1.0,0.0,1:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Christos,Giagos,Chris,Wade,219.0,2846.0,0.0,80.0,55.0,57.0,32.0,7.0,4.0,0.0,2.0,6:28,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Christos,Giagos,Jorge,de Oliveira,3265.0,2846.0,0.0,16.0,11.0,4.0,0.0,0.0,0.0,0.0,0.0,0:00,3,1,3:12,F,Lightweight,M,Submission,Rear Naked Choke
+Kyle,Nelson,Jai,Herbert,2583.0,1495.0,0.0,116.0,84.0,64.0,36.0,1.0,0.0,0.0,0.0,5:57,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kyle,Nelson,Diego,Ferreira,3007.0,1495.0,0.0,112.0,63.0,102.0,54.0,4.0,2.0,1.0,0.0,3:28,3,2,1:23,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Charlie,Campbell,Alex,Reyes,1064.0,3574.0,0.0,39.0,15.0,38.0,14.0,2.0,0.0,0.0,0.0,0:01,3,1,3:38,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Chepe,Mariscal,Trevor,Peek,1279.0,1865.0,0.0,140.0,65.0,125.0,51.0,0.0,0.0,0.0,1.0,1:23,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Makdessi,Jamie,Mullarkey,1573.0,1896.0,0.0,179.0,88.0,179.0,88.0,2.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Makdessi,Francisco,Trinaldo,358.0,1896.0,0.0,126.0,55.0,126.0,55.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Makdessi,Donald,Cerrone,3499.0,1896.0,0.0,171.0,71.0,171.0,71.0,0.0,0.0,0.0,0.0,0:00,3,2,4:44,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+John,Makdessi,Sam,Stout,519.0,1896.0,0.0,369.0,63.0,369.0,63.0,5.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Makdessi,Pat,Audinwood,3911.0,1896.0,0.0,162.0,19.0,162.0,19.0,2.0,1.0,0.0,0.0,0:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Muhammad,Naimov,Jamie,Mullarkey,1573.0,1536.0,0.0,73.0,40.0,71.0,39.0,8.0,3.0,0.0,0.0,2:28,3,2,2:59,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Francisco,Prado,Jamie,Mullarkey,1573.0,1171.0,0.0,126.0,78.0,104.0,59.0,4.0,3.0,0.0,0.0,4:47,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Francisco,Prado,Ottman,Azaitar,3898.0,1171.0,0.0,36.0,16.0,33.0,14.0,0.0,0.0,0.0,0.0,0:00,3,1,4:05,F,Lightweight,M,KO/TKO,Punches to Head From Guard
+Khama,Worthy,Jamie,Mullarkey,1573.0,95.0,1.0,13.0,6.0,13.0,6.0,0.0,0.0,0.0,0.0,0:04,3,1,0:46,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Khama,Worthy,Ottman,Azaitar,3898.0,95.0,0.0,22.0,16.0,22.0,16.0,0.0,0.0,0.0,0.0,0:06,3,1,1:33,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Khama,Worthy,Devonte,Smith,628.0,95.0,0.0,27.0,15.0,27.0,15.0,0.0,0.0,0.0,0.0,0:00,3,1,4:15,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Khama,Worthy,Luis,Pena,1273.0,95.0,0.0,79.0,40.0,77.0,38.0,7.0,3.0,3.0,0.0,4:13,3,3,2:53,F,Lightweight,M,Submission,Guillotine Choke In Clinch
+Fares,Ziam,Jamie,Mullarkey,1573.0,11.0,0.0,84.0,29.0,72.0,20.0,11.0,5.0,0.0,0.0,6:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Fares,Ziam,Terrance,McKinney,1760.0,11.0,0.0,16.0,13.0,4.0,3.0,0.0,0.0,1.0,0.0,2:03,3,1,2:11,F,Lightweight,M,Submission,Rear Naked Choke
+Fares,Ziam,Jai,Herbert,2583.0,11.0,0.0,150.0,58.0,134.0,49.0,6.0,0.0,0.0,0.0,4:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Fares,Ziam,Don,Madge,1929.0,11.0,0.0,111.0,72.0,49.0,21.0,12.0,3.0,0.0,0.0,9:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Landon,Quinones,Nasrat,Haqparast,2650.0,1132.0,0.0,378.0,172.0,377.0,171.0,5.0,0.0,0.0,0.0,0:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafa,Garcia,Nasrat,Haqparast,2650.0,2869.0,0.0,218.0,99.0,217.0,99.0,2.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafa,Garcia,Clay,Guida,2702.0,2869.0,0.0,252.0,63.0,252.0,63.0,3.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafa,Garcia,Drakkar,Klose,2201.0,2869.0,0.0,175.0,111.0,115.0,61.0,10.0,2.0,0.0,0.0,2:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafa,Garcia,Chris,Gruetzemacher,2710.0,2869.0,0.0,268.0,176.0,190.0,100.0,1.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alexander,Munoz,Nasrat,Haqparast,2650.0,1568.0,0.0,219.0,108.0,215.0,104.0,0.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alexander,Munoz,Luis,Pena,1273.0,1568.0,0.0,195.0,90.0,195.0,90.0,0.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Split
+Marc,Diakiese,Nasrat,Haqparast,2650.0,3229.0,1.0,208.0,102.0,198.0,93.0,2.0,0.0,0.0,0.0,0:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marc,Diakiese,Michael,Johnson,2364.0,3229.0,0.0,181.0,83.0,181.0,83.0,3.0,0.0,0.0,0.0,0:30,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marc,Diakiese,Dan,Hooker,2512.0,3229.0,0.0,48.0,24.0,40.0,17.0,3.0,2.0,1.0,0.0,3:12,3,3,0:42,F,Lightweight,M,Submission,Guillotine Choke After Drop to Ground
+Marc,Diakiese,Frankie,Perez,1249.0,3229.0,0.0,59.0,27.0,51.0,20.0,3.0,1.0,0.0,0.0,3:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marc,Diakiese,Lukasz,Sajewski,897.0,3229.0,0.0,59.0,25.0,54.0,21.0,6.0,2.0,0.0,0.0,3:35,3,2,4:40,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Gabriel,Miranda,Benoit,Saint Denis,899.0,1672.0,3.0,110.0,81.0,67.0,42.0,1.0,1.0,0.0,0.0,3:17,3,2,0:16,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Omar,Morales,Chris,Duncan,3147.0,1612.0,0.0,92.0,62.0,83.0,53.0,14.0,5.0,0.0,0.0,6:31,3,3,5:00,F,Lightweight,M,Decision,Split
+Omar,Morales,Gabriel,Benitez,3803.0,1612.0,0.0,179.0,50.0,179.0,50.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Omar,Morales,Dong,Hyun Ma,1945.0,1612.0,0.0,63.0,21.0,56.0,15.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ludovit,Klein,Ignacio,Bahamondes,3884.0,2205.0,0.0,166.0,62.0,139.0,43.0,1.0,0.0,0.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ludovit,Klein,Mason,Jones,2334.0,2205.0,0.0,141.0,78.0,105.0,43.0,3.0,0.0,0.0,0.0,2:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ludovit,Klein,Devonte,Smith,628.0,2205.0,0.0,125.0,80.0,98.0,53.0,3.0,0.0,0.0,0.0,0:14,3,3,5:00,F,Lightweight,M,Decision,Split
+Thiago,Moises,Benoit,Saint Denis,899.0,1643.0,0.0,210.0,123.0,182.0,101.0,9.0,5.0,0.0,0.0,5:20,3,2,4:44,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Thiago,Moises,Damir,Ismagulov,2434.0,1643.0,1.0,191.0,73.0,188.0,71.0,5.0,0.0,0.0,0.0,1:16,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thiago,Moises,Islam,Makhachev,1895.0,1643.0,0.0,194.0,148.0,92.0,61.0,6.0,3.0,1.0,1.0,8:11,5,4,2:38,F,Lightweight,M,Submission,Rear Naked Choke
+Thiago,Moises,Michael,Johnson,2364.0,1643.0,0.0,61.0,28.0,60.0,27.0,0.0,0.0,0.0,0.0,0:21,3,2,0:25,F,Lightweight,M,Submission,Ankle Lock After Drop to Ground
+Thiago,Moises,Beneil,Dariush,3296.0,1643.0,0.0,161.0,113.0,68.0,44.0,8.0,4.0,2.0,0.0,13:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thiago,Moises,Alexander,Hernandez,2576.0,1643.0,0.0,205.0,50.0,205.0,50.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thiago,Moises,Bobby,Green,2728.0,1643.0,0.0,187.0,94.0,177.0,85.0,3.0,2.0,0.0,1.0,1:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alexander,Volkanovski,Islam,Makhachev,1895.0,227.0,0.0,135.0,95.0,95.0,57.0,9.0,4.0,0.0,0.0,7:37,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Alexander,Volkanovski,Yusuke,Kasuya,2276.0,227.0,0.0,13.0,7.0,10.0,4.0,2.0,1.0,0.0,1.0,1:39,3,2,2:06,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Frankie,Edgar,BJ,Penn,1267.0,3122.0,0.0,263.0,72.0,262.0,71.0,0.0,0.0,0.0,0.0,0:00,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Frankie,Edgar,Gray,Maynard,1798.0,3122.0,0.0,74.0,27.0,65.0,19.0,10.0,9.0,0.0,0.0,6:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Frankie,Edgar,Benson,Henderson,2594.0,3122.0,0.0,170.0,67.0,167.0,64.0,1.0,0.0,1.0,0.0,0:07,5,5,5:00,T,Lightweight,M,Decision,Split
+Dustin,Poirier,Max,Holloway,2532.0,1189.0,0.0,473.0,208.0,446.0,181.0,0.0,0.0,1.0,0.0,0:06,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Dustin,Poirier,Charles,Oliveira,1401.0,1189.0,0.0,157.0,98.0,131.0,73.0,6.0,0.0,3.0,1.0,5:41,5,3,1:02,T,Lightweight,M,Submission,Rear Naked Choke
+Dustin,Poirier,Khabib,Nurmagomedov,1436.0,1189.0,0.0,77.0,54.0,41.0,22.0,8.0,7.0,2.0,0.0,8:52,5,3,2:06,T,Lightweight,M,Submission,Rear Naked Choke
+Dustin,Poirier,Eddie,Alvarez,4007.0,1189.0,0.0,88.0,35.0,76.0,26.0,3.0,0.0,1.0,0.0,2:28,5,2,4:05,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Anthony,Pettis,Dustin,Poirier,1189.0,1225.0,0.0,119.0,71.0,100.0,53.0,6.0,5.0,0.0,0.0,6:51,5,3,2:08,F,Lightweight,M,KO/TKO,"to    
+      Injury"
+Anthony,Pettis,Tony,Ferguson,3017.0,1225.0,0.0,195.0,115.0,194.0,114.0,0.0,0.0,0.0,0.0,0:04,3,2,5:00,F,Lightweight,M,KO/TKO,"to    
+      Corner Stoppage"
+Anthony,Pettis,Michael,Chiesa,3478.0,1225.0,0.0,35.0,19.0,26.0,12.0,6.0,2.0,0.0,0.0,2:38,3,2,0:52,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Anthony,Pettis,Clay,Guida,2702.0,1225.0,0.0,112.0,63.0,65.0,19.0,8.0,5.0,0.0,1.0,10:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anthony,Pettis,Benson,Henderson,2594.0,1225.0,0.0,37.0,26.0,16.0,11.0,3.0,0.0,0.0,0.0,3:09,5,1,4:41,T,Lightweight,M,Submission,Armbar From Bottom Guard
+Jeremy,Stephens,Donald,Cerrone,3499.0,542.0,0.0,192.0,87.0,192.0,87.0,3.0,1.0,0.0,0.0,0:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jeremy,Stephens,Anthony,Pettis,1225.0,542.0,0.0,117.0,89.0,47.0,21.0,9.0,6.0,0.0,0.0,6:51,3,3,5:00,F,Lightweight,M,Decision,Split
+Jeremy,Stephens,Joe,Lauzon,2102.0,542.0,0.0,38.0,32.0,17.0,11.0,2.0,2.0,4.0,1.0,5:11,3,2,4:43,F,Lightweight,M,Submission,Armbar From Mount
+Jeremy,Stephens,Gleison,Tibau,397.0,542.0,0.0,65.0,46.0,20.0,7.0,13.0,5.0,3.0,0.0,10:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jeremy,Stephens,Sam,Stout,519.0,542.0,1.0,187.0,76.0,181.0,70.0,1.0,0.0,1.0,0.0,0:48,3,3,5:00,F,Lightweight,M,Decision,Split
+Jeremy,Stephens,Yves,Edwards,3119.0,542.0,1.0,26.0,12.0,21.0,8.0,1.0,0.0,0.0,0.0,0:06,3,1,1:55,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jeremy,Stephens,Melvin,Guillard,2700.0,542.0,0.0,168.0,73.0,168.0,73.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Jeremy,Stephens,Danny,Downes,3171.0,542.0,0.0,107.0,48.0,88.0,32.0,0.0,0.0,1.0,0.0,0:28,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jeremy,Stephens,Spencer,Fisher,2981.0,542.0,0.0,201.0,132.0,104.0,56.0,5.0,1.0,0.0,0.0,8:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jeremy,Stephens,Din,Thomas,409.0,542.0,0.0,65.0,35.0,37.0,10.0,2.0,1.0,2.0,0.0,4:02,3,2,2:44,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Charles,Oliveira,Tony,Ferguson,3017.0,1401.0,0.0,49.0,26.0,42.0,19.0,0.0,0.0,0.0,0.0,0:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Charles,Oliveira,Kevin,Lee,2070.0,1401.0,0.0,100.0,61.0,80.0,41.0,3.0,2.0,0.0,1.0,6:30,5,3,0:28,F,Lightweight,M,Submission,Guillotine Choke After Drop to Half Guard
+Charles,Oliveira,Jim,Miller,1693.0,1401.0,0.0,2.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0:00,3,1,1:15,F,Lightweight,M,Submission,Rear Naked Choke
+Charles,Oliveira,Jim,Miller,1693.0,1401.0,0.0,11.0,6.0,6.0,1.0,1.0,1.0,2.0,0.0,1:31,3,1,1:59,F,Lightweight,M,Submission,Kneebar On Ground
+Charles,Oliveira,Clay,Guida,2702.0,1401.0,0.0,25.0,9.0,25.0,9.0,1.0,0.0,0.0,0.0,0:00,3,1,2:18,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Charles,Oliveira,Darren,Elkins,3103.0,1401.0,0.0,4.0,0.0,4.0,0.0,1.0,1.0,0.0,0.0,0:27,3,1,0:41,F,Lightweight,M,Submission,Triangle Armbar From Bottom Guard
+Charles,Oliveira,Donald,Cerrone,3499.0,1401.0,0.0,63.0,32.0,60.0,30.0,0.0,0.0,0.0,0.0,0:12,3,1,3:01,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Charles,Oliveira,Will,Brooks,3665.0,1401.0,0.0,9.0,8.0,5.0,4.0,0.0,0.0,0.0,0.0,0:00,3,1,2:30,F,Lightweight,M,Submission,Rear Naked Choke
+Charles,Oliveira,Efrain,Escudero,3065.0,1401.0,0.0,89.0,26.0,76.0,13.0,1.0,0.0,0.0,0.0,2:47,3,3,2:25,F,Lightweight,M,Submission,Rear Naked Choke
+Cole,Miller,Jeremy,Stephens,542.0,1692.0,1.0,91.0,64.0,54.0,30.0,1.0,1.0,0.0,1.0,4:19,3,2,4:44,F,Lightweight,M,KO/TKO,Elbows to Head On Ground
+Cole,Miller,Efrain,Escudero,3065.0,1692.0,1.0,32.0,10.0,32.0,10.0,1.0,1.0,0.0,0.0,0:05,3,1,3:36,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Josh,Culibao,Jalin,Turner,332.0,3340.0,0.0,129.0,90.0,91.0,55.0,1.0,0.0,3.0,0.0,4:21,3,2,3:01,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Anthony,Rocco Martin,Beneil,Dariush,3296.0,1843.0,0.0,65.0,30.0,61.0,26.0,3.0,2.0,1.0,0.0,1:11,3,2,3:38,F,Lightweight,M,Submission,Arm Triangle From Side Control
+Anthony,Rocco Martin,Leonardo,Santos,833.0,1843.0,0.0,43.0,16.0,39.0,12.0,2.0,1.0,1.0,0.0,1:27,3,2,2:29,F,Lightweight,M,Submission,Rear Naked Choke
+Anthony,Rocco Martin,Fabricio,Camoes,3581.0,1843.0,0.0,8.0,1.0,8.0,1.0,0.0,0.0,0.0,0.0,0:03,3,1,4:16,F,Lightweight,M,Submission,Kimura From Side Control
+Rafael,Dos Anjos,Clay,Guida,2702.0,3185.0,0.0,123.0,47.0,90.0,19.0,6.0,2.0,0.0,0.0,4:31,3,3,1:51,F,Lightweight,M,Submission,"Injury  
+      Jaw Injury"
+Rafael,Dos Anjos,Jeremy,Stephens,542.0,3185.0,1.0,60.0,33.0,46.0,22.0,0.0,0.0,0.0,2.0,2:22,3,3,0:39,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Rafael,Dos Anjos,Donald,Cerrone,3499.0,3185.0,0.0,83.0,43.0,80.0,40.0,1.0,1.0,0.0,0.0,1:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafael,Dos Anjos,Anthony,Pettis,1225.0,3185.0,0.0,205.0,96.0,162.0,54.0,1.0,0.0,0.0,0.0,0:52,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Rafael,Dos Anjos,Paul,Felder,3023.0,3185.0,0.0,226.0,134.0,190.0,98.0,2.0,1.0,0.0,0.0,1:40,5,5,5:00,F,Lightweight,M,Decision,Split
+Rafael,Dos Anjos,Benson,Henderson,2594.0,3185.0,0.0,27.0,10.0,27.0,10.0,1.0,0.0,0.0,0.0,0:02,5,1,2:31,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Rafael,Dos Anjos,Gleison,Tibau,397.0,3185.0,0.0,136.0,64.0,128.0,56.0,4.0,2.0,0.0,0.0,1:43,3,3,5:00,F,Lightweight,M,Decision,Split
+Rafael,Dos Anjos,Mark,Bocek,3746.0,3185.0,0.0,73.0,33.0,59.0,19.0,11.0,0.0,1.0,0.0,3:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafael,Dos Anjos,George,Sotiropoulos,595.0,3185.0,0.0,24.0,2.0,24.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,0:59,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Rafael,Dos Anjos,Terry,Etim,3056.0,3185.0,0.0,25.0,11.0,20.0,7.0,0.0,0.0,1.0,0.0,1:29,3,2,4:30,F,Lightweight,M,Submission,Armbar From North South
+Rafael,Dos Anjos,Tyson,Griffin,2722.0,3185.0,0.0,245.0,101.0,213.0,69.0,4.0,1.0,0.0,0.0,2:51,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rodrigo,de Lima,Efrain,Escudero,3065.0,3268.0,1.0,245.0,194.0,129.0,94.0,2.0,2.0,0.0,0.0,6:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tim,Means,Danny,Castillo,3513.0,1752.0,0.0,115.0,59.0,79.0,25.0,8.0,6.0,0.0,0.0,5:36,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Austin,Hubbard,Kurt,Holobaugh,2526.0,2487.0,0.0,144.0,85.0,119.0,61.0,0.0,0.0,2.0,0.0,1:08,3,2,2:39,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Austin,Hubbard,Vinc,Pichel,1209.0,2487.0,0.0,187.0,96.0,160.0,71.0,4.0,0.0,0.0,0.0,2:29,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Austin,Hubbard,Davi,Ramos,1107.0,2487.0,0.0,128.0,76.0,114.0,63.0,7.0,3.0,0.0,0.0,4:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Austin,Hubbard,Mark,Madsen,1925.0,2487.0,0.0,65.0,20.0,58.0,15.0,12.0,8.0,0.0,0.0,8:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Austin,Hubbard,Kyle,Prepolec,1164.0,2487.0,0.0,124.0,46.0,122.0,44.0,1.0,0.0,0.0,0.0,0:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bryan,Barberena,Chad,Laprise,2114.0,3865.0,0.0,172.0,84.0,172.0,84.0,1.0,0.0,0.0,0.0,0:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bryan,Barberena,Joe,Ellenberger,3101.0,3865.0,0.0,71.0,35.0,60.0,24.0,5.0,3.0,0.0,0.0,2:18,3,3,3:24,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Jalin,Turner,Mateusz,Gamrot,2884.0,332.0,0.0,109.0,89.0,42.0,29.0,12.0,4.0,0.0,0.0,6:52,3,3,5:00,F,Lightweight,M,Decision,Split
+Jalin,Turner,Brad,Riddell,1042.0,332.0,0.0,3.0,2.0,3.0,2.0,1.0,0.0,0.0,0.0,0:00,3,1,0:45,F,Lightweight,M,Submission,Guillotine Choke From Mount
+Jalin,Turner,Uros,Medic,1747.0,332.0,0.0,11.0,6.0,11.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,4:01,F,Lightweight,M,Submission,Rear Naked Choke
+Jalin,Turner,Callan,Potter,1177.0,332.0,0.0,4.0,3.0,4.0,3.0,1.0,0.0,0.0,0.0,0:00,3,1,0:53,F,Lightweight,M,KO/TKO,Kick to Body At Distance
+Chad,Laprise,Ross,Pearson,1284.0,2114.0,0.0,156.0,52.0,155.0,52.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Alvaro,Herrera Mendoza,Devin,Powell,1174.0,2569.0,1.0,26.0,12.0,26.0,12.0,1.0,0.0,0.0,0.0,0:11,3,1,1:52,F,Lightweight,M,KO/TKO,Kicks to Body At Distance
+Darren,Elkins,Duane,Ludwig,1957.0,3103.0,0.0,5.0,1.0,5.0,1.0,0.0,0.0,0.0,0.0,0:03,3,1,0:44,F,Lightweight,M,KO/TKO,"to    
+      Ankle Injury"
+Renato,Moicano,Brad,Riddell,1042.0,1644.0,0.0,25.0,14.0,25.0,14.0,1.0,0.0,0.0,0.0,0:14,3,1,3:20,F,Lightweight,M,Submission,Rear Naked Choke
+Renato,Moicano,Alexander,Hernandez,2576.0,1644.0,0.0,81.0,39.0,79.0,37.0,1.0,0.0,0.0,0.0,0:05,3,2,1:23,F,Lightweight,M,Submission,Rear Naked Choke
+Dennis,Siver,Ross,Pearson,1284.0,649.0,0.0,170.0,64.0,159.0,54.0,1.0,1.0,0.0,1.0,1:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dennis,Siver,Gray,Maynard,1798.0,649.0,1.0,129.0,79.0,66.0,26.0,2.0,2.0,3.0,2.0,10:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dennis,Siver,George,Sotiropoulos,595.0,649.0,0.0,204.0,38.0,204.0,38.0,13.0,0.0,0.0,0.0,0:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dennis,Siver,Melvin,Guillard,2700.0,649.0,2.0,15.0,10.0,15.0,10.0,0.0,0.0,0.0,0.0,0:20,3,1,0:36,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Dennis,Siver,Spencer,Fisher,2981.0,649.0,0.0,142.0,52.0,142.0,52.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+George,Roop,George,Sotiropoulos,595.0,952.0,0.0,53.0,30.0,33.0,14.0,5.0,3.0,1.0,0.0,4:18,3,2,1:59,F,Lightweight,M,Submission,Kimura From Side Control
+George,Roop,Shane,Nelson,1498.0,952.0,0.0,95.0,69.0,32.0,10.0,10.0,3.0,2.0,0.0,7:58,3,3,5:00,F,Lightweight,M,Decision,Split
+Mike,Breeden,Terrance,McKinney,1760.0,3684.0,0.0,47.0,30.0,47.0,30.0,2.0,0.0,0.0,0.0,0:03,3,1,1:25,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Mike,Breeden,Natan,Levy,2036.0,3684.0,0.0,150.0,99.0,141.0,92.0,16.0,9.0,0.0,0.0,3:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mike,Breeden,Alexander,Hernandez,2576.0,3684.0,1.0,35.0,20.0,35.0,20.0,2.0,0.0,0.0,0.0,0:00,3,1,1:20,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Erick,Gonzalez,Terrance,McKinney,1760.0,2782.0,0.0,42.0,23.0,37.0,18.0,1.0,1.0,1.0,0.0,0:52,3,1,2:17,F,Lightweight,M,Submission,Rear Naked Choke
+Erick,Gonzalez,Jim,Miller,1693.0,2782.0,1.0,60.0,43.0,48.0,32.0,2.0,1.0,0.0,0.0,1:55,3,2,0:14,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Trey,Ogden,Jordan,Leavitt,2085.0,1415.0,0.0,170.0,124.0,105.0,69.0,3.0,0.0,0.0,0.0,5:17,3,3,5:00,F,Lightweight,M,Decision,Split
+Damon,Jackson,Yancy,Medeiros,1751.0,2420.0,0.0,62.0,36.0,55.0,29.0,0.0,0.0,2.0,0.0,0:39,3,2,1:54,F,Lightweight,M,Submission,"Bulldog Choke In Clinch
+      Reverse Bulldog Choke"
+Alexander,Hernandez,Jim,Miller,1693.0,2576.0,0.0,186.0,68.0,185.0,67.0,1.0,0.0,1.0,0.0,0:40,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alexander,Hernandez,Beneil,Dariush,3296.0,2576.0,0.0,11.0,4.0,11.0,4.0,0.0,0.0,0.0,0.0,0:00,3,1,0:42,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Alexander,Hernandez,Chris,Gruetzemacher,2710.0,2576.0,0.0,27.0,8.0,27.0,8.0,0.0,0.0,0.0,0.0,0:00,3,1,1:46,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Julian,Erosa,Devonte,Smith,628.0,3073.0,1.0,19.0,13.0,19.0,13.0,0.0,0.0,0.0,0.0,0:03,3,1,0:46,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Justin,Gaethje,Dustin,Poirier,1189.0,2902.0,0.0,52.0,27.0,52.0,27.0,0.0,0.0,0.0,0.0,0:00,5,2,1:00,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Justin,Gaethje,Dustin,Poirier,1189.0,2902.0,0.0,357.0,179.0,351.0,174.0,5.0,0.0,0.0,0.0,0:06,5,4,0:33,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Justin,Gaethje,Tony,Ferguson,3017.0,2902.0,0.0,296.0,136.0,296.0,136.0,0.0,0.0,0.0,0.0,0:00,5,5,3:39,T,Lightweight,M,KO/TKO,Punch to Head At Distance
+Justin,Gaethje,Charles,Oliveira,1401.0,2902.0,1.0,52.0,33.0,47.0,30.0,1.0,0.0,2.0,0.0,0:39,5,1,3:22,F,Lightweight,M,Submission,Rear Naked Choke
+Justin,Gaethje,Edson,Barboza,3863.0,2902.0,0.0,32.0,13.0,32.0,13.0,0.0,0.0,0.0,0.0,0:00,5,1,2:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Justin,Gaethje,Michael,Johnson,2364.0,2902.0,0.0,200.0,91.0,200.0,91.0,3.0,1.0,0.0,0.0,0:34,5,2,4:48,F,Lightweight,M,KO/TKO,Knees to Head In Clinch
+Justin,Gaethje,Donald,Cerrone,3499.0,2902.0,0.0,52.0,17.0,52.0,17.0,0.0,0.0,0.0,0.0,0:00,5,1,4:18,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Justin,Gaethje,Khabib,Nurmagomedov,1436.0,2902.0,0.0,80.0,26.0,80.0,26.0,3.0,2.0,1.0,0.0,0:55,5,2,1:34,T,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Justin,Gaethje,Eddie,Alvarez,4007.0,2902.0,1.0,366.0,162.0,356.0,155.0,2.0,1.0,0.0,0.0,0:20,3,3,3:59,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Michael,Chandler,Dustin,Poirier,1189.0,3493.0,0.0,105.0,63.0,76.0,38.0,0.0,0.0,2.0,0.0,0:47,3,3,2:00,F,Lightweight,M,Submission,Rear Naked Choke
+Michael,Chandler,Charles,Oliveira,1401.0,3493.0,2.0,41.0,32.0,32.0,24.0,2.0,1.0,0.0,0.0,1:42,5,2,0:19,T,Lightweight,M,KO/TKO,Punch to Head At Distance
+Michael,Chandler,Justin,Gaethje,2902.0,3493.0,1.0,205.0,133.0,183.0,116.0,0.0,0.0,0.0,0.0,1:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michael,Chandler,Dan,Hooker,2512.0,3493.0,0.0,19.0,8.0,19.0,8.0,0.0,0.0,0.0,0.0,0:00,3,1,2:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Conor,McGregor,Dustin,Poirier,1189.0,1768.0,0.0,66.0,36.0,66.0,36.0,2.0,1.0,0.0,0.0,3:18,5,1,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,
+Conor,McGregor,Dustin,Poirier,1189.0,1768.0,1.0,98.0,53.0,91.0,48.0,1.0,1.0,0.0,0.0,1:42,5,2,2:32,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Conor,McGregor,Khabib,Nurmagomedov,1436.0,1768.0,0.0,157.0,104.0,119.0,70.0,7.0,3.0,1.0,0.0,12:15,5,4,3:03,T,Lightweight,M,Submission,Rear Naked Choke
+Conor,McGregor,Eddie,Alvarez,4007.0,1768.0,0.0,46.0,12.0,41.0,9.0,3.0,0.0,0.0,0.0,0:57,5,2,3:04,T,Lightweight,M,KO/TKO,Punches to Head At Distance
+Dan,Hooker,Dustin,Poirier,1189.0,2512.0,0.0,289.0,208.0,231.0,153.0,7.0,1.0,4.0,0.0,2:49,5,5,5:00,F,Lightweight,M,Decision,Unanimous
+Dan,Hooker,Jalin,Turner,332.0,2512.0,0.0,191.0,113.0,177.0,100.0,3.0,1.0,0.0,0.0,0:18,3,3,5:00,F,Lightweight,M,Decision,Split
+Dan,Hooker,Jim,Miller,1693.0,2512.0,0.0,23.0,13.0,20.0,10.0,2.0,1.0,0.0,0.0,0:27,3,1,3:00,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Dan,Hooker,Edson,Barboza,3863.0,2512.0,1.0,227.0,127.0,226.0,126.0,1.0,0.0,0.0,0.0,1:43,3,3,2:19,F,Lightweight,M,KO/TKO,Punches to Body At Distance
+Dan,Hooker,Islam,Makhachev,1895.0,2512.0,0.0,14.0,13.0,3.0,2.0,1.0,1.0,2.0,0.0,1:48,3,1,2:25,F,Lightweight,M,Submission,Kimura From Side Control
+Dan,Hooker,Al,Iaquinta,2467.0,2512.0,0.0,117.0,38.0,116.0,37.0,3.0,0.0,0.0,0.0,0:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dan,Hooker,Paul,Felder,3023.0,2512.0,0.0,243.0,119.0,230.0,110.0,1.0,0.0,0.0,0.0,0:03,5,5,5:00,F,Lightweight,M,Decision,Split
+Dan,Hooker,James,Vick,250.0,2512.0,0.0,23.0,7.0,23.0,7.0,0.0,0.0,0.0,0.0,0:00,3,1,2:33,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jim,Miller,Dustin,Poirier,1189.0,1693.0,0.0,243.0,122.0,216.0,97.0,3.0,3.0,0.0,1.0,3:57,3,3,5:00,F,Lightweight,M,Decision,Majority
+Jim,Miller,Nate,Diaz,3221.0,1693.0,0.0,154.0,97.0,98.0,46.0,1.0,0.0,2.0,2.0,2:37,5,2,4:09,F,Lightweight,M,Submission,Guillotine Choke After Drop to Ground
+Jim,Miller,Francisco,Trinaldo,358.0,1693.0,0.0,165.0,84.0,140.0,63.0,1.0,1.0,0.0,0.0,4:40,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jim,Miller,Donald,Cerrone,3499.0,1693.0,1.0,82.0,41.0,78.0,37.0,2.0,0.0,0.0,0.0,0:21,5,2,3:31,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Jim,Miller,Anthony,Pettis,1225.0,1693.0,0.0,150.0,107.0,121.0,80.0,2.0,1.0,0.0,0.0,3:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jim,Miller,Diego,Sanchez,870.0,1693.0,0.0,148.0,71.0,125.0,48.0,9.0,2.0,0.0,0.0,3:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jim,Miller,Joe,Lauzon,2102.0,1693.0,0.0,177.0,92.0,136.0,54.0,4.0,3.0,1.0,0.0,6:12,3,3,5:00,F,Lightweight,M,Decision,Split
+Jim,Miller,Gray,Maynard,1798.0,1693.0,0.0,115.0,59.0,93.0,37.0,1.0,1.0,0.0,0.0,2:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jim,Miller,Melvin,Guillard,2700.0,1693.0,0.0,31.0,21.0,26.0,16.0,0.0,0.0,0.0,0.0,0:01,3,1,3:04,F,Lightweight,M,Submission,Rear Naked Choke
+Michael,Johnson,Dustin,Poirier,1189.0,2364.0,0.0,12.0,6.0,12.0,6.0,0.0,0.0,0.0,0.0,0:00,5,1,1:35,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Michael,Johnson,Tony,Ferguson,3017.0,2364.0,0.0,176.0,45.0,176.0,45.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michael,Johnson,Diego,Ferreira,3007.0,2364.0,1.0,71.0,30.0,71.0,30.0,2.0,0.0,0.0,0.0,0:01,3,2,1:50,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Michael,Johnson,Edson,Barboza,3863.0,2364.0,0.0,98.0,31.0,98.0,31.0,2.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michael,Johnson,Khabib,Nurmagomedov,1436.0,2364.0,0.0,190.0,140.0,142.0,94.0,6.0,2.0,1.0,0.0,8:44,3,3,2:31,F,Lightweight,M,Submission,Kimura From Side Control
+Michael,Johnson,Joe,Lauzon,2102.0,2364.0,0.0,112.0,28.0,109.0,25.0,4.0,0.0,0.0,0.0,0:28,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michael,Johnson,Reza,Madadi,1930.0,2364.0,0.0,98.0,79.0,46.0,34.0,6.0,4.0,2.0,0.0,6:07,3,3,1:33,F,Lightweight,M,Submission,D'Arce Choke On Ground
+Michael,Johnson,Gleison,Tibau,397.0,2364.0,0.0,68.0,17.0,63.0,12.0,2.0,0.0,0.0,0.0,0:59,3,2,1:32,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Michael,Johnson,Jonathan,Brookins,3666.0,2364.0,0.0,95.0,57.0,67.0,32.0,13.0,3.0,0.0,0.0,9:46,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Bobby,Green,Dustin,Poirier,1189.0,2728.0,2.0,66.0,36.0,66.0,36.0,0.0,0.0,0.0,0.0,0:16,3,1,2:53,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Bobby,Green,Tony,Ferguson,3017.0,2728.0,0.0,138.0,62.0,123.0,54.0,3.0,0.0,0.0,0.0,0:13,3,3,4:54,F,Lightweight,M,Submission,Arm Triangle From Half Guard
+Bobby,Green,Drew,Dober,3200.0,2728.0,1.0,121.0,34.0,121.0,34.0,1.0,0.0,0.0,0.0,0:07,3,2,2:45,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Bobby,Green,Clay,Guida,2702.0,2728.0,0.0,69.0,27.0,65.0,23.0,12.0,3.0,0.0,0.0,4:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bobby,Green,Lando,Vannata,287.0,2728.0,0.0,139.0,64.0,127.0,54.0,2.0,1.0,0.0,0.0,0:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bobby,Green,Francisco,Trinaldo,358.0,2728.0,0.0,127.0,36.0,122.0,31.0,2.0,1.0,1.0,0.0,1:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bobby,Green,Al,Iaquinta,2467.0,2728.0,0.0,30.0,10.0,30.0,10.0,0.0,0.0,0.0,0.0,0:00,3,1,2:25,F,Lightweight,M,KO/TKO,Punches to Head From Guard
+Bobby,Green,Erik,Koch,2193.0,2728.0,0.0,150.0,60.0,146.0,56.0,1.0,1.0,0.0,1.0,1:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Bobby,Green,Josh,Thomson,400.0,2728.0,0.0,120.0,45.0,120.0,45.0,5.0,0.0,0.0,0.0,0:19,3,3,5:00,F,Lightweight,M,Decision,Split
+Bobby,Green,Jacob,Volkmann,226.0,2728.0,0.0,60.0,11.0,51.0,6.0,12.0,4.0,0.0,0.0,5:37,3,3,4:25,F,Lightweight,M,Submission,Rear Naked Choke
+Joe,Duffy,Dustin,Poirier,1189.0,3154.0,0.0,153.0,88.0,137.0,72.0,7.0,4.0,0.0,0.0,9:23,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Duffy,Marc,Diakiese,3229.0,3154.0,1.0,125.0,80.0,106.0,63.0,4.0,3.0,0.0,0.0,4:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Duffy,James,Vick,250.0,3154.0,1.0,138.0,43.0,137.0,42.0,0.0,0.0,0.0,0.0,0:04,3,2,4:59,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joe,Duffy,Jake,Lindsey,2009.0,3154.0,0.0,23.0,6.0,23.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,1:47,F,Lightweight,M,KO/TKO,Punch to Body In Clinch
+Yancy,Medeiros,Dustin,Poirier,1189.0,1751.0,2.0,46.0,36.0,36.0,27.0,2.0,1.0,1.0,0.0,0:00,3,1,2:38,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Yancy,Medeiros,Jim,Miller,1693.0,1751.0,0.0,20.0,6.0,19.0,5.0,1.0,0.0,1.0,0.0,0:29,3,1,3:18,F,Lightweight,M,Submission,Guillotine Choke After Drop to Half Guard
+Yancy,Medeiros,Lando,Vannata,287.0,1751.0,0.0,189.0,100.0,188.0,99.0,3.0,0.0,0.0,0.0,0:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yancy,Medeiros,John,Makdessi,1896.0,1751.0,0.0,196.0,114.0,196.0,114.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Yancy,Medeiros,Francisco,Trinaldo,358.0,1751.0,0.0,204.0,143.0,175.0,117.0,4.0,2.0,0.0,0.0,3:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yancy,Medeiros,Rustam,Khabilov,2244.0,1751.0,0.0,18.0,4.0,17.0,3.0,2.0,1.0,0.0,0.0,0:17,3,1,2:32,F,Lightweight,M,TKO - Doctor's Stoppage,Thumb Injury
+Yancy,Medeiros,Gregor,Gillespie,2831.0,1751.0,0.0,95.0,73.0,71.0,51.0,11.0,6.0,0.0,1.0,8:48,3,2,4:59,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Yancy,Medeiros,Joe,Proctor,1156.0,1751.0,0.0,46.0,15.0,46.0,15.0,0.0,0.0,0.0,0.0,0:00,3,1,4:37,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Diego,Ferreira,Dustin,Poirier,1189.0,3007.0,2.0,56.0,29.0,50.0,24.0,0.0,0.0,0.0,0.0,0:46,3,1,3:45,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Diego,Ferreira,Jared,Gordon,2773.0,3007.0,0.0,17.0,8.0,17.0,8.0,1.0,0.0,0.0,0.0,0:00,3,1,1:58,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Diego,Ferreira,Anthony,Pettis,1225.0,3007.0,0.0,51.0,28.0,45.0,22.0,0.0,0.0,0.0,0.0,0:00,3,2,1:46,F,Lightweight,M,Submission,Rear Naked Choke
+Diego,Ferreira,Rustam,Khabilov,2244.0,3007.0,0.0,149.0,44.0,147.0,43.0,12.0,3.0,0.0,0.0,1:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Ferreira,Mairbek,Taisumov,466.0,3007.0,0.0,160.0,51.0,160.0,51.0,2.0,0.0,0.0,0.0,0:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Ferreira,Olivier,Aubin-Mercier,3912.0,3007.0,0.0,99.0,55.0,93.0,49.0,5.0,1.0,0.0,0.0,0:57,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Ferreira,Ramsey,Nijem,1474.0,3007.0,0.0,67.0,27.0,58.0,18.0,4.0,2.0,0.0,0.0,1:41,3,2,1:53,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Diego,Ferreira,Colton,Smith,631.0,3007.0,0.0,3.0,2.0,3.0,2.0,0.0,0.0,0.0,0.0,0:10,3,1,0:38,F,Lightweight,M,Submission,Rear Naked Choke
+Beneil,Dariush,Tony,Ferguson,3017.0,3296.0,0.0,59.0,37.0,34.0,15.0,0.0,0.0,1.0,0.0,0:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Beneil,Dariush,Charles,Oliveira,1401.0,3296.0,1.0,47.0,37.0,36.0,26.0,1.0,0.0,0.0,0.0,0:31,3,1,4:10,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Beneil,Dariush,Jim,Miller,1693.0,3296.0,0.0,43.0,24.0,27.0,11.0,0.0,0.0,3.0,1.0,0:16,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Beneil,Dariush,Diego,Ferreira,3007.0,3296.0,0.0,145.0,74.0,121.0,54.0,1.0,0.0,0.0,1.0,0:58,3,3,5:00,F,Lightweight,M,Decision,Split
+Beneil,Dariush,Diego,Ferreira,3007.0,3296.0,0.0,90.0,24.0,85.0,21.0,1.0,0.0,0.0,0.0,0:36,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Beneil,Dariush,Edson,Barboza,3863.0,3296.0,1.0,83.0,31.0,82.0,30.0,0.0,0.0,0.0,0.0,0:03,3,2,3:35,F,Lightweight,M,KO/TKO,Flying Knee Head
+Beneil,Dariush,Michael,Johnson,2364.0,3296.0,0.0,223.0,85.0,222.0,84.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Beneil,Dariush,Frank,Camacho,3582.0,3296.0,0.0,9.0,3.0,9.0,3.0,0.0,0.0,0.0,0.0,0:00,3,1,2:02,F,Lightweight,M,Submission,Rear Naked Choke
+Beneil,Dariush,Daron,Cruickshank,3349.0,3296.0,0.0,44.0,18.0,43.0,17.0,5.0,0.0,0.0,0.0,0:24,3,2,2:38,F,Lightweight,M,Submission,Rear Naked Choke
+Beneil,Dariush,Ramsey,Nijem,1474.0,3296.0,2.0,121.0,92.0,51.0,34.0,1.0,1.0,1.0,0.0,1:38,3,1,4:20,F,Lightweight,M,KO/TKO,Punches to Head From Half Guard
+Beneil,Dariush,Charlie,Brenneman,3680.0,3296.0,0.0,11.0,7.0,9.0,5.0,1.0,0.0,0.0,0.0,0:00,3,1,1:45,F,Lightweight,M,Submission,Rear Naked Choke
+Donald,Cerrone,Tony,Ferguson,3017.0,3499.0,0.0,200.0,104.0,200.0,104.0,0.0,0.0,0.0,0.0,0:00,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,
+Donald,Cerrone,Nate,Diaz,3221.0,3499.0,0.0,391.0,260.0,362.0,238.0,2.0,0.0,0.0,0.0,1:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Donald,Cerrone,Rafael,Dos Anjos,3185.0,3499.0,0.0,44.0,26.0,44.0,26.0,0.0,0.0,0.0,0.0,0:09,5,1,1:06,T,Lightweight,M,KO/TKO,Punches to Head On Ground
+Donald,Cerrone,Alexander,Hernandez,2576.0,3499.0,0.0,110.0,54.0,105.0,49.0,2.0,0.0,0.0,0.0,0:22,3,2,3:43,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Donald,Cerrone,Al,Iaquinta,2467.0,3499.0,0.0,223.0,90.0,223.0,90.0,5.0,0.0,0.0,0.0,0:00,5,5,5:00,F,Lightweight,M,Decision,Unanimous
+Donald,Cerrone,Anthony,Pettis,1225.0,3499.0,1.0,28.0,18.0,28.0,18.0,0.0,0.0,0.0,0.0,0:02,3,1,2:35,F,Lightweight,M,KO/TKO,Kick to Body At Distance
+Donald,Cerrone,Dennis,Siver,649.0,3499.0,0.0,23.0,14.0,21.0,12.0,2.0,0.0,0.0,0.0,0:38,3,1,2:22,F,Lightweight,M,Submission,Rear Naked Choke
+Donald,Cerrone,Vagner,Rocha,995.0,3499.0,0.0,108.0,47.0,106.0,46.0,7.0,1.0,0.0,0.0,0:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kevin,Lee,Tony,Ferguson,3017.0,2070.0,0.0,106.0,57.0,103.0,54.0,0.0,0.0,2.0,0.0,0:02,5,3,4:02,T,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Kevin,Lee,Michael,Chiesa,3478.0,2070.0,0.0,14.0,9.0,9.0,4.0,0.0,0.0,0.0,0.0,0:08,5,1,4:37,F,Lightweight,M,Submission,Rear Naked Choke
+Kevin,Lee,Jake,Matthews,1810.0,2070.0,0.0,13.0,5.0,13.0,5.0,0.0,0.0,0.0,0.0,0:00,3,1,4:06,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Kevin,Lee,Edson,Barboza,3863.0,2070.0,0.0,119.0,64.0,106.0,51.0,1.0,0.0,0.0,0.0,0:10,5,5,2:18,F,Lightweight,M,TKO - Doctor's Stoppage,
+Kevin,Lee,Leonardo,Santos,833.0,2070.0,1.0,48.0,32.0,48.0,32.0,1.0,1.0,0.0,0.0,0:30,3,1,3:26,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Kevin,Lee,Francisco,Trinaldo,358.0,2070.0,0.0,65.0,30.0,59.0,25.0,1.0,0.0,1.0,0.0,0:45,3,2,3:12,F,Lightweight,M,Submission,Rear Naked Choke
+Kevin,Lee,Al,Iaquinta,2467.0,2070.0,1.0,125.0,50.0,122.0,49.0,1.0,0.0,1.0,0.0,1:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kevin,Lee,Michel,Prazeres,1166.0,2070.0,0.0,94.0,38.0,89.0,33.0,9.0,3.0,0.0,0.0,3:14,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kevin,Lee,Jon,Tuck,347.0,2070.0,0.0,125.0,68.0,80.0,30.0,0.0,0.0,2.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kevin,Lee,Efrain,Escudero,3065.0,2070.0,0.0,141.0,96.0,114.0,70.0,7.0,1.0,0.0,0.0,2:13,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kevin,Lee,Jesse,Ronson,953.0,2070.0,0.0,105.0,51.0,100.0,48.0,2.0,1.0,1.0,0.0,0:40,3,3,5:00,F,Lightweight,M,Decision,Split
+Lando,Vannata,Tony,Ferguson,3017.0,287.0,0.0,122.0,69.0,119.0,66.0,0.0,0.0,3.0,0.0,0:00,3,2,2:22,F,Lightweight,M,Submission,D'Arce Choke After Drop to Ground
+Lando,Vannata,Marc,Diakiese,3229.0,287.0,0.0,111.0,45.0,99.0,40.0,7.0,4.0,0.0,0.0,5:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Lando,Vannata,John,Makdessi,1896.0,287.0,0.0,13.0,11.0,13.0,11.0,0.0,0.0,0.0,0.0,0:00,3,1,1:40,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Wheel Kick"
+Gleison,Tibau,Tony,Ferguson,3017.0,397.0,0.0,45.0,17.0,38.0,11.0,1.0,1.0,2.0,0.0,0:45,3,1,2:37,F,Lightweight,M,Submission,Rear Naked Choke
+Gleison,Tibau,Jim,Miller,1693.0,397.0,0.0,128.0,44.0,113.0,29.0,6.0,0.0,2.0,0.0,2:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gleison,Tibau,Islam,Makhachev,1895.0,397.0,1.0,6.0,3.0,6.0,3.0,0.0,0.0,0.0,0.0,0:01,3,1,0:57,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Gleison,Tibau,Desmond,Green,2727.0,397.0,0.0,191.0,77.0,191.0,77.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gleison,Tibau,Norman,Parke,1315.0,397.0,0.0,141.0,44.0,140.0,43.0,10.0,0.0,0.0,0.0,1:08,3,3,5:00,F,Lightweight,M,Decision,Split
+Gleison,Tibau,Jamie,Varner,283.0,397.0,0.0,104.0,63.0,76.0,37.0,3.0,1.0,1.0,0.0,1:56,3,3,5:00,F,Lightweight,M,Decision,Split
+Gleison,Tibau,Melvin,Guillard,2700.0,397.0,0.0,56.0,19.0,50.0,13.0,4.0,1.0,0.0,0.0,0:10,3,3,5:00,F,Lightweight,M,Decision,Split
+Gleison,Tibau,Tyson,Griffin,2722.0,397.0,0.0,142.0,82.0,119.0,60.0,2.0,0.0,0.0,0.0,1:40,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gleison,Tibau,Joe,Stevenson,539.0,397.0,1.0,28.0,13.0,27.0,12.0,3.0,1.0,2.0,0.0,3:14,3,2,2:57,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Gleison,Tibau,Kurt,Pellegrino,1276.0,397.0,0.0,171.0,97.0,120.0,47.0,6.0,1.0,0.0,0.0,3:09,3,3,5:00,F,Lightweight,M,Decision,Split
+Gleison,Tibau,Caol,Uno,319.0,397.0,0.0,34.0,10.0,28.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,4:13,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Abel,Trujillo,Tony,Ferguson,3017.0,351.0,0.0,76.0,38.0,55.0,20.0,1.0,1.0,1.0,0.0,2:02,3,2,4:19,F,Lightweight,M,Submission,Rear Naked Choke
+Abel,Trujillo,John,Makdessi,1896.0,351.0,1.0,119.0,57.0,104.0,47.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Abel,Trujillo,Khabib,Nurmagomedov,1436.0,351.0,0.0,68.0,46.0,40.0,23.0,27.0,21.0,2.0,0.0,10:29,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Abel,Trujillo,Gleison,Tibau,397.0,351.0,0.0,8.0,6.0,5.0,3.0,3.0,2.0,1.0,0.0,1:27,3,1,1:45,F,Lightweight,M,DQ,"Rear Naked Choke
+      Overturned - Failed Drug Test by Tibau"
+Abel,Trujillo,Jamie,Varner,283.0,351.0,0.0,122.0,51.0,96.0,36.0,0.0,0.0,1.0,0.0,2:30,3,2,2:32,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Abel,Trujillo,Marcus,LeVesseur,2039.0,351.0,0.0,19.0,11.0,16.0,9.0,10.0,2.0,0.0,0.0,4:08,3,2,3:56,F,Lightweight,M,KO/TKO,Knees to Body On Ground
+Danny,Castillo,Tony,Ferguson,3017.0,3513.0,0.0,130.0,71.0,80.0,23.0,0.0,0.0,1.0,1.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Split
+Danny,Castillo,Jim,Miller,1693.0,3513.0,0.0,127.0,61.0,110.0,45.0,3.0,2.0,0.0,0.0,2:10,3,3,5:00,F,Lightweight,M,Decision,Split
+Danny,Castillo,Michael,Johnson,2364.0,3513.0,1.0,38.0,18.0,36.0,17.0,0.0,0.0,0.0,0.0,0:03,3,2,1:06,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Danny,Castillo,Nik,Lentz,2052.0,3513.0,0.0,148.0,72.0,132.0,59.0,6.0,3.0,2.0,0.0,1:34,3,3,5:00,F,Lightweight,M,Decision,Split
+Danny,Castillo,Anthony,Njokuani,1464.0,3513.0,0.0,122.0,67.0,98.0,44.0,2.0,0.0,1.0,1.0,0:19,3,3,5:00,F,Lightweight,M,Decision,Split
+Danny,Castillo,Paul,Sass,811.0,3513.0,0.0,47.0,23.0,23.0,4.0,0.0,0.0,5.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Danny,Castillo,Jacob,Volkmann,226.0,3513.0,0.0,51.0,39.0,16.0,6.0,5.0,3.0,6.0,0.0,7:47,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Danny,Castillo,Joe,Stevenson,539.0,3513.0,0.0,55.0,21.0,45.0,12.0,6.0,2.0,4.0,0.0,3:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Katsunori,Kikuno,Tony,Ferguson,3017.0,2235.0,1.0,69.0,40.0,67.0,38.0,2.0,1.0,1.0,0.0,0:37,3,1,4:06,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Mike,Rio,Tony,Ferguson,3017.0,1032.0,0.0,18.0,7.0,15.0,5.0,0.0,0.0,1.0,0.0,0:17,3,1,1:52,F,Lightweight,M,Submission,D'Arce Choke On Ground
+Mike,Rio,Francisco,Trinaldo,358.0,1032.0,0.0,9.0,6.0,8.0,5.0,1.0,1.0,1.0,0.0,0:57,3,1,3:08,F,Lightweight,M,Submission,Arm Triangle From Half Guard
+Mike,Rio,Daron,Cruickshank,3349.0,1032.0,2.0,111.0,51.0,104.0,46.0,1.0,1.0,1.0,0.0,1:26,3,2,4:56,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Wheel Kick"
+Yves,Edwards,Tony,Ferguson,3017.0,3119.0,0.0,234.0,62.0,232.0,61.0,1.0,1.0,1.0,0.0,0:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yves,Edwards,Mark,Hominick,2520.0,3119.0,0.0,67.0,31.0,58.0,22.0,0.0,0.0,1.0,0.0,0:22,3,2,1:52,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Yves,Edwards,Cody,McKenzie,1761.0,3119.0,0.0,112.0,55.0,72.0,16.0,9.0,2.0,0.0,0.0,2:52,3,2,4:33,F,Lightweight,M,Submission,"Rear Naked Choke
+      Technical Submission"
+Yves,Edwards,Joe,Stevenson,539.0,3119.0,0.0,109.0,76.0,57.0,28.0,6.0,3.0,1.0,0.0,5:40,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Yves,Edwards,Caol,Uno,319.0,3119.0,0.0,81.0,58.0,32.0,19.0,6.0,3.0,1.0,2.0,6:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Aaron,Riley,Tony,Ferguson,3017.0,1038.0,0.0,82.0,31.0,82.0,31.0,0.0,0.0,0.0,0.0,0:02,3,1,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,Jaw Injury
+Aaron,Riley,Ross,Pearson,1284.0,1038.0,0.0,135.0,70.0,122.0,59.0,0.0,0.0,0.0,0.0,0:53,3,2,4:38,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Aaron,Riley,Shane,Nelson,1498.0,1038.0,1.0,12.0,5.0,12.0,5.0,0.0,0.0,0.0,0.0,0:06,3,1,0:44,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Mitch,Clarke,Michael,Chiesa,3478.0,3445.0,0.0,173.0,98.0,128.0,59.0,7.0,4.0,0.0,0.0,5:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mitch,Clarke,Al,Iaquinta,2467.0,3445.0,0.0,40.0,31.0,19.0,13.0,1.0,1.0,2.0,0.0,4:31,3,2,0:57,F,Lightweight,M,Submission,"D'Arce Choke From Bottom
+      Technical Submission"
+Mitch,Clarke,Joe,Duffy,3154.0,3445.0,1.0,7.0,3.0,7.0,3.0,0.0,0.0,1.0,0.0,0:15,3,1,0:25,F,Lightweight,M,Submission,Rear Naked Choke
+Francisco,Trinaldo,Michael,Chiesa,3478.0,358.0,0.0,208.0,121.0,70.0,19.0,7.0,2.0,0.0,0.0,8:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Francisco,Trinaldo,Alexander,Hernandez,2576.0,358.0,0.0,92.0,26.0,91.0,25.0,1.0,0.0,0.0,0.0,0:20,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Francisco,Trinaldo,James,Vick,250.0,358.0,1.0,162.0,72.0,158.0,68.0,2.0,1.0,0.0,0.0,0:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Francisco,Trinaldo,Ross,Pearson,1284.0,358.0,0.0,89.0,32.0,85.0,28.0,2.0,2.0,0.0,0.0,1:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Francisco,Trinaldo,Chad,Laprise,2114.0,358.0,0.0,17.0,8.0,17.0,8.0,0.0,0.0,0.0,0.0,0:00,3,1,2:43,F,Lightweight,M,KO/TKO,Punches to   From Back Control
+Francisco,Trinaldo,Gleison,Tibau,397.0,358.0,0.0,134.0,96.0,63.0,36.0,6.0,5.0,2.0,0.0,6:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anton,Kuivanen,Michael,Chiesa,3478.0,2158.0,0.0,54.0,9.0,50.0,5.0,5.0,1.0,2.0,0.0,2:08,3,2,2:29,F,Lightweight,M,Submission,Rear Naked Choke
+Anton,Kuivanen,Mitch,Clarke,3445.0,2158.0,0.0,52.0,29.0,24.0,6.0,8.0,3.0,1.0,1.0,4:26,3,3,5:00,F,Lightweight,M,Decision,Split
+Al,Iaquinta,Michael,Chiesa,3478.0,2467.0,0.0,15.0,9.0,15.0,9.0,3.0,1.0,1.0,0.0,1:05,3,1,2:47,T,Lightweight,M,Submission,"Rear Naked Choke
+      Technical Submission"
+Al,Iaquinta,Kevin,Lee,2070.0,2467.0,0.0,319.0,121.0,296.0,102.0,5.0,3.0,0.0,0.0,5:25,5,5,5:00,F,Lightweight,M,Decision,Unanimous
+Al,Iaquinta,Khabib,Nurmagomedov,1436.0,2467.0,0.0,352.0,172.0,304.0,134.0,15.0,6.0,1.0,0.0,10:33,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Al,Iaquinta,Jorge,Masvidal,1819.0,2467.0,0.0,173.0,86.0,170.0,83.0,0.0,0.0,0.0,0.0,0:25,3,3,5:00,F,Lightweight,M,Decision,Split
+Al,Iaquinta,Joe,Lauzon,2102.0,2467.0,0.0,86.0,32.0,86.0,32.0,1.0,0.0,0.0,0.0,0:07,3,2,3:34,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Al,Iaquinta,Ross,Pearson,1284.0,2467.0,0.0,61.0,21.0,60.0,20.0,1.0,0.0,0.0,0.0,0:00,3,2,1:39,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Al,Iaquinta,Ryan,Couture,3369.0,2467.0,0.0,158.0,47.0,155.0,45.0,6.0,0.0,0.0,0.0,1:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Andrew,Holbrook,Jake,Matthews,1810.0,2537.0,0.0,70.0,29.0,62.0,22.0,3.0,3.0,0.0,0.0,5:19,3,3,5:00,F,Lightweight,M,Decision,Split
+Andrew,Holbrook,Joaquim,Silva,688.0,2537.0,1.0,8.0,6.0,8.0,6.0,1.0,0.0,0.0,0.0,0:03,3,1,0:34,F,Lightweight,M,KO/TKO,Punch to Head On Ground
+Andrew,Holbrook,Gregor,Gillespie,2831.0,2537.0,1.0,13.0,9.0,12.0,8.0,0.0,0.0,0.0,0.0,0:05,3,1,0:21,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Andrew,Holbrook,Thibault,Gouti,2764.0,2537.0,1.0,88.0,43.0,86.0,41.0,0.0,0.0,0.0,0.0,0:30,3,1,4:28,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Andrew,Holbrook,Ramsey,Nijem,1474.0,2537.0,0.0,120.0,76.0,63.0,29.0,6.0,6.0,0.0,0.0,8:38,3,3,5:00,F,Lightweight,M,Decision,Split
+Johnny,Case,Jake,Matthews,1810.0,3523.0,0.0,129.0,50.0,114.0,36.0,4.0,0.0,2.0,0.0,1:14,3,3,4:45,F,Lightweight,M,Submission,Rear Naked Choke
+Johnny,Case,Anthony,Rocco Martin,1843.0,3523.0,0.0,227.0,83.0,226.0,82.0,2.0,1.0,1.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Johnny,Case,Yan,Cabral,3593.0,3523.0,0.0,79.0,41.0,65.0,31.0,6.0,3.0,0.0,0.0,5:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Johnny,Case,Francisco,Trevino,361.0,3523.0,0.0,90.0,49.0,74.0,34.0,2.0,0.0,0.0,1.0,1:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Johnny,Case,Kazuki,Tokudome,385.0,3523.0,0.0,30.0,13.0,29.0,12.0,4.0,1.0,0.0,0.0,2:58,3,2,2:34,F,Lightweight,M,Submission,"Guillotine Choke Standing
+      Technical Submission"
+Akbarh,Arreola,Jake,Matthews,1810.0,3935.0,0.0,136.0,96.0,98.0,62.0,3.0,1.0,0.0,0.0,5:39,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,Eye Injury
+Akbarh,Arreola,Francisco,Trinaldo,358.0,3935.0,0.0,169.0,91.0,115.0,39.0,3.0,3.0,0.0,0.0,9:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Akbarh,Arreola,Yves,Edwards,3119.0,3935.0,0.0,14.0,5.0,14.0,5.0,0.0,0.0,0.0,0.0,0:00,3,1,1:52,F,Lightweight,M,Submission,Armbar From Mount
+James,Vick,Jake,Matthews,1810.0,250.0,0.0,28.0,4.0,28.0,4.0,2.0,1.0,0.0,0.0,1:30,3,1,4:53,F,Lightweight,M,Submission,Guillotine Choke After Drop to Ground
+James,Vick,Justin,Gaethje,2902.0,250.0,1.0,15.0,7.0,15.0,7.0,0.0,0.0,0.0,0.0,0:04,5,1,1:27,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+James,Vick,Beneil,Dariush,3296.0,250.0,2.0,72.0,48.0,70.0,46.0,2.0,0.0,0.0,0.0,1:20,3,1,4:16,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+James,Vick,Abel,Trujillo,351.0,250.0,0.0,36.0,14.0,33.0,11.0,5.0,1.0,0.0,0.0,2:15,3,3,0:49,F,Lightweight,M,Submission,D'Arce Choke On Ground
+James,Vick,Glaico,Franca Moreira,2946.0,250.0,0.0,145.0,67.0,114.0,39.0,10.0,4.0,0.0,0.0,5:29,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+James,Vick,Ramsey,Nijem,1474.0,250.0,0.0,2.0,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0:22,3,1,0:58,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Vagner,Rocha,Jake,Matthews,1810.0,995.0,0.0,69.0,32.0,63.0,26.0,2.0,1.0,1.0,0.0,0:56,3,2,1:52,F,Lightweight,M,Submission,"Rear Naked Choke
+      Technical Submission"
+Vagner,Rocha,Cody,McKenzie,1761.0,995.0,0.0,59.0,31.0,43.0,15.0,0.0,0.0,1.0,0.0,0:32,3,2,3:49,F,Lightweight,M,Submission,Rear Naked Choke
+Dashon,Johnson,Jake,Matthews,1810.0,2361.0,0.0,167.0,137.0,85.0,60.0,11.0,4.0,1.0,0.0,10:27,3,3,3:16,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Uros,Medic,Omar,Morales,1612.0,1747.0,0.0,85.0,33.0,85.0,33.0,0.0,0.0,0.0,0.0,0:00,3,2,3:05,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joel,Alvarez,Marc,Diakiese,3229.0,4005.0,0.0,60.0,29.0,46.0,20.0,3.0,2.0,0.0,0.0,3:09,3,2,4:26,F,Lightweight,M,Submission,D'Arce Choke From Side Control
+Joel,Alvarez,Damir,Ismagulov,2434.0,4005.0,0.0,150.0,64.0,150.0,64.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joel,Alvarez,Arman,Tsarukyan,350.0,4005.0,0.0,122.0,93.0,53.0,36.0,2.0,2.0,0.0,0.0,6:08,3,2,1:57,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Joel,Alvarez,Thiago,Moises,1643.0,4005.0,0.0,24.0,11.0,24.0,11.0,0.0,0.0,0.0,0.0,0:00,3,1,3:01,F,Lightweight,M,KO/TKO,Elbows to Head In Clinch
+Joel,Alvarez,Joe,Duffy,3154.0,4005.0,0.0,26.0,14.0,26.0,14.0,1.0,1.0,0.0,0.0,0:09,3,1,2:25,F,Lightweight,M,Submission,Guillotine Choke From Guard
+Damir,Hadzovic,Marc,Diakiese,3229.0,2678.0,0.0,111.0,78.0,32.0,13.0,11.0,8.0,0.0,0.0,13:35,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damir,Hadzovic,Renato,Moicano,1644.0,2678.0,0.0,5.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0:25,3,1,0:44,F,Lightweight,M,Submission,Rear Naked Choke
+Damir,Hadzovic,Yancy,Medeiros,1751.0,2678.0,0.0,227.0,109.0,219.0,103.0,2.0,2.0,2.0,0.0,3:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damir,Hadzovic,Mairbek,Taisumov,466.0,2678.0,1.0,59.0,25.0,59.0,25.0,0.0,0.0,0.0,0.0,0:01,3,1,3:44,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Damir,Hadzovic,Nick,Hein,2601.0,2678.0,0.0,198.0,43.0,198.0,43.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Damir,Hadzovic,Alan,Patrick,1298.0,2678.0,0.0,129.0,91.0,45.0,28.0,15.0,9.0,0.0,0.0,12:26,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damir,Hadzovic,Marcin,Held,2599.0,2678.0,0.0,103.0,62.0,66.0,31.0,4.0,4.0,1.0,0.0,7:20,3,3,0:07,F,Lightweight,M,KO/TKO,Knee to Head At Distance
+Viacheslav,Borshchev,Marc,Diakiese,3229.0,3717.0,0.0,50.0,40.0,20.0,17.0,18.0,11.0,0.0,0.0,12:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Viacheslav,Borshchev,Mike,Davis,3281.0,3717.0,0.0,174.0,101.0,133.0,65.0,11.0,9.0,1.0,0.0,8:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Viacheslav,Borshchev,Dakota,Bush,3608.0,3717.0,0.0,30.0,11.0,30.0,11.0,3.0,2.0,0.0,0.0,1:30,3,1,3:47,F,Lightweight,M,KO/TKO,Punch to Body At Distance
+Rafael,Alves,Marc,Diakiese,3229.0,4000.0,0.0,13.0,3.0,13.0,3.0,1.0,0.0,0.0,0.0,0:03,3,1,1:48,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Rafael,Alves,Drew,Dober,3200.0,4000.0,1.0,151.0,62.0,151.0,62.0,0.0,0.0,0.0,0.0,0:04,3,3,1:30,F,Lightweight,M,KO/TKO,Punch to Body At Distance
+Rafael,Fiziev,Marc,Diakiese,3229.0,2976.0,0.0,153.0,73.0,148.0,68.0,4.0,0.0,0.0,0.0,0:22,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafael,Fiziev,Justin,Gaethje,2902.0,2976.0,0.0,174.0,106.0,171.0,103.0,3.0,1.0,0.0,0.0,0:05,3,3,5:00,F,Lightweight,M,Decision,Majority
+Rafael,Fiziev,Brad,Riddell,1042.0,2976.0,0.0,118.0,62.0,115.0,59.0,4.0,1.0,0.0,0.0,0:14,3,3,2:20,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Wheel kick"
+Rafael,Fiziev,Rafael,Dos Anjos,3185.0,2976.0,0.0,162.0,90.0,110.0,54.0,16.0,2.0,0.0,0.0,6:13,5,5,0:18,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Rafael,Fiziev,Bobby,Green,2728.0,2976.0,0.0,263.0,143.0,263.0,143.0,2.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafael,Fiziev,Renato,Moicano,1644.0,2976.0,0.0,37.0,15.0,37.0,15.0,1.0,0.0,0.0,0.0,0:00,3,1,4:05,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Rafael,Fiziev,Alex,White,152.0,2976.0,0.0,146.0,66.0,133.0,55.0,11.0,0.0,0.0,0.0,1:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafael,Fiziev,Magomed,Mustafaev,1545.0,2976.0,1.0,13.0,11.0,12.0,10.0,0.0,0.0,0.0,0.0,0:03,3,1,1:26,F,Lightweight,M,KO/TKO,Spinning Back Kick Head
+Drakkar,Klose,Marc,Diakiese,3229.0,2201.0,0.0,107.0,63.0,77.0,34.0,6.0,2.0,0.0,1.0,3:10,3,3,5:00,F,Lightweight,M,Decision,Split
+Drakkar,Klose,Lando,Vannata,287.0,2201.0,0.0,150.0,66.0,133.0,50.0,4.0,1.0,0.0,0.0,1:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drakkar,Klose,Beneil,Dariush,3296.0,2201.0,1.0,28.0,17.0,20.0,12.0,3.0,1.0,2.0,0.0,4:21,3,2,1:00,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Drakkar,Klose,Bobby,Green,2728.0,2201.0,0.0,176.0,110.0,154.0,92.0,4.0,1.0,1.0,0.0,3:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drakkar,Klose,Christos,Giagos,2846.0,2201.0,0.0,186.0,113.0,155.0,87.0,5.0,2.0,1.0,0.0,3:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drakkar,Klose,Devin,Powell,1174.0,2201.0,0.0,102.0,44.0,80.0,22.0,0.0,0.0,0.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drakkar,Klose,David,Teymur,417.0,2201.0,0.0,164.0,71.0,137.0,52.0,3.0,1.0,0.0,0.0,0:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Teemu,Packalen,Marc,Diakiese,3229.0,1352.0,1.0,7.0,6.0,7.0,6.0,0.0,0.0,0.0,0.0,0:01,3,1,0:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Teemu,Packalen,Ottman,Azaitar,3898.0,1352.0,1.0,53.0,27.0,53.0,27.0,0.0,0.0,0.0,0.0,0:11,3,1,3:33,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Teemu,Packalen,Mickael,Lebout,2082.0,1352.0,0.0,112.0,68.0,85.0,43.0,1.0,0.0,0.0,2.0,6:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yanal,Ashmouz,Chris,Duncan,3147.0,3927.0,0.0,209.0,87.0,206.0,85.0,4.0,2.0,0.0,0.0,0:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yanal,Ashmouz,Sam,Patterson,1295.0,3927.0,0.0,7.0,2.0,7.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,1:15,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Terrance,McKinney,Nazim,Sadykhov,904.0,1760.0,0.0,27.0,20.0,15.0,8.0,0.0,0.0,1.0,1.0,0:55,3,2,1:07,F,Lightweight,M,Submission,Rear Naked Choke
+Terrance,McKinney,Ismael,Bonfim,3728.0,1760.0,1.0,53.0,38.0,49.0,34.0,4.0,1.0,0.0,0.0,0:47,3,2,2:17,F,Lightweight,M,KO/TKO,Flying Knee Head
+Terrance,McKinney,Drew,Dober,3200.0,1760.0,1.0,52.0,31.0,37.0,17.0,1.0,0.0,0.0,0.0,0:24,3,1,3:17,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Terrance,McKinney,Matt,Frevola,2926.0,1760.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0:00,3,1,0:07,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Evan,Elder,Nazim,Sadykhov,904.0,3107.0,0.0,141.0,71.0,132.0,64.0,1.0,1.0,0.0,0.0,0:19,3,3,0:38,F,Lightweight,M,TKO - Doctor's Stoppage,
+Melquizael,Costa,Thiago,Moises,1643.0,3378.0,0.0,58.0,45.0,33.0,22.0,7.0,4.0,1.0,0.0,5:31,3,2,4:05,F,Lightweight,M,Submission,Rear Naked Choke
+Genaro,Valdez,Evan,Elder,3107.0,305.0,1.0,195.0,96.0,195.0,96.0,1.0,1.0,1.0,0.0,0:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Genaro,Valdez,Natan,Levy,2036.0,305.0,0.0,137.0,69.0,135.0,67.0,10.0,6.0,0.0,0.0,4:40,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Genaro,Valdez,Matt,Frevola,2926.0,305.0,4.0,114.0,71.0,101.0,60.0,0.0,0.0,0.0,0.0,1:07,3,1,3:15,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Carl,Deaton,Alexander,Munoz,1568.0,3260.0,1.0,120.0,53.0,111.0,44.0,7.0,3.0,0.0,0.0,3:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Carl,Deaton,Joe,Solecki,611.0,3260.0,0.0,67.0,49.0,8.0,2.0,3.0,2.0,3.0,0.0,8:51,3,2,4:55,F,Lightweight,M,Submission,Rear Naked Choke
+Mizuto,Hirota,Ross,Pearson,1284.0,2544.0,0.0,177.0,59.0,176.0,58.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jamie,Mullarkey,Jalin,Turner,332.0,1573.0,1.0,112.0,53.0,111.0,52.0,1.0,1.0,0.0,0.0,0:02,3,2,0:46,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jamie,Mullarkey,Michael,Johnson,2364.0,1573.0,1.0,194.0,68.0,190.0,66.0,2.0,0.0,0.0,0.0,0:37,3,3,5:00,F,Lightweight,M,Decision,Split
+Jamie,Mullarkey,Brad,Riddell,1042.0,1573.0,0.0,167.0,104.0,153.0,91.0,1.0,1.0,0.0,1.0,2:59,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jamie,Mullarkey,Devonte,Smith,628.0,1573.0,0.0,67.0,32.0,64.0,29.0,0.0,0.0,0.0,0.0,0:00,3,2,2:51,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Matt,Frevola,Jalin,Turner,332.0,2926.0,0.0,124.0,42.0,116.0,35.0,0.0,0.0,1.0,1.0,1:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Frevola,Arman,Tsarukyan,350.0,2926.0,0.0,180.0,103.0,103.0,50.0,12.0,10.0,0.0,0.0,8:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Frevola,Drew,Dober,3200.0,2926.0,0.0,59.0,20.0,59.0,20.0,0.0,0.0,0.0,0.0,0:00,3,1,4:08,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Tiki,Ghosn,Bob,Cook,3411.0,2847.0,0.0,78.0,53.0,47.0,22.0,5.0,1.0,2.0,0.0,1:08,3,2,1:29,F,Lightweight,M,Submission,Rear Naked Choke
+Esteban,Ribovics,Kamuela,Kirk,2211.0,1052.0,0.0,147.0,86.0,107.0,56.0,14.0,3.0,1.0,0.0,6:20,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Grant,Dawson,Damir,Ismagulov,2434.0,3279.0,0.0,54.0,35.0,28.0,13.0,0.0,0.0,0.0,1.0,0:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Grant,Dawson,Leonardo,Santos,833.0,3279.0,0.0,115.0,74.0,67.0,30.0,2.0,1.0,0.0,0.0,1:21,3,3,4:59,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Grant,Dawson,Jared,Gordon,2773.0,3279.0,0.0,153.0,111.0,119.0,77.0,0.0,0.0,0.0,0.0,1:12,3,3,4:11,F,Lightweight,M,Submission,Rear Naked Choke
+Guram,Kutateladze,Damir,Ismagulov,2434.0,2145.0,0.0,197.0,83.0,192.0,79.0,6.0,0.0,0.0,0.0,0:46,3,3,5:00,F,Lightweight,M,Decision,Split
+Guram,Kutateladze,Mateusz,Gamrot,2884.0,2145.0,0.0,151.0,69.0,126.0,52.0,16.0,5.0,0.0,0.0,3:29,3,3,5:00,F,Lightweight,M,Decision,Split
+Benoit,Saint Denis,Ismael,Bonfim,3728.0,899.0,0.0,26.0,15.0,24.0,14.0,0.0,0.0,0.0,0.0,0:10,3,1,4:48,F,Lightweight,M,Submission,Rear Naked Choke
+Benoit,Saint Denis,Niklas,Stolze,527.0,899.0,0.0,23.0,20.0,14.0,11.0,0.0,0.0,1.0,0.0,0:00,3,2,1:32,F,Lightweight,M,Submission,Rear Naked Choke
+Gregor,Gillespie,Kevin,Lee,2070.0,2831.0,1.0,59.0,21.0,59.0,21.0,0.0,0.0,0.0,0.0,0:01,3,1,2:47,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Gregor,Gillespie,Diego,Ferreira,3007.0,2831.0,0.0,70.0,37.0,60.0,31.0,2.0,0.0,0.0,2.0,1:06,3,2,4:51,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Gregor,Gillespie,Jordan,Rinaldi,1035.0,2831.0,0.0,16.0,7.0,16.0,7.0,0.0,0.0,0.0,0.0,0:00,3,1,4:46,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Gregor,Gillespie,Glaico,Franca Moreira,2946.0,2831.0,0.0,133.0,71.0,102.0,43.0,0.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Magomed,Mustafaev,Kevin,Lee,2070.0,1545.0,0.0,54.0,46.0,28.0,20.0,9.0,7.0,2.0,0.0,6:37,3,2,4:31,F,Lightweight,M,Submission,"Rear Naked Choke
+      Technical Submission"
+Magomed,Mustafaev,Brad,Riddell,1042.0,1545.0,1.0,97.0,60.0,72.0,38.0,1.0,1.0,0.0,0.0,2:02,3,3,5:00,F,Lightweight,M,Decision,Split
+Magomed,Mustafaev,Joe,Proctor,1156.0,1545.0,0.0,13.0,9.0,13.0,9.0,0.0,0.0,0.0,0.0,0:00,3,1,1:54,F,Lightweight,M,KO/TKO,Knee to Body In Clinch
+Magomed,Mustafaev,Piotr,Hallmann,2668.0,1545.0,0.0,127.0,99.0,51.0,29.0,3.0,2.0,0.0,0.0,4:48,3,2,3:24,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+James,Moontasri,Kevin,Lee,2070.0,1627.0,0.0,28.0,9.0,28.0,9.0,2.0,1.0,1.0,0.0,1:08,3,1,2:56,F,Lightweight,M,Submission,Rear Naked Choke
+James,Moontasri,Joe,Ellenberger,3101.0,1627.0,0.0,73.0,50.0,37.0,22.0,10.0,3.0,2.0,0.0,6:29,3,3,5:00,F,Lightweight,M,Decision,Split
+Elves,Brener,Guram,Kutateladze,2145.0,3682.0,0.0,177.0,99.0,163.0,85.0,3.0,1.0,0.0,0.0,2:23,3,3,3:17,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Elves,Brener,Zubaira,Tukhugov,341.0,3682.0,0.0,172.0,73.0,169.0,70.0,4.0,0.0,0.0,0.0,2:11,3,3,5:00,F,Lightweight,M,Decision,Split
+Desmond,Green,Josh,Emmett,3087.0,2727.0,0.0,144.0,43.0,142.0,41.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Desmond,Green,Rustam,Khabilov,2244.0,2727.0,0.0,109.0,35.0,108.0,34.0,11.0,3.0,0.0,0.0,1:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Desmond,Green,Mairbek,Taisumov,466.0,2727.0,0.0,83.0,28.0,82.0,27.0,0.0,0.0,0.0,0.0,0:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Desmond,Green,Ross,Pearson,1284.0,2727.0,0.0,24.0,12.0,24.0,12.0,1.0,0.0,0.0,0.0,0:00,3,1,2:52,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Desmond,Green,Michel,Prazeres,1166.0,2727.0,0.0,106.0,70.0,72.0,36.0,8.0,3.0,3.0,0.0,3:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Scott,Holtzman,Josh,Emmett,3087.0,2522.0,0.0,175.0,99.0,160.0,87.0,12.0,8.0,1.0,0.0,3:59,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Scott,Holtzman,Jim,Miller,1693.0,2522.0,0.0,131.0,66.0,121.0,58.0,2.0,0.0,0.0,0.0,0:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Scott,Holtzman,Clay,Guida,2702.0,2522.0,0.0,215.0,95.0,183.0,66.0,15.0,4.0,0.0,0.0,5:35,3,3,5:00,F,Lightweight,M,Decision,Split
+Scott,Holtzman,Beneil,Dariush,3296.0,2522.0,1.0,64.0,36.0,64.0,36.0,2.0,0.0,0.0,0.0,1:57,3,1,4:38,F,Lightweight,M,KO/TKO,Spinning Back Fist Head
+Scott,Holtzman,Anthony,Christodoulou,3463.0,2522.0,0.0,125.0,44.0,112.0,31.0,0.0,0.0,0.0,0.0,0:46,3,3,2:40,F,Lightweight,M,Submission,Rear Naked Choke
+Loik,Radzhabov,Mateusz,Rebecki,1091.0,1126.0,2.0,110.0,64.0,95.0,54.0,1.0,1.0,1.0,0.0,1:57,3,2,2:36,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Loik,Radzhabov,Esteban,Ribovics,1052.0,1126.0,1.0,162.0,98.0,129.0,66.0,1.0,0.0,1.0,1.0,0:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nick,Fiore,Mateusz,Rebecki,1091.0,2984.0,0.0,228.0,130.0,171.0,89.0,4.0,3.0,0.0,0.0,8:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nick,Fiore,Chase,Hooper,2511.0,2984.0,0.0,340.0,217.0,245.0,149.0,10.0,1.0,1.0,1.0,3:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joaquim,Silva,Arman,Tsarukyan,350.0,688.0,0.0,175.0,134.0,115.0,80.0,5.0,4.0,0.0,0.0,9:01,3,3,3:25,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Joaquim,Silva,Jared,Gordon,2773.0,688.0,0.0,228.0,149.0,194.0,116.0,8.0,3.0,0.0,0.0,4:25,3,3,2:39,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Joaquim,Silva,Vinc,Pichel,1209.0,688.0,0.0,188.0,62.0,186.0,60.0,4.0,1.0,0.0,0.0,0:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joaquim,Silva,Reza,Madadi,1930.0,688.0,0.0,106.0,69.0,62.0,26.0,13.0,5.0,0.0,0.0,5:38,3,3,5:00,F,Lightweight,M,Decision,Split
+Damir,Ismagulov,Arman,Tsarukyan,350.0,2434.0,0.0,105.0,50.0,81.0,34.0,21.0,7.0,0.0,0.0,9:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damir,Ismagulov,Rafael,Alves,4000.0,2434.0,1.0,69.0,36.0,63.0,30.0,1.0,0.0,1.0,0.0,0:16,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damir,Ismagulov,Alex,Gorgees,2769.0,2434.0,0.0,43.0,22.0,31.0,10.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nikolas,Motta,Manuel,Torres,370.0,1587.0,1.0,17.0,13.0,17.0,13.0,0.0,0.0,0.0,0.0,0:01,3,1,1:50,F,Lightweight,M,KO/TKO,Elbow to Head At Distance
+Nikolas,Motta,Jim,Miller,1693.0,1587.0,1.0,93.0,49.0,92.0,48.0,0.0,0.0,0.0,0.0,0:34,3,2,1:58,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Islam,Makhachev,Charles,Oliveira,1401.0,1895.0,0.0,46.0,25.0,39.0,19.0,1.0,0.0,0.0,0.0,0:42,5,2,3:16,T,Lightweight,M,Submission,Arm Triangle From Side Control
+Islam,Makhachev,Nik,Lentz,2052.0,1895.0,0.0,61.0,35.0,35.0,13.0,2.0,0.0,1.0,0.0,0:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Islam,Makhachev,Kajan,Johnson,2362.0,1895.0,0.0,17.0,7.0,17.0,7.0,0.0,0.0,0.0,0.0,0:00,3,1,4:43,F,Lightweight,M,Submission,Armbar From Mount
+Islam,Makhachev,Chris,Wade,219.0,1895.0,0.0,61.0,42.0,17.0,5.0,0.0,0.0,2.0,4.0,4:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Islam,Makhachev,Adriano,Martins,1828.0,1895.0,1.0,7.0,3.0,7.0,3.0,0.0,0.0,0.0,0.0,0:00,3,1,1:46,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jared,Gordon,Charles,Oliveira,1401.0,2773.0,1.0,16.0,10.0,16.0,10.0,1.0,0.0,0.0,0.0,0:02,3,1,1:26,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jared,Gordon,Joe,Solecki,611.0,2773.0,0.0,102.0,70.0,69.0,38.0,7.0,4.0,0.0,0.0,6:03,3,3,5:00,F,Lightweight,M,Decision,Split
+Jared,Gordon,Paddy,Pimblett,1199.0,2773.0,0.0,194.0,97.0,155.0,63.0,3.0,0.0,0.0,0.0,0:35,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jared,Gordon,Leonardo,Santos,833.0,2773.0,0.0,86.0,41.0,81.0,36.0,3.0,0.0,0.0,0.0,0:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jared,Gordon,Hacran,Dias,3224.0,2773.0,0.0,115.0,41.0,106.0,32.0,3.0,0.0,1.0,0.0,0:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nik,Lentz,Charles,Oliveira,1401.0,2052.0,1.0,64.0,43.0,59.0,38.0,0.0,0.0,1.0,1.0,1:37,3,2,2:11,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Nik,Lentz,Scott,Holtzman,2522.0,2052.0,0.0,157.0,86.0,122.0,54.0,0.0,0.0,0.0,0.0,0:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nik,Lentz,Evan,Dunham,3145.0,2052.0,0.0,129.0,100.0,97.0,68.0,2.0,2.0,1.0,0.0,4:51,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,Eye Injury
+Nik,Lentz,Gray,Maynard,1798.0,2052.0,0.0,27.0,13.0,27.0,13.0,0.0,0.0,0.0,0.0,0:08,3,2,1:19,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Nik,Lentz,Mark,Bocek,3746.0,2052.0,0.0,143.0,102.0,85.0,46.0,7.0,5.0,0.0,0.0,11:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nik,Lentz,Tyson,Griffin,2722.0,2052.0,1.0,102.0,66.0,60.0,31.0,13.0,8.0,1.0,0.0,7:07,3,3,5:00,F,Lightweight,M,Decision,Split
+Nik,Lentz,Waylon,Lowe,1967.0,2052.0,0.0,68.0,53.0,61.0,46.0,6.0,4.0,1.0,0.0,4:30,3,3,2:24,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Nik,Lentz,Andre,Winner,113.0,2052.0,0.0,56.0,41.0,35.0,20.0,0.0,0.0,0.0,0.0,0:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nik,Lentz,Rob,Emerson,3089.0,2052.0,1.0,96.0,45.0,74.0,24.0,1.0,0.0,1.0,0.0,0:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+David,Teymur,Charles,Oliveira,1401.0,417.0,0.0,61.0,31.0,58.0,28.0,1.0,1.0,1.0,0.0,0:13,3,2,0:55,F,Lightweight,M,Submission,Anaconda Choke On Ground
+David,Teymur,Lando,Vannata,287.0,417.0,0.0,144.0,79.0,141.0,76.0,1.0,1.0,0.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+David,Teymur,Nik,Lentz,2052.0,417.0,0.0,146.0,63.0,144.0,61.0,5.0,0.0,0.0,0.0,0:44,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Felder,Charles,Oliveira,1401.0,3023.0,0.0,20.0,12.0,13.0,6.0,3.0,2.0,2.0,1.0,2:52,3,2,4:06,F,Lightweight,M,KO/TKO,Elbows to Head From Guard
+Paul,Felder,Edson,Barboza,3863.0,3023.0,0.0,133.0,77.0,114.0,60.0,3.0,1.0,0.0,0.0,1:49,3,3,5:00,F,Lightweight,M,Decision,Split
+Paul,Felder,Edson,Barboza,3863.0,3023.0,0.0,135.0,64.0,135.0,64.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Felder,Francisco,Trinaldo,358.0,3023.0,0.0,85.0,42.0,67.0,32.0,3.0,1.0,0.0,0.0,4:22,3,3,2:25,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Paul,Felder,James,Vick,250.0,3023.0,0.0,129.0,69.0,121.0,61.0,0.0,0.0,0.0,0.0,2:14,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Felder,Stevie,Ray,1096.0,3023.0,0.0,15.0,11.0,9.0,5.0,1.0,0.0,0.0,0.0,1:45,3,1,3:57,F,Lightweight,M,KO/TKO,Elbow to Head From Guard
+Paul,Felder,Ross,Pearson,1284.0,3023.0,0.0,140.0,86.0,116.0,62.0,1.0,1.0,0.0,0.0,3:03,3,3,5:00,F,Lightweight,M,Decision,Split
+Paul,Felder,Joshua,Burkman,3621.0,3023.0,0.0,98.0,41.0,97.0,40.0,6.0,3.0,0.0,0.0,3:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Felder,Jason,Saggo,900.0,3023.0,1.0,77.0,45.0,50.0,29.0,16.0,6.0,0.0,1.0,7:19,3,3,5:00,F,Lightweight,M,Decision,Split
+Paul,Felder,Danny,Castillo,3513.0,3023.0,0.0,52.0,21.0,52.0,21.0,2.0,0.0,0.0,0.0,0:00,3,2,2:09,F,Lightweight,M,KO/TKO,Spinning Back Fist Head
+Myles,Jury,Michael,Johnson,2364.0,2305.0,0.0,45.0,10.0,41.0,6.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Myles,Jury,Donald,Cerrone,3499.0,2305.0,0.0,105.0,54.0,83.0,37.0,1.0,1.0,2.0,1.0,3:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Myles,Jury,Diego,Sanchez,870.0,2305.0,0.0,105.0,37.0,93.0,25.0,0.0,0.0,2.0,0.0,0:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Myles,Jury,Ramsey,Nijem,1474.0,2305.0,0.0,32.0,10.0,28.0,6.0,1.0,1.0,0.0,1.0,2:19,3,2,1:02,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Myles,Jury,Mike,Ricci,1051.0,2305.0,0.0,105.0,31.0,98.0,25.0,0.0,0.0,0.0,2.0,0:46,3,3,5:00,F,Lightweight,M,Decision,Split
+Edson,Barboza,Bobby,Green,2728.0,3863.0,0.0,123.0,50.0,123.0,50.0,2.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Edson,Barboza,Donald,Cerrone,3499.0,3863.0,1.0,20.0,11.0,20.0,11.0,1.0,0.0,2.0,0.0,0:21,3,1,3:15,F,Lightweight,M,Submission,Rear Naked Choke
+Edson,Barboza,Anthony,Pettis,1225.0,3863.0,0.0,131.0,48.0,131.0,48.0,3.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Edson,Barboza,Khabib,Nurmagomedov,1436.0,3863.0,0.0,246.0,154.0,177.0,89.0,13.0,4.0,0.0,0.0,10:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Edson,Barboza,Ross,Pearson,1284.0,3863.0,0.0,188.0,62.0,186.0,60.0,6.0,0.0,0.0,0.0,0:39,3,3,5:00,F,Lightweight,M,Decision,Split
+Edson,Barboza,Danny,Castillo,3513.0,3863.0,0.0,140.0,67.0,125.0,55.0,10.0,1.0,1.0,0.0,3:04,3,3,5:00,F,Lightweight,M,Decision,Majority
+Edson,Barboza,Mike,Lullo,1956.0,3863.0,0.0,104.0,68.0,45.0,12.0,5.0,0.0,1.0,0.0,0:10,3,3,0:26,F,Lightweight,M,KO/TKO,Kicks to Leg At Distance
+Kevin,Aguilar,Charles,Rosa,949.0,4081.0,0.0,173.0,69.0,173.0,69.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Jesse,Butler,Jim,Miller,1693.0,3599.0,1.0,5.0,3.0,5.0,3.0,0.0,0.0,0.0,0.0,0:00,3,1,0:23,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joe,Solecki,Jim,Miller,1693.0,611.0,0.0,76.0,45.0,34.0,11.0,0.0,0.0,0.0,0.0,2:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Solecki,Austin,Hubbard,2487.0,611.0,0.0,14.0,9.0,14.0,9.0,0.0,0.0,0.0,0.0,0:00,3,1,3:51,F,Lightweight,M,Submission,Rear Naked Choke
+Vinc,Pichel,Jim,Miller,1693.0,1209.0,0.0,57.0,26.0,39.0,14.0,2.0,2.0,2.0,1.0,5:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Vinc,Pichel,Roosevelt,Roberts,1003.0,1209.0,0.0,90.0,34.0,87.0,31.0,3.0,2.0,0.0,0.0,2:35,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Vinc,Pichel,Gregor,Gillespie,2831.0,1209.0,0.0,48.0,30.0,26.0,13.0,9.0,7.0,2.0,0.0,7:51,3,2,4:06,F,Lightweight,M,Submission,Arm Triangle From Half Guard
+Vinc,Pichel,Damien,Brown,3653.0,1209.0,0.0,56.0,21.0,56.0,21.0,0.0,0.0,0.0,0.0,0:00,3,1,3:37,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Vinc,Pichel,Anthony,Njokuani,1464.0,1209.0,0.0,84.0,30.0,77.0,24.0,0.0,0.0,0.0,0.0,0:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Roosevelt,Roberts,Alexander,Yakovlev,78.0,1003.0,0.0,71.0,38.0,49.0,20.0,8.0,3.0,0.0,0.0,6:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Clay,Guida,Jim,Miller,1693.0,2702.0,0.0,8.0,2.0,8.0,2.0,0.0,0.0,1.0,0.0,0:00,3,1,0:58,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Clay,Guida,Michael,Johnson,2364.0,2702.0,0.0,138.0,70.0,126.0,58.0,0.0,0.0,0.0,0.0,3:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Clay,Guida,Diego,Sanchez,870.0,2702.0,1.0,156.0,80.0,144.0,68.0,2.0,1.0,3.0,0.0,1:06,3,3,5:00,F,Lightweight,M,Decision,Split
+Clay,Guida,Joe,Lauzon,2102.0,2702.0,0.0,7.0,1.0,7.0,1.0,0.0,0.0,0.0,0.0,0:00,3,1,1:07,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Clay,Guida,BJ,Penn,1267.0,2702.0,0.0,188.0,74.0,177.0,64.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Clay,Guida,Gray,Maynard,1798.0,2702.0,0.0,229.0,52.0,225.0,49.0,9.0,1.0,1.0,0.0,1:10,5,5,5:00,F,Lightweight,M,Decision,Split
+Clay,Guida,Tyson,Griffin,2722.0,2702.0,0.0,125.0,87.0,87.0,50.0,2.0,2.0,2.0,0.0,1:49,3,3,5:00,F,Lightweight,M,Decision,Split
+Clay,Guida,Kenny,Florian,2969.0,2702.0,1.0,102.0,43.0,78.0,22.0,2.0,1.0,1.0,0.0,1:05,3,2,2:19,F,Lightweight,M,Submission,Rear Naked Choke
+Clay,Guida,Roger,Huerta,2484.0,2702.0,0.0,140.0,53.0,102.0,31.0,0.0,0.0,3.0,2.0,0:50,3,3,0:51,F,Lightweight,M,Submission,Rear Naked Choke
+Clay,Guida,Din,Thomas,409.0,2702.0,0.0,131.0,51.0,113.0,33.0,0.0,0.0,1.0,0.0,0:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jason,Gonzalez,Jim,Miller,1693.0,2786.0,0.0,14.0,8.0,11.0,6.0,2.0,2.0,1.0,0.0,0:52,3,1,2:12,F,Lightweight,M,Submission,Rear Naked Choke
+Jason,Gonzalez,Drew,Dober,3200.0,2786.0,1.0,45.0,23.0,41.0,20.0,1.0,0.0,0.0,0.0,0:11,3,1,1:45,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Jason,Gonzalez,Gregor,Gillespie,2831.0,2786.0,1.0,73.0,34.0,56.0,20.0,6.0,4.0,1.0,0.0,5:48,3,2,2:11,F,Lightweight,M,Submission,Arm Triangle From Mount
+Alex,White,Jim,Miller,1693.0,152.0,0.0,26.0,17.0,24.0,15.0,1.0,1.0,1.0,0.0,0:19,3,1,1:29,F,Lightweight,M,Submission,Rear Naked Choke
+Alex,White,Anthony,Rocco Martin,1843.0,152.0,0.0,119.0,83.0,40.0,20.0,6.0,2.0,0.0,0.0,12:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alex,White,James,Krause,2168.0,152.0,0.0,93.0,56.0,67.0,35.0,11.0,3.0,2.0,1.0,10:09,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alex,White,Mitch,Clarke,3445.0,152.0,0.0,90.0,34.0,83.0,28.0,4.0,0.0,0.0,0.0,0:26,3,2,4:36,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Takanori,Gomi,Jim,Miller,1693.0,2795.0,0.0,32.0,13.0,26.0,8.0,1.0,1.0,0.0,0.0,1:33,3,1,2:18,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Takanori,Gomi,Clay,Guida,2702.0,2795.0,0.0,69.0,16.0,61.0,12.0,9.0,3.0,2.0,0.0,1:48,3,2,4:27,F,Lightweight,M,Submission,Guillotine Choke From Bottom Half Guard
+Takanori,Gomi,Nate,Diaz,3221.0,2795.0,1.0,81.0,42.0,73.0,36.0,0.0,0.0,3.0,0.0,0:23,3,1,4:27,F,Lightweight,M,Submission,Armbar From Bottom
+Takanori,Gomi,Joe,Lauzon,2102.0,2795.0,0.0,39.0,25.0,26.0,15.0,1.0,1.0,0.0,0.0,1:07,3,1,2:37,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Takanori,Gomi,Myles,Jury,2305.0,2795.0,1.0,23.0,10.0,23.0,10.0,1.0,0.0,0.0,0.0,0:05,3,1,1:32,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Takanori,Gomi,Tyson,Griffin,2722.0,2795.0,0.0,14.0,3.0,14.0,3.0,0.0,0.0,0.0,0.0,0:00,3,1,1:04,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Takanori,Gomi,Kenny,Florian,2969.0,2795.0,0.0,210.0,74.0,186.0,51.0,2.0,1.0,1.0,0.0,1:45,3,3,2:52,F,Lightweight,M,Submission,Rear Naked Choke
+Michael,Chiesa,Jim,Miller,1693.0,3478.0,0.0,31.0,19.0,15.0,7.0,0.0,0.0,1.0,1.0,2:27,3,2,2:57,F,Lightweight,M,Submission,Rear Naked Choke
+Michael,Chiesa,Beneil,Dariush,3296.0,3478.0,0.0,53.0,27.0,53.0,27.0,4.0,1.0,0.0,0.0,1:00,3,2,1:20,F,Lightweight,M,Submission,Rear Naked Choke
+Michael,Chiesa,Joe,Lauzon,2102.0,3478.0,0.0,66.0,42.0,41.0,21.0,7.0,2.0,0.0,1.0,2:44,3,2,2:14,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Michael,Chiesa,Colton,Smith,631.0,3478.0,0.0,27.0,13.0,18.0,4.0,3.0,2.0,1.0,0.0,3:11,3,2,1:41,F,Lightweight,M,Submission,Rear Naked Choke
+Fabricio,Camoes,Jim,Miller,1693.0,3581.0,0.0,28.0,9.0,25.0,6.0,1.0,1.0,1.0,0.0,0:12,3,1,3:42,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Fabricio,Camoes,Melvin,Guillard,2700.0,3581.0,0.0,125.0,57.0,101.0,37.0,1.0,1.0,0.0,0.0,1:23,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Fabricio,Camoes,Kurt,Pellegrino,1276.0,3581.0,0.0,91.0,71.0,29.0,16.0,1.0,1.0,2.0,1.0,6:47,3,2,4:20,F,Lightweight,M,Submission,Rear Naked Choke
+Joe,Lauzon,Jim,Miller,1693.0,2102.0,0.0,210.0,96.0,204.0,91.0,1.0,1.0,2.0,0.0,3:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Lauzon,Anthony,Pettis,1225.0,2102.0,1.0,20.0,9.0,20.0,9.0,0.0,0.0,0.0,0.0,0:02,3,1,1:21,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Joe,Lauzon,Diego,Sanchez,870.0,2102.0,0.0,11.0,7.0,10.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,1:26,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Joe,Lauzon,Sam,Stout,519.0,2102.0,0.0,281.0,110.0,264.0,94.0,0.0,0.0,0.0,0.0,2:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Lauzon,George,Sotiropoulos,595.0,2102.0,0.0,76.0,24.0,70.0,19.0,11.0,3.0,2.0,0.0,3:23,3,2,2:43,F,Lightweight,M,Submission,Kimura From Side Control
+Joe,Lauzon,Melvin,Guillard,2700.0,2102.0,0.0,6.0,3.0,6.0,3.0,0.0,0.0,0.0,0.0,0:00,3,1,0:47,F,Lightweight,M,Submission,Rear Naked Choke
+Joe,Lauzon,Kenny,Florian,2969.0,2102.0,0.0,165.0,115.0,74.0,35.0,4.0,2.0,0.0,0.0,3:44,3,2,3:28,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Benson,Henderson,Jim,Miller,1693.0,2594.0,0.0,55.0,24.0,44.0,14.0,0.0,0.0,6.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Benson,Henderson,Clay,Guida,2702.0,2594.0,0.0,65.0,35.0,40.0,11.0,9.0,2.0,4.0,0.0,2:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Benson,Henderson,Frankie,Edgar,3122.0,2594.0,0.0,204.0,81.0,190.0,68.0,12.0,5.0,0.0,0.0,2:08,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Benson,Henderson,Donald,Cerrone,3499.0,2594.0,0.0,126.0,58.0,125.0,57.0,7.0,1.0,0.0,0.0,0:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Benson,Henderson,Mark,Bocek,3746.0,2594.0,0.0,62.0,36.0,34.0,11.0,11.0,4.0,2.0,1.0,4:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kamal,Shalorus,Jim,Miller,1693.0,738.0,1.0,172.0,76.0,131.0,43.0,1.0,1.0,2.0,0.0,3:26,3,3,2:15,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Kamal,Shalorus,Rafael,Dos Anjos,3185.0,738.0,1.0,17.0,11.0,10.0,5.0,0.0,0.0,1.0,0.0,0:35,3,1,1:40,F,Lightweight,M,Submission,Rear Naked Choke
+Mark,Bocek,Jim,Miller,1693.0,3746.0,0.0,89.0,42.0,67.0,23.0,2.0,1.0,3.0,1.0,1:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mark,Bocek,Frankie,Edgar,3122.0,3746.0,0.0,76.0,53.0,54.0,31.0,0.0,0.0,0.0,0.0,2:19,3,1,4:55,F,Lightweight,M,KO/TKO,Punches to Head From Side Control
+Mark,Bocek,Mac,Danzig,3298.0,3746.0,1.0,190.0,148.0,88.0,46.0,1.0,1.0,2.0,0.0,4:47,3,3,3:48,F,Lightweight,M,Submission,Rear Naked Choke
+Duane,Ludwig,Jim,Miller,1693.0,1957.0,1.0,28.0,11.0,23.0,6.0,0.0,0.0,1.0,0.0,0:15,3,1,2:31,F,Lightweight,M,Submission,Armbar From Mount
+Steve,Lopez,Jim,Miller,1693.0,1980.0,1.0,97.0,40.0,87.0,30.0,1.0,0.0,1.0,0.0,2:18,3,2,0:48,F,Lightweight,M,KO/TKO,"to    
+      Shoulder Injury"
+Mac,Danzig,Jim,Miller,1693.0,3298.0,0.0,157.0,98.0,91.0,37.0,7.0,6.0,1.0,0.0,10:28,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mac,Danzig,Clay,Guida,2702.0,3298.0,0.0,133.0,67.0,106.0,43.0,18.0,10.0,0.0,0.0,8:36,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mac,Danzig,Matt,Wiman,116.0,3298.0,0.0,169.0,119.0,141.0,93.0,7.0,2.0,1.0,1.0,4:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mac,Danzig,Joe,Lauzon,2102.0,3298.0,0.0,113.0,80.0,75.0,43.0,3.0,3.0,2.0,1.0,6:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mac,Danzig,Takanori,Gomi,2795.0,3298.0,1.0,175.0,88.0,140.0,54.0,2.0,1.0,0.0,0.0,4:21,3,3,5:00,F,Lightweight,M,Decision,Split
+Mac,Danzig,Josh,Neer,1501.0,3298.0,0.0,119.0,68.0,96.0,46.0,0.0,0.0,3.0,0.0,2:13,3,2,3:36,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Mac,Danzig,Joe,Stevenson,539.0,3298.0,0.0,19.0,6.0,19.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,1:54,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Matt,Wiman,Jim,Miller,1693.0,116.0,0.0,193.0,110.0,137.0,61.0,6.0,4.0,2.0,1.0,10:38,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Wiman,Joe,Solecki,611.0,116.0,0.0,217.0,177.0,70.0,56.0,5.0,4.0,0.0,0.0,12:29,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Wiman,Cole,Miller,1692.0,116.0,0.0,102.0,60.0,53.0,22.0,1.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Wiman,Sam,Stout,519.0,116.0,1.0,219.0,87.0,186.0,62.0,0.0,0.0,0.0,1.0,2:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Wiman,Dennis,Siver,649.0,116.0,0.0,213.0,128.0,111.0,31.0,1.0,1.0,0.0,0.0,1:28,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Wiman,Mac,Danzig,3298.0,116.0,0.0,15.0,9.0,8.0,4.0,1.0,1.0,0.0,0.0,0:57,3,1,1:45,F,Lightweight,M,Submission,"Guillotine Choke From Mount
+      Technical Submission"
+Matt,Wiman,Paul,Sass,811.0,116.0,0.0,19.0,14.0,10.0,6.0,1.0,1.0,0.0,0.0,2:55,3,1,3:48,F,Lightweight,M,Submission,Armbar On Ground
+Matt,Wiman,TJ,Grant,2738.0,116.0,1.0,96.0,56.0,93.0,54.0,0.0,0.0,0.0,0.0,1:10,3,1,4:51,F,Lightweight,M,KO/TKO,Elbows to Head In Clinch
+Matt,Wiman,Spencer,Fisher,2981.0,116.0,1.0,58.0,44.0,39.0,27.0,0.0,0.0,0.0,0.0,1:58,3,2,1:43,F,Lightweight,M,KO/TKO,Flying Knee Head
+David,Baron,Jim,Miller,1693.0,3852.0,0.0,64.0,46.0,28.0,15.0,6.0,5.0,5.0,0.0,10:45,3,3,3:19,F,Lightweight,M,Submission,Rear Naked Choke
+Cameron,VanCamp,Nikolas,Motta,1587.0,291.0,1.0,45.0,24.0,45.0,24.0,0.0,0.0,0.0,0.0,0:05,3,1,3:49,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Steve,Garcia,Luis,Pena,1273.0,2871.0,0.0,95.0,58.0,42.0,27.0,1.0,0.0,1.0,0.0,14:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Daniel,Teymur,Danny,Henry,2586.0,416.0,1.0,243.0,153.0,174.0,93.0,3.0,1.0,2.0,0.0,5:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Sanchez,Al,Iaquinta,2467.0,870.0,2.0,19.0,12.0,19.0,12.0,0.0,0.0,0.0,0.0,0:05,3,1,1:38,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Diego,Sanchez,Gilbert,Melendez,1733.0,870.0,0.0,253.0,98.0,250.0,96.0,1.0,1.0,0.0,0.0,0:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Sanchez,BJ,Penn,1267.0,870.0,0.0,213.0,149.0,131.0,70.0,0.0,0.0,0.0,0.0,1:30,5,5,2:37,T,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Diego,Sanchez,Takanori,Gomi,2795.0,870.0,0.0,180.0,81.0,180.0,81.0,0.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Split
+Gilbert,Burns,Dan,Hooker,2512.0,3616.0,2.0,34.0,22.0,34.0,22.0,0.0,0.0,1.0,0.0,0:15,3,1,2:28,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Gilbert,Burns,Olivier,Aubin-Mercier,3912.0,3616.0,0.0,98.0,42.0,96.0,40.0,0.0,0.0,0.0,0.0,0:51,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gilbert,Burns,Jason,Saggo,900.0,3616.0,0.0,99.0,39.0,92.0,35.0,2.0,1.0,0.0,0.0,1:03,3,2,4:55,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Brad,Riddell,Drew,Dober,3200.0,1042.0,0.0,173.0,78.0,168.0,73.0,5.0,1.0,0.0,1.0,1:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nasrat,Haqparast,Drew,Dober,3200.0,2650.0,1.0,26.0,13.0,26.0,13.0,0.0,0.0,0.0,0.0,0:06,3,1,1:10,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Nasrat,Haqparast,Dan,Hooker,2512.0,2650.0,0.0,261.0,177.0,153.0,73.0,7.0,3.0,0.0,0.0,7:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nasrat,Haqparast,Joaquim,Silva,688.0,2650.0,0.0,56.0,15.0,56.0,15.0,0.0,0.0,0.0,0.0,0:00,3,2,0:36,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Nasrat,Haqparast,John,Makdessi,1896.0,2650.0,0.0,196.0,73.0,196.0,73.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nasrat,Haqparast,Bobby,Green,2728.0,2650.0,0.0,355.0,188.0,355.0,188.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nasrat,Haqparast,Thibault,Gouti,2764.0,2650.0,0.0,306.0,95.0,284.0,78.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nasrat,Haqparast,Marcin,Held,2599.0,2650.0,0.0,137.0,59.0,89.0,19.0,10.0,3.0,1.0,0.0,7:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marco,Polo Reyes,Drew,Dober,3200.0,1066.0,1.0,29.0,17.0,27.0,16.0,0.0,0.0,0.0,0.0,0:05,3,1,1:07,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Marco,Polo Reyes,Matt,Frevola,2926.0,1066.0,0.0,30.0,9.0,30.0,9.0,0.0,0.0,0.0,0.0,0:00,3,1,1:00,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Marco,Polo Reyes,James,Vick,250.0,1066.0,1.0,52.0,20.0,52.0,20.0,0.0,0.0,0.0,0.0,0:04,3,1,2:39,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Marco,Polo Reyes,Damir,Hadzovic,2678.0,1066.0,0.0,121.0,70.0,109.0,58.0,3.0,2.0,0.0,0.0,2:19,3,2,2:03,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Marco,Polo Reyes,Cesar,Arzamendia,3930.0,1066.0,0.0,54.0,23.0,46.0,16.0,4.0,3.0,0.0,0.0,1:12,3,1,3:42,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jon,Tuck,Drew,Dober,3200.0,347.0,0.0,208.0,122.0,136.0,60.0,2.0,2.0,0.0,0.0,7:47,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jon,Tuck,Damien,Brown,3653.0,347.0,0.0,136.0,40.0,130.0,34.0,1.0,0.0,1.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Jon,Tuck,Takanori,Gomi,2795.0,347.0,0.0,5.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0:00,3,1,1:12,F,Lightweight,M,Submission,Rear Naked Choke
+Jon,Tuck,Norman,Parke,1315.0,347.0,0.0,248.0,82.0,246.0,81.0,1.0,1.0,0.0,0.0,0:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jon,Tuck,Tae,Hyun Bang,3872.0,347.0,0.0,34.0,12.0,34.0,12.0,1.0,1.0,0.0,0.0,0:00,3,1,3:56,F,Lightweight,M,Submission,Rear Naked Choke
+Jon,Tuck,Zhang,Tiequan,18.0,347.0,0.0,102.0,46.0,93.0,40.0,2.0,2.0,0.0,0.0,1:16,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Frank,Camacho,Nick,Hein,2601.0,3582.0,0.0,87.0,45.0,79.0,37.0,3.0,1.0,0.0,0.0,0:21,3,2,4:56,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Frank,Camacho,Damien,Brown,3653.0,3582.0,0.0,263.0,115.0,251.0,104.0,7.0,2.0,1.0,0.0,2:12,3,3,5:00,F,Lightweight,M,Decision,Split
+Marcin,Wrzosek,Julian,Erosa,3073.0,89.0,0.0,159.0,107.0,108.0,61.0,3.0,2.0,2.0,0.0,4:39,3,3,5:00,F,Lightweight,M,Decision,Split
+Phillipe,Nover,Efrain,Escudero,3065.0,1444.0,0.0,104.0,81.0,45.0,27.0,8.0,7.0,0.0,0.0,9:20,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Phillipe,Nover,Rob,Emerson,3089.0,1444.0,0.0,71.0,40.0,53.0,26.0,11.0,7.0,0.0,0.0,9:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Phillipe,Nover,Kyle,Bradley,3696.0,1444.0,0.0,11.0,7.0,11.0,7.0,1.0,1.0,0.0,0.0,0:09,3,1,1:03,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Mike,Brown,Genki,Sudo,503.0,3660.0,0.0,12.0,10.0,8.0,6.0,1.0,1.0,4.0,0.0,0:12,3,1,3:31,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Gilbert,Melendez,Edson,Barboza,3863.0,1733.0,0.0,144.0,63.0,136.0,56.0,1.0,1.0,0.0,0.0,0:38,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gilbert,Melendez,Anthony,Pettis,1225.0,1733.0,0.0,71.0,43.0,58.0,30.0,0.0,0.0,1.0,1.0,0:03,5,2,1:53,T,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Gilbert,Melendez,Benson,Henderson,2594.0,1733.0,0.0,191.0,92.0,166.0,68.0,4.0,0.0,0.0,0.0,1:27,5,5,5:00,T,Lightweight,M,Decision,Split
+Tony,Ferguson,Edson,Barboza,3863.0,3017.0,0.0,91.0,45.0,85.0,41.0,3.0,2.0,0.0,0.0,1:57,3,2,2:54,F,Lightweight,M,Submission,D'Arce Choke On Ground
+Tony,Ferguson,Rafael,Dos Anjos,3185.0,3017.0,0.0,281.0,126.0,276.0,121.0,5.0,0.0,0.0,0.0,0:30,5,5,5:00,F,Lightweight,M,Decision,Unanimous
+Tony,Ferguson,Michael,Chandler,3493.0,3017.0,1.0,73.0,43.0,53.0,27.0,1.0,1.0,0.0,0.0,2:29,3,2,0:17,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Front kick"
+Tony,Ferguson,Josh,Thomson,400.0,3017.0,0.0,102.0,35.0,100.0,33.0,6.0,1.0,0.0,0.0,2:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Evan,Dunham,Edson,Barboza,3863.0,3145.0,1.0,17.0,10.0,17.0,10.0,0.0,0.0,0.0,0.0,0:03,3,1,3:06,F,Lightweight,M,KO/TKO,Kick to Body At Distance
+Evan,Dunham,Rafael,Dos Anjos,3185.0,3145.0,0.0,204.0,86.0,183.0,66.0,2.0,0.0,0.0,0.0,0:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Evan,Dunham,Francisco,Trinaldo,358.0,3145.0,1.0,69.0,28.0,69.0,28.0,1.0,0.0,0.0,1.0,0:58,3,2,4:10,F,Lightweight,M,KO/TKO,Knee to Body In Clinch
+Evan,Dunham,Donald,Cerrone,3499.0,3145.0,1.0,69.0,34.0,67.0,32.0,2.0,1.0,1.0,1.0,2:21,3,2,3:49,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Evan,Dunham,Joe,Lauzon,2102.0,3145.0,0.0,115.0,44.0,113.0,42.0,3.0,0.0,0.0,0.0,0:15,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Evan,Dunham,Ross,Pearson,1284.0,3145.0,0.0,67.0,47.0,28.0,16.0,0.0,0.0,0.0,0.0,0:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Evan,Dunham,Gleison,Tibau,397.0,3145.0,0.0,169.0,37.0,169.0,37.0,9.0,2.0,1.0,0.0,1:50,3,3,5:00,F,Lightweight,M,Decision,Split
+Evan,Dunham,TJ,Grant,2738.0,3145.0,0.0,309.0,171.0,300.0,164.0,3.0,0.0,0.0,0.0,0:40,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Evan,Dunham,Melvin,Guillard,2700.0,3145.0,2.0,44.0,28.0,33.0,17.0,0.0,0.0,0.0,0.0,0:05,3,1,2:58,F,Lightweight,M,KO/TKO,Knees to Head In Clinch
+Evan,Dunham,Tyson,Griffin,2722.0,3145.0,0.0,117.0,62.0,70.0,26.0,2.0,0.0,1.0,0.0,0:18,3,3,5:00,F,Lightweight,M,Decision,Split
+Evan,Dunham,Sean,Sherk,732.0,3145.0,0.0,165.0,81.0,115.0,38.0,18.0,5.0,0.0,1.0,8:10,3,3,5:00,F,Lightweight,M,Decision,Split
+Rafaello,Oliveira,Edson,Barboza,3863.0,1402.0,1.0,89.0,49.0,89.0,49.0,0.0,0.0,0.0,0.0,0:13,3,2,1:44,F,Lightweight,M,KO/TKO,Kicks to Leg At Distance
+Rafaello,Oliveira,Nik,Lentz,2052.0,1402.0,0.0,197.0,124.0,136.0,67.0,5.0,4.0,4.0,0.0,3:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rafaello,Oliveira,Gleison,Tibau,397.0,1402.0,1.0,77.0,38.0,56.0,19.0,3.0,3.0,2.0,0.0,2:21,3,2,3:28,F,Lightweight,M,Submission,Rear Naked Choke
+Rafaello,Oliveira,Yves,Edwards,3119.0,1402.0,2.0,121.0,55.0,108.0,42.0,0.0,0.0,0.0,0.0,0:35,3,2,2:44,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Rafaello,Oliveira,Andre,Winner,113.0,1402.0,0.0,211.0,74.0,198.0,61.0,0.0,0.0,0.0,0.0,0:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Lucas,Martins,Edson,Barboza,3863.0,1827.0,1.0,49.0,29.0,45.0,26.0,0.0,0.0,0.0,0.0,0:10,3,1,2:38,F,Lightweight,M,KO/TKO,"Punches to Head On Ground
+      Submission to Strikes"
+Jamie,Varner,Edson,Barboza,3863.0,283.0,0.0,17.0,11.0,17.0,11.0,0.0,0.0,0.0,0.0,0:00,3,1,3:23,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Jamie,Varner,Joe,Lauzon,2102.0,283.0,0.0,130.0,55.0,118.0,44.0,5.0,2.0,1.0,2.0,2:11,3,3,2:44,F,Lightweight,M,Submission,Triangle Choke From Bottom
+Jamie,Varner,Melvin,Guillard,2700.0,283.0,0.0,117.0,62.0,112.0,57.0,1.0,0.0,1.0,0.0,0:59,3,3,5:00,F,Lightweight,M,Decision,Split
+Jamie,Varner,Hermes,Franca,2947.0,283.0,0.0,125.0,97.0,46.0,22.0,2.0,1.0,3.0,2.0,1:09,3,3,3:31,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Terry,Etim,Edson,Barboza,3863.0,3056.0,1.0,129.0,47.0,129.0,47.0,0.0,0.0,0.0,0.0,0:01,3,3,2:02,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Wheel Kick"
+Terry,Etim,Gleison,Tibau,397.0,3056.0,0.0,123.0,105.0,23.0,14.0,10.0,7.0,0.0,0.0,11:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Terry,Etim,Rich,Clementi,3444.0,3056.0,0.0,244.0,171.0,47.0,20.0,8.0,4.0,0.0,0.0,9:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anthony,Njokuani,Edson,Barboza,3863.0,1464.0,0.0,153.0,48.0,151.0,46.0,2.0,2.0,0.0,0.0,0:45,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anthony,Njokuani,John,Makdessi,1896.0,1464.0,0.0,124.0,45.0,116.0,39.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anthony,Njokuani,Rafael,Dos Anjos,3185.0,1464.0,0.0,108.0,68.0,85.0,51.0,17.0,6.0,0.0,0.0,6:45,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Anthony,Njokuani,Daron,Cruickshank,3349.0,1464.0,0.0,116.0,54.0,103.0,42.0,12.0,6.0,0.0,0.0,2:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Claudio,Puelles,Clay,Guida,2702.0,1152.0,0.0,6.0,4.0,4.0,3.0,1.0,0.0,0.0,1.0,1:10,3,1,3:01,F,Lightweight,M,Submission,Kneebar From Bottom Half Guard
+Claudio,Puelles,Dan,Hooker,2512.0,1152.0,1.0,73.0,37.0,63.0,29.0,0.0,0.0,1.0,0.0,2:08,3,2,4:06,F,Lightweight,M,KO/TKO,"Kick to Body At Distance
+      Front Kick"
+Claudio,Puelles,Martin,Bravo,3686.0,1152.0,1.0,129.0,64.0,121.0,56.0,0.0,0.0,0.0,0.0,0:02,3,2,1:55,T,Lightweight,M,KO/TKO,Punch to Body In Clinch
+Leonardo,Santos,Clay,Guida,2702.0,833.0,0.0,87.0,50.0,50.0,18.0,7.0,2.0,1.0,0.0,2:09,3,2,1:21,F,Lightweight,M,Submission,Rear Naked Choke
+Leonardo,Santos,Stevie,Ray,1096.0,833.0,0.0,11.0,2.0,11.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,2:17,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Mark,Madsen,Clay,Guida,2702.0,1925.0,0.0,212.0,72.0,212.0,72.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Mark,Madsen,Grant,Dawson,3279.0,1925.0,1.0,96.0,73.0,49.0,33.0,6.0,2.0,2.0,0.0,9:31,3,3,2:05,F,Lightweight,M,Submission,Rear Naked Choke
+Mark,Madsen,Vinc,Pichel,1209.0,1925.0,0.0,144.0,88.0,123.0,68.0,2.0,1.0,0.0,0.0,0:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Erik,Koch,Clay,Guida,2702.0,2193.0,0.0,207.0,133.0,87.0,38.0,8.0,2.0,0.0,0.0,9:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Erik,Koch,Rafaello,Oliveira,1402.0,2193.0,0.0,6.0,1.0,6.0,1.0,0.0,0.0,0.0,0.0,0:00,3,1,1:24,F,Lightweight,M,KO/TKO,Punches to Head From Guard
+Thiago,Tavares,Matt,Wiman,116.0,440.0,1.0,73.0,54.0,34.0,18.0,4.0,2.0,1.0,0.0,1:13,3,2,1:57,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Thiago,Tavares,Tyson,Griffin,2722.0,440.0,0.0,134.0,89.0,66.0,29.0,6.0,2.0,1.0,1.0,7:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thiago,Tavares,Kurt,Pellegrino,1276.0,440.0,2.0,138.0,100.0,97.0,61.0,2.0,1.0,1.0,0.0,6:20,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Shannon,Gugerty,Clay,Guida,2702.0,2703.0,0.0,102.0,72.0,33.0,14.0,2.0,2.0,1.0,0.0,7:28,3,2,3:40,F,Lightweight,M,Submission,Arm Triangle From Side Control
+Shannon,Gugerty,Terry,Etim,3056.0,2703.0,0.0,57.0,17.0,57.0,17.0,0.0,0.0,1.0,0.0,0:38,3,2,1:24,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Shannon,Gugerty,Spencer,Fisher,2981.0,2703.0,1.0,101.0,76.0,54.0,30.0,2.0,0.0,2.0,1.0,2:48,3,3,3:56,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Nate,Diaz,Clay,Guida,2702.0,3221.0,0.0,127.0,75.0,99.0,49.0,11.0,4.0,1.0,0.0,8:50,3,3,5:00,F,Lightweight,M,Decision,Split
+Nate,Diaz,Michael,Johnson,2364.0,3221.0,0.0,303.0,104.0,301.0,103.0,1.0,1.0,0.0,0.0,0:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nate,Diaz,Rafael,Dos Anjos,3185.0,3221.0,0.0,175.0,129.0,119.0,77.0,2.0,2.0,0.0,0.0,7:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nate,Diaz,Gray,Maynard,1798.0,3221.0,0.0,16.0,6.0,15.0,5.0,2.0,1.0,0.0,0.0,0:49,3,1,2:38,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Nate,Diaz,Gray,Maynard,1798.0,3221.0,0.0,154.0,53.0,142.0,41.0,0.0,0.0,0.0,0.0,0:11,3,3,5:00,F,Lightweight,M,Decision,Split
+Nate,Diaz,Benson,Henderson,2594.0,3221.0,1.0,259.0,183.0,198.0,124.0,12.0,8.0,0.0,0.0,17:00,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Nate,Diaz,Joe,Stevenson,539.0,3221.0,0.0,71.0,49.0,47.0,27.0,14.0,8.0,1.0,1.0,10:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Samy,Schiavo,Clay,Guida,2702.0,789.0,0.0,39.0,24.0,26.0,11.0,1.0,1.0,0.0,0.0,1:56,3,1,4:15,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Samy,Schiavo,Per,Eklund,3109.0,789.0,0.0,104.0,92.0,42.0,31.0,5.0,1.0,5.0,0.0,4:03,3,3,1:47,F,Lightweight,M,Submission,Rear Naked Choke
+Marcus,Aurelio,Clay,Guida,2702.0,3909.0,2.0,208.0,71.0,181.0,44.0,1.0,0.0,0.0,0.0,3:26,3,3,5:00,F,Lightweight,M,Decision,Split
+Marcus,Aurelio,Evan,Dunham,3145.0,3909.0,1.0,175.0,70.0,161.0,58.0,1.0,1.0,0.0,0.0,1:01,3,3,5:00,F,Lightweight,M,Decision,Split
+Marcus,Aurelio,Tyson,Griffin,2722.0,3909.0,0.0,227.0,144.0,175.0,92.0,3.0,3.0,0.0,0.0,6:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marcus,Aurelio,Hermes,Franca,2947.0,3909.0,0.0,127.0,65.0,122.0,60.0,0.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,James,Clay,Guida,2702.0,2412.0,0.0,125.0,93.0,52.0,26.0,4.0,2.0,2.0,0.0,7:32,3,2,4:42,F,Lightweight,M,Submission,Rear Naked Choke
+Michel,Prazeres,Gilbert,Burns,3616.0,1166.0,0.0,122.0,46.0,122.0,46.0,4.0,1.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michel,Prazeres,Valmir,Lazaro,2090.0,1166.0,0.0,123.0,60.0,102.0,41.0,0.0,0.0,0.0,0.0,3:29,3,3,5:00,F,Lightweight,M,Decision,Split
+Alexander,Yakovlev,Joel,Alvarez,4005.0,78.0,0.0,13.0,10.0,6.0,4.0,0.0,0.0,2.0,0.0,0:00,3,1,3:00,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Alexander,Yakovlev,Gray,Maynard,1798.0,78.0,0.0,61.0,27.0,55.0,21.0,17.0,2.0,0.0,0.0,2:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Daniel,Zellhuber,Lando,Vannata,287.0,23.0,0.0,91.0,51.0,91.0,51.0,3.0,0.0,0.0,0.0,0:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Daniel,Zellhuber,Trey,Ogden,1415.0,23.0,0.0,169.0,72.0,168.0,71.0,9.0,1.0,0.0,0.0,0:38,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marcos,Mariano,Lando,Vannata,287.0,1867.0,0.0,64.0,39.0,40.0,20.0,1.0,1.0,1.0,0.0,3:35,3,1,4:55,F,Lightweight,M,Submission,Kimura From Side Control
+Marcos,Mariano,Claudio,Puelles,1152.0,1867.0,0.0,116.0,101.0,34.0,22.0,6.0,4.0,2.0,0.0,13:20,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mike,Davis,Gilbert,Burns,3616.0,3281.0,0.0,122.0,81.0,87.0,49.0,6.0,3.0,1.0,0.0,5:27,3,2,4:15,F,Lightweight,M,Submission,Rear Naked Choke
+Dan,Moret,Gilbert,Burns,3616.0,1601.0,1.0,74.0,39.0,65.0,31.0,2.0,2.0,0.0,0.0,1:24,3,2,0:59,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Dan,Moret,Jared,Gordon,2773.0,1601.0,0.0,218.0,171.0,79.0,48.0,6.0,2.0,0.0,2.0,9:44,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dan,Moret,Alex,White,152.0,1601.0,0.0,104.0,70.0,82.0,49.0,3.0,2.0,3.0,0.0,3:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Lukasz,Sajewski,Gilbert,Burns,3616.0,897.0,0.0,34.0,16.0,30.0,13.0,5.0,1.0,1.0,0.0,1:21,3,1,4:57,F,Lightweight,M,Submission,Armbar From Back Control
+Lukasz,Sajewski,Nick,Hein,2601.0,897.0,0.0,137.0,64.0,126.0,54.0,3.0,1.0,0.0,0.0,0:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rashid,Magomedov,Gilbert,Burns,3616.0,1912.0,0.0,78.0,29.0,77.0,28.0,5.0,2.0,0.0,0.0,2:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rashid,Magomedov,Beneil,Dariush,3296.0,1912.0,0.0,134.0,73.0,120.0,60.0,5.0,0.0,0.0,0.0,4:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rashid,Magomedov,Bobby,Green,2728.0,1912.0,0.0,176.0,104.0,143.0,75.0,6.0,0.0,0.0,0.0,2:28,3,3,5:00,F,Lightweight,M,Decision,Split
+Rashid,Magomedov,Anthony,Rocco Martin,1843.0,1912.0,0.0,50.0,24.0,42.0,18.0,8.0,1.0,1.0,0.0,6:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rashid,Magomedov,Elias,Silverio,669.0,1912.0,0.0,119.0,57.0,118.0,56.0,0.0,0.0,0.0,0.0,0:00,3,3,4:57,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Rashid,Magomedov,Rodrigo,Damm,3308.0,1912.0,0.0,117.0,42.0,104.0,37.0,4.0,0.0,0.0,0.0,1:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Sean,Soriano,Christos,Giagos,2846.0,600.0,0.0,55.0,23.0,54.0,22.0,5.0,3.0,1.0,0.0,0:59,3,2,0:59,F,Lightweight,M,Submission,D'Arce Choke On Ground
+David,Onama,Mason,Jones,2334.0,1381.0,0.0,191.0,116.0,157.0,87.0,14.0,8.0,0.0,0.0,9:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+James,Krause,Bobby,Green,2728.0,2168.0,1.0,54.0,20.0,54.0,20.0,0.0,0.0,0.0,0.0,0:00,3,1,3:50,F,Lightweight,M,KO/TKO,Kick to Body At Distance
+James,Krause,Jorge,Masvidal,1819.0,2168.0,1.0,176.0,85.0,157.0,69.0,4.0,2.0,0.0,1.0,3:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+James,Krause,Sam,Stout,519.0,2168.0,0.0,234.0,81.0,226.0,73.0,2.0,2.0,0.0,0.0,1:20,3,3,4:47,F,Lightweight,M,Submission,Guillotine Choke From Bottom Guard
+James,Krause,Daron,Cruickshank,3349.0,2168.0,0.0,19.0,6.0,19.0,6.0,0.0,0.0,0.0,0.0,0:03,3,1,1:27,F,Lightweight,M,Submission,Rear Naked Choke
+James,Krause,Jamie,Varner,283.0,2168.0,0.0,33.0,9.0,30.0,7.0,1.0,1.0,0.0,0.0,0:35,3,1,5:00,F,Lightweight,M,KO/TKO,"to    
+      Ankle Injury"
+Trevor,Peek,Erick,Gonzalez,2782.0,1279.0,0.0,35.0,11.0,29.0,7.0,6.0,4.0,0.0,0.0,2:15,3,1,4:59,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Victor,Martinez,Jordan,Leavitt,2085.0,1832.0,1.0,38.0,18.0,35.0,17.0,2.0,0.0,0.0,0.0,0:46,3,1,2:27,F,Lightweight,M,KO/TKO,Knees to Head In Clinch
+Alex,Da Silva,Joe,Solecki,611.0,3319.0,0.0,144.0,91.0,82.0,33.0,4.0,1.0,3.0,0.0,4:51,3,3,5:00,F,Lightweight,M,Decision,Majority
+Alex,Da Silva,Brad,Riddell,1042.0,3319.0,0.0,185.0,86.0,166.0,67.0,6.0,1.0,0.0,0.0,1:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alex,Da Silva,Kazula,Vargas,284.0,3319.0,0.0,92.0,59.0,42.0,20.0,1.0,0.0,0.0,1.0,0:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alex,Da Silva,Alexander,Yakovlev,78.0,3319.0,0.0,23.0,18.0,19.0,14.0,2.0,1.0,1.0,0.0,2:13,3,2,3:10,F,Lightweight,M,Submission,Schultz Front Headlock On Ground
+Nurullo,Aliev,Rafael,Alves,4000.0,4033.0,0.0,36.0,25.0,17.0,6.0,0.0,0.0,2.0,1.0,1:18,3,3,5:00,F,Lightweight,M,Decision,Majority
+Drew,Dober,Islam,Makhachev,1895.0,3200.0,0.0,119.0,102.0,25.0,15.0,4.0,3.0,2.0,0.0,9:26,3,3,1:37,F,Lightweight,M,Submission,Arm Triangle From Half Guard
+Drew,Dober,Beneil,Dariush,3296.0,3200.0,0.0,69.0,41.0,65.0,37.0,5.0,2.0,1.0,0.0,5:17,3,2,4:41,F,Lightweight,M,Submission,Armbar On Ground
+Drew,Dober,Alexander,Hernandez,2576.0,3200.0,0.0,115.0,41.0,108.0,34.0,5.0,3.0,0.0,0.0,1:07,3,2,4:25,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Drew,Dober,Scott,Holtzman,2522.0,3200.0,0.0,115.0,79.0,69.0,38.0,5.0,2.0,0.0,0.0,3:59,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drew,Dober,Olivier,Aubin-Mercier,3912.0,3200.0,0.0,56.0,30.0,53.0,27.0,0.0,0.0,1.0,1.0,1:33,3,2,2:57,F,Lightweight,M,Submission,Rear Naked Choke
+Drew,Dober,Nick,Hein,2601.0,3200.0,0.0,148.0,87.0,105.0,50.0,6.0,2.0,0.0,0.0,4:15,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Drew,Dober,Joshua,Burkman,3621.0,3200.0,0.0,18.0,11.0,18.0,11.0,1.0,0.0,0.0,0.0,0:00,3,1,3:04,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Drew,Dober,Efrain,Escudero,3065.0,3200.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0:22,3,1,0:54,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Drew,Dober,Jamie,Varner,283.0,3200.0,0.0,10.0,4.0,10.0,4.0,2.0,0.0,0.0,0.0,0:00,3,1,1:52,F,Lightweight,M,Submission,Rear Naked Choke
+Davi,Ramos,Islam,Makhachev,1895.0,1107.0,1.0,148.0,88.0,95.0,43.0,1.0,0.0,0.0,0.0,4:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Davi,Ramos,Chris,Gruetzemacher,2710.0,1107.0,0.0,110.0,57.0,97.0,46.0,0.0,0.0,0.0,0.0,0:15,3,3,0:50,F,Lightweight,M,Submission,Rear Naked Choke
+Arman,Tsarukyan,Islam,Makhachev,1895.0,350.0,0.0,53.0,47.0,20.0,14.0,9.0,4.0,0.0,0.0,6:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Arman,Tsarukyan,Davi,Ramos,1107.0,350.0,0.0,122.0,49.0,103.0,33.0,5.0,0.0,0.0,0.0,0:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Arman,Tsarukyan,Olivier,Aubin-Mercier,3912.0,350.0,0.0,61.0,36.0,48.0,23.0,3.0,0.0,0.0,0.0,1:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leo,Kuntz,Islam,Makhachev,1895.0,2151.0,0.0,80.0,53.0,50.0,32.0,5.0,3.0,1.0,0.0,3:00,3,2,2:38,F,Lightweight,M,Submission,Rear Naked Choke
+Leo,Kuntz,Tae,Hyun Bang,3872.0,2151.0,1.0,124.0,68.0,109.0,54.0,1.0,1.0,2.0,1.0,0:25,3,3,5:00,F,Lightweight,M,Decision,Split
+Josh,Emmett,Jon,Tuck,347.0,3087.0,0.0,181.0,54.0,180.0,53.0,1.0,0.0,0.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Split
+BJ,Penn,Frankie,Edgar,3122.0,1267.0,0.0,285.0,142.0,234.0,94.0,9.0,3.0,0.0,1.0,6:42,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+BJ,Penn,Jens,Pulver,1146.0,1267.0,0.0,186.0,122.0,98.0,38.0,1.0,1.0,0.0,4.0,8:21,5,5,5:00,T,Lightweight,M,Decision,Majority
+Ernest,Chavez,Elias,Silverio,669.0,3487.0,0.0,172.0,65.0,172.0,65.0,1.0,1.0,1.0,0.0,0:38,3,3,4:21,F,Lightweight,M,Submission,Rear Naked Choke
+Anshul,Jubli,Jeka,Saragih,818.0,2314.0,0.0,40.0,20.0,25.0,14.0,0.0,0.0,0.0,0.0,0:09,3,2,3:44,F,Lightweight,M,KO/TKO,Elbows to Head From Mount
+Kurt,Holobaugh,Thiago,Moises,1643.0,2526.0,0.0,160.0,115.0,102.0,66.0,6.0,4.0,1.0,0.0,7:51,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jesse,Ronson,Rafa,Garcia,2869.0,953.0,0.0,126.0,73.0,80.0,35.0,4.0,3.0,1.0,0.0,4:37,3,2,4:50,F,Lightweight,M,Submission,Rear Naked Choke
+Jesse,Ronson,Joaquim,Silva,688.0,953.0,1.0,96.0,51.0,90.0,45.0,0.0,0.0,0.0,0.0,0:11,3,2,3:08,F,Lightweight,M,KO/TKO,Flying Knee Head
+Jesse,Ronson,Francisco,Trinaldo,358.0,953.0,0.0,154.0,61.0,148.0,55.0,4.0,1.0,0.0,0.0,1:58,3,3,5:00,F,Lightweight,M,Decision,Split
+Jesse,Ronson,Michel,Prazeres,1166.0,953.0,0.0,77.0,50.0,43.0,19.0,15.0,7.0,0.0,0.0,8:36,3,3,5:00,F,Lightweight,M,Decision,Split
+Natan,Levy,Rafa,Garcia,2869.0,2036.0,0.0,117.0,55.0,91.0,35.0,12.0,7.0,0.0,0.0,5:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jordan,Leavitt,Paddy,Pimblett,1199.0,2085.0,0.0,53.0,30.0,39.0,17.0,1.0,1.0,4.0,0.0,1:44,3,2,2:46,F,Lightweight,M,Submission,Rear Naked Choke
+Jordan,Leavitt,Claudio,Puelles,1152.0,2085.0,0.0,100.0,71.0,33.0,20.0,4.0,4.0,0.0,0.0,10:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jordan,Leavitt,Matt,Wiman,116.0,2085.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0:00,3,1,0:22,F,Lightweight,M,KO/TKO,Slam to   On Ground
+Kazula,Vargas,Paddy,Pimblett,1199.0,284.0,0.0,8.0,5.0,6.0,3.0,2.0,1.0,1.0,0.0,0:53,3,1,3:49,F,Lightweight,M,Submission,Rear Naked Choke
+Kazula,Vargas,Brok,Weaver,171.0,284.0,0.0,10.0,6.0,9.0,5.0,0.0,0.0,1.0,0.0,0:00,3,1,4:02,F,Lightweight,M,DQ,Illegal Knee on Ground
+Luigi,Vendramini,Paddy,Pimblett,1199.0,268.0,1.0,81.0,47.0,81.0,47.0,2.0,0.0,0.0,0.0,0:09,3,1,4:25,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Luigi,Vendramini,Fares,Ziam,11.0,268.0,0.0,125.0,43.0,121.0,39.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Majority
+Jessin,Ayari,Luigi,Vendramini,268.0,3900.0,1.0,24.0,14.0,23.0,13.0,1.0,0.0,0.0,0.0,0:02,3,1,1:12,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Jessin,Ayari,Stevie,Ray,1096.0,3900.0,0.0,174.0,75.0,174.0,75.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Proctor,Ramsey,Nijem,1474.0,1156.0,1.0,204.0,117.0,117.0,49.0,10.0,5.0,0.0,0.0,7:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Proctor,Justin,Salas,888.0,1156.0,0.0,86.0,35.0,86.0,35.0,4.0,0.0,0.0,0.0,0:36,3,2,3:27,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joe,Proctor,Cristiano,Marcello,1870.0,1156.0,0.0,121.0,44.0,100.0,26.0,10.0,1.0,1.0,0.0,3:22,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alan,Patrick,Michael,Johnson,2364.0,1298.0,1.0,61.0,40.0,48.0,30.0,1.0,1.0,0.0,0.0,2:01,3,2,3:22,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Alan,Patrick,John,Makdessi,1896.0,1298.0,0.0,134.0,66.0,129.0,61.0,0.0,0.0,0.0,0.0,0:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alan,Patrick,Bobby,Green,2728.0,1298.0,0.0,149.0,109.0,95.0,61.0,6.0,4.0,0.0,0.0,7:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alan,Patrick,Scott,Holtzman,2522.0,1298.0,1.0,138.0,96.0,111.0,73.0,2.0,1.0,0.0,0.0,5:36,3,3,3:42,F,Lightweight,M,KO/TKO,Elbows to Head From Mount
+Alan,Patrick,Mairbek,Taisumov,466.0,1298.0,1.0,44.0,24.0,43.0,23.0,0.0,0.0,0.0,0.0,0:15,3,2,1:30,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Stevie,Ray,Michael,Johnson,2364.0,1096.0,0.0,176.0,81.0,173.0,78.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Majority
+Stevie,Ray,Joe,Lauzon,2102.0,1096.0,0.0,97.0,65.0,76.0,46.0,7.0,5.0,1.0,0.0,8:11,3,3,5:00,F,Lightweight,M,Decision,Majority
+Stevie,Ray,Ross,Pearson,1284.0,1096.0,0.0,104.0,48.0,92.0,38.0,0.0,0.0,0.0,0.0,0:08,3,3,5:00,F,Lightweight,M,Decision,Split
+Stevie,Ray,Alan,Patrick,1298.0,1096.0,0.0,75.0,60.0,12.0,7.0,8.0,5.0,1.0,0.0,12:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Stevie,Ray,Marcin,Bandel,3874.0,1096.0,0.0,7.0,5.0,5.0,3.0,5.0,0.0,0.0,0.0,1:35,3,2,1:35,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Melvin,Guillard,Michael,Johnson,2364.0,2700.0,0.0,153.0,51.0,146.0,48.0,4.0,1.0,0.0,0.0,1:14,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Melvin,Guillard,Nate,Diaz,3221.0,2700.0,0.0,79.0,27.0,73.0,21.0,2.0,2.0,2.0,0.0,1:23,3,2,2:13,F,Lightweight,M,Submission,Guillotine Choke From Bottom Half Guard
+Melvin,Guillard,Donald,Cerrone,3499.0,2700.0,1.0,9.0,4.0,9.0,4.0,0.0,0.0,0.0,0.0,0:02,3,1,1:16,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Melvin,Guillard,Mac,Danzig,3298.0,2700.0,0.0,57.0,24.0,56.0,23.0,1.0,0.0,0.0,0.0,0:13,3,2,2:47,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Melvin,Guillard,Joe,Stevenson,539.0,2700.0,0.0,3.0,2.0,3.0,2.0,1.0,1.0,1.0,0.0,0:11,3,1,0:27,F,Lightweight,M,Submission,Guillotine Choke From Bottom Guard
+Melvin,Guillard,Rich,Clementi,3444.0,2700.0,0.0,13.0,10.0,9.0,6.0,2.0,2.0,2.0,1.0,1:48,3,1,4:40,F,Lightweight,M,Submission,Rear Naked Choke
+Shane,Roller,Michael,Johnson,2364.0,965.0,0.0,149.0,77.0,136.0,64.0,1.0,1.0,0.0,1.0,4:25,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Shane,Roller,Thiago,Tavares,440.0,965.0,0.0,71.0,23.0,70.0,22.0,1.0,1.0,0.0,0.0,0:29,3,2,1:28,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Shane,Roller,Jacob,Volkmann,226.0,965.0,0.0,32.0,14.0,25.0,8.0,4.0,1.0,2.0,0.0,1:24,3,1,2:38,F,Lightweight,M,Submission,Rear Naked Choke
+Shane,Roller,Melvin,Guillard,2700.0,965.0,2.0,42.0,17.0,42.0,17.0,0.0,0.0,0.0,0.0,0:06,3,1,2:12,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Shane,Roller,John,Alessio,4045.0,965.0,0.0,134.0,63.0,103.0,35.0,1.0,0.0,0.0,1.0,2:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Sass,Michael,Johnson,2364.0,811.0,0.0,27.0,9.0,26.0,8.0,0.0,0.0,0.0,0.0,0:37,3,1,3:00,F,Lightweight,M,Submission,Heel Hook On Ground
+Paul,Sass,Jacob,Volkmann,226.0,811.0,0.0,6.0,3.0,5.0,2.0,0.0,0.0,0.0,0.0,1:31,3,1,1:54,F,Lightweight,M,Submission,Triangle Armbar From Bottom
+Edward,Faaloloto,Michael,Johnson,2364.0,3042.0,1.0,75.0,29.0,73.0,27.0,1.0,1.0,0.0,0.0,1:05,3,1,4:42,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Edward,Faaloloto,Terry,Etim,3056.0,3042.0,0.0,6.0,5.0,6.0,5.0,0.0,0.0,1.0,0.0,0:00,3,1,0:17,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Jonathan,Pearce,Joe,Lauzon,2102.0,1286.0,0.0,39.0,28.0,36.0,25.0,2.0,1.0,0.0,0.0,0:42,3,1,1:33,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Ryan,Hall,BJ,Penn,1267.0,2670.0,0.0,15.0,8.0,8.0,3.0,0.0,0.0,0.0,0.0,1:34,3,1,2:46,F,Lightweight,M,Submission,Heel Hook After Drop to Ground
+Ryan,Hall,Artem,Lobov,1996.0,2670.0,0.0,26.0,13.0,11.0,2.0,0.0,0.0,0.0,0.0,5:05,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Michihiro,Omigawa,Matt,Wiman,116.0,1382.0,0.0,167.0,109.0,108.0,59.0,5.0,4.0,0.0,2.0,11:26,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michihiro,Omigawa,Thiago,Tavares,440.0,1382.0,0.0,95.0,68.0,43.0,19.0,14.0,7.0,0.0,1.0,6:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gray,Maynard,Frankie,Edgar,3122.0,1798.0,1.0,179.0,64.0,176.0,61.0,11.0,0.0,0.0,0.0,0:15,5,4,3:54,T,Lightweight,M,KO/TKO,Punches to Head At Distance
+Gray,Maynard,Kenny,Florian,2969.0,1798.0,0.0,85.0,33.0,63.0,14.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Veach,Frankie,Edgar,3122.0,276.0,0.0,72.0,36.0,61.0,25.0,3.0,0.0,1.0,0.0,0:37,3,2,2:20,F,Lightweight,M,Submission,Rear Naked Choke
+Matt,Veach,Paul,Kelly,2257.0,276.0,0.0,145.0,110.0,73.0,47.0,0.0,0.0,3.0,2.0,5:25,3,2,3:41,F,Lightweight,M,Submission,Guillotine Choke From Front Headlock
+Sean,Sherk,Frankie,Edgar,3122.0,732.0,0.0,193.0,76.0,191.0,74.0,7.0,1.0,1.0,0.0,0:45,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Sean,Sherk,BJ,Penn,1267.0,732.0,1.0,183.0,130.0,175.0,122.0,1.0,0.0,0.0,0.0,0:07,5,3,5:00,T,Lightweight,M,KO/TKO,Flying Knee Head
+Hermes,Franca,Frankie,Edgar,3122.0,2947.0,0.0,171.0,124.0,112.0,69.0,11.0,10.0,0.0,0.0,12:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Hermes,Franca,Josh,Thomson,400.0,2947.0,0.0,112.0,82.0,68.0,40.0,3.0,2.0,0.0,0.0,4:05,3,3,5:00,F,Lightweight,M,Decision,Majority
+Hermes,Franca,Yves,Edwards,3119.0,2947.0,0.0,92.0,66.0,43.0,21.0,0.0,0.0,1.0,1.0,4:51,3,3,5:00,F,Lightweight,M,Decision,Split
+Hermes,Franca,Tyson,Griffin,2722.0,2947.0,1.0,154.0,72.0,149.0,67.0,0.0,0.0,0.0,0.0,0:17,3,2,3:26,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Hermes,Franca,Sean,Sherk,732.0,2947.0,0.0,249.0,215.0,55.0,35.0,19.0,16.0,2.0,1.0,22:22,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Spencer,Fisher,Frankie,Edgar,3122.0,2981.0,0.0,212.0,162.0,79.0,42.0,12.0,8.0,0.0,0.0,13:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Spencer,Fisher,Ross,Pearson,1284.0,2981.0,0.0,210.0,69.0,198.0,59.0,6.0,3.0,0.0,0.0,1:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Spencer,Fisher,Sam,Stout,519.0,2981.0,0.0,234.0,96.0,189.0,64.0,8.0,4.0,0.0,0.0,3:52,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Spencer,Fisher,Sam,Stout,519.0,2981.0,0.0,199.0,76.0,183.0,62.0,0.0,0.0,0.0,0.0,1:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Spencer,Fisher,Thiago,Tavares,440.0,2981.0,0.0,140.0,109.0,26.0,10.0,7.0,3.0,0.0,0.0,6:43,3,2,2:51,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Spencer,Fisher,Joe,Stevenson,539.0,2981.0,0.0,81.0,51.0,53.0,28.0,7.0,2.0,0.0,0.0,4:39,3,2,4:03,F,Lightweight,M,KO/TKO,"Elbows to Head From Side Control
+      Submission to Strikes"
+Spencer,Fisher,Hermes,Franca,2947.0,2981.0,0.0,118.0,57.0,80.0,25.0,5.0,2.0,2.0,1.0,3:53,3,2,4:03,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Tyson,Griffin,Frankie,Edgar,3122.0,2722.0,0.0,141.0,92.0,100.0,55.0,15.0,8.0,0.0,1.0,5:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tyson,Griffin,Sean,Sherk,732.0,2722.0,0.0,264.0,103.0,253.0,92.0,7.0,3.0,0.0,0.0,2:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ross,Pearson,Dan,Hooker,2512.0,1284.0,1.0,146.0,74.0,141.0,69.0,1.0,0.0,0.0,0.0,0:01,3,2,3:02,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Ross,Pearson,John,Makdessi,1896.0,1284.0,0.0,265.0,134.0,261.0,131.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ross,Pearson,Diego,Sanchez,870.0,1284.0,0.0,134.0,33.0,134.0,33.0,1.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Split
+Ross,Pearson,Gray,Maynard,1798.0,1284.0,0.0,58.0,25.0,47.0,15.0,4.0,2.0,0.0,0.0,1:13,3,2,1:35,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Ross,Pearson,Cole,Miller,1692.0,1284.0,1.0,78.0,24.0,78.0,24.0,4.0,1.0,1.0,0.0,0:39,3,2,1:49,F,Lightweight,M,Submission,Rear Naked Choke
+Ross,Pearson,George,Sotiropoulos,595.0,1284.0,0.0,114.0,35.0,113.0,34.0,6.0,1.0,0.0,0.0,1:31,5,3,0:41,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Ross,Pearson,Ryan,Couture,3369.0,1284.0,0.0,83.0,35.0,77.0,29.0,7.0,1.0,0.0,0.0,3:08,3,2,3:45,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Ottman,Azaitar,Matt,Frevola,2926.0,3898.0,1.0,28.0,12.0,27.0,11.0,0.0,0.0,0.0,0.0,0:02,3,1,2:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Luis,Pena,Matt,Frevola,2926.0,1273.0,0.0,115.0,51.0,110.0,48.0,7.0,4.0,0.0,0.0,2:53,3,3,5:00,F,Lightweight,M,Decision,Split
+Luis,Pena,Michael,Trizano,356.0,1273.0,0.0,104.0,55.0,100.0,51.0,2.0,1.0,1.0,1.0,2:14,3,3,5:00,F,Lightweight,M,Decision,Split
+Luis,Pena,Matt,Wiman,116.0,1273.0,0.0,46.0,28.0,42.0,24.0,3.0,1.0,0.0,0.0,0:14,3,3,1:14,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Joe,Giannetti,Michael,Trizano,356.0,2845.0,0.0,116.0,86.0,71.0,42.0,0.0,0.0,1.0,0.0,5:39,3,3,5:00,T,Lightweight,M,Decision,Split
+Mason,Jones,Mike,Davis,3281.0,2334.0,0.0,210.0,111.0,207.0,108.0,9.0,3.0,0.0,0.0,0:50,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thomas,Gifford,Mike,Davis,3281.0,2837.0,2.0,224.0,141.0,222.0,139.0,2.0,2.0,0.0,0.0,1:56,3,3,4:45,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Thomas,Gifford,Roosevelt,Roberts,1003.0,2837.0,0.0,132.0,95.0,85.0,53.0,4.0,2.0,0.0,0.0,9:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ricky,Glenn,Joaquim,Silva,688.0,2817.0,0.0,2.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0:00,3,1,0:37,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Ricky,Glenn,Evan,Dunham,3145.0,2817.0,0.0,330.0,185.0,279.0,144.0,9.0,3.0,2.0,0.0,7:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nazareno,Malegarie,Joaquim,Silva,688.0,1887.0,0.0,162.0,49.0,162.0,49.0,0.0,0.0,0.0,0.0,0:09,3,3,5:00,F,Lightweight,M,Decision,Split
+Josh,Thomson,Nate,Diaz,3221.0,400.0,0.0,94.0,40.0,74.0,21.0,1.0,1.0,1.0,0.0,0:54,3,2,3:44,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Josh,Thomson,Benson,Henderson,2594.0,400.0,0.0,166.0,114.0,91.0,46.0,4.0,4.0,1.0,0.0,5:00,5,5,5:00,F,Lightweight,M,Decision,Split
+Josh,Thomson,Yves,Edwards,3119.0,400.0,1.0,30.0,24.0,21.0,16.0,1.0,0.0,0.0,0.0,0:40,3,1,4:32,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Marcus,Davis,Jeremy,Stephens,542.0,3290.0,1.0,96.0,51.0,68.0,25.0,4.0,0.0,2.0,0.0,1:02,3,3,2:33,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Josh,Neer,Nate,Diaz,3221.0,1501.0,0.0,157.0,114.0,72.0,40.0,11.0,5.0,0.0,0.0,7:29,3,3,5:00,F,Lightweight,M,Decision,Split
+Josh,Neer,Gleison,Tibau,397.0,1501.0,0.0,135.0,35.0,121.0,22.0,14.0,11.0,2.0,0.0,4:36,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Josh,Neer,Kurt,Pellegrino,1276.0,1501.0,0.0,148.0,105.0,48.0,21.0,5.0,3.0,0.0,0.0,12:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kurt,Pellegrino,Nate,Diaz,3221.0,1276.0,0.0,41.0,28.0,17.0,6.0,1.0,1.0,1.0,0.0,1:22,3,2,3:06,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Kurt,Pellegrino,George,Sotiropoulos,595.0,1276.0,1.0,199.0,82.0,162.0,48.0,2.0,1.0,0.0,0.0,4:47,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kurt,Pellegrino,Joe,Stevenson,539.0,1276.0,0.0,128.0,80.0,84.0,42.0,3.0,3.0,3.0,2.0,4:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alvin,Robinson,Nate,Diaz,3221.0,997.0,0.0,30.0,25.0,8.0,3.0,2.0,2.0,2.0,0.0,2:31,3,1,3:39,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Alvin,Robinson,Mark,Bocek,3746.0,997.0,0.0,152.0,118.0,44.0,21.0,1.0,1.0,6.0,2.0,11:39,3,3,3:16,F,Lightweight,M,Submission,Rear Naked Choke
+Alvin,Robinson,Kenny,Florian,2969.0,997.0,0.0,67.0,51.0,32.0,20.0,5.0,3.0,0.0,0.0,2:22,3,1,4:30,F,Lightweight,M,KO/TKO,"Elbows to Head From Mount
+      Submission to Strikes"
+Junior,Assuncao,Nate,Diaz,3221.0,3916.0,1.0,28.0,25.0,11.0,10.0,3.0,1.0,3.0,0.0,1:33,3,1,4:10,F,Lightweight,M,Submission,Guillotine Choke From Bottom Half Guard
+Junior,Assuncao,Kurt,Pellegrino,1276.0,3916.0,0.0,37.0,30.0,9.0,5.0,1.0,1.0,1.0,0.0,1:54,3,1,2:04,F,Lightweight,M,Submission,Rear Naked Choke
+Manvel,Gamburyan,Nate,Diaz,3221.0,2885.0,0.0,60.0,56.0,5.0,2.0,1.0,0.0,1.0,0.0,0:25,3,2,0:20,T,Lightweight,M,Submission,"Injury  
+      Shoulder Injury"
+Manvel,Gamburyan,Thiago,Tavares,440.0,2885.0,0.0,115.0,70.0,64.0,27.0,7.0,3.0,0.0,0.0,5:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Manvel,Gamburyan,Rob,Emerson,3089.0,2885.0,1.0,3.0,3.0,3.0,3.0,0.0,0.0,0.0,0.0,0:03,3,1,0:12,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Ignacio,Bahamondes,John,Makdessi,1896.0,3884.0,0.0,257.0,145.0,232.0,124.0,0.0,0.0,0.0,0.0,0:13,3,3,5:00,F,Lightweight,M,Decision,Split
+Ignacio,Bahamondes,Roosevelt,Roberts,1003.0,3884.0,0.0,185.0,65.0,168.0,55.0,12.0,0.0,0.0,0.0,1:44,3,3,4:55,F,Lightweight,M,KO/TKO,"Kick to Head At Distance
+      Wheel Kick"
+Jesus,Pinedo,John,Makdessi,1896.0,1197.0,0.0,139.0,75.0,137.0,73.0,0.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jesus,Pinedo,Devin,Powell,1174.0,1197.0,0.0,157.0,68.0,139.0,58.0,1.0,0.0,0.0,0.0,0:15,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mehdi,Baghdad,John,Makdessi,1896.0,3887.0,0.0,182.0,110.0,152.0,84.0,1.0,0.0,0.0,0.0,1:45,3,3,5:00,F,Lightweight,M,Decision,Split
+Mehdi,Baghdad,Chris,Wade,219.0,3887.0,0.0,58.0,40.0,13.0,5.0,2.0,2.0,1.0,0.0,4:16,3,1,4:30,F,Lightweight,M,Submission,Rear Naked Choke
+Shane,Campbell,Erik,Koch,2193.0,3575.0,0.0,50.0,22.0,40.0,14.0,4.0,2.0,1.0,0.0,4:16,3,2,3:02,F,Lightweight,M,Submission,Rear Naked Choke
+Shane,Campbell,James,Krause,2168.0,3575.0,0.0,124.0,55.0,111.0,47.0,14.0,2.0,2.0,0.0,5:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Renee,Forte,John,Makdessi,1896.0,2954.0,1.0,39.0,20.0,39.0,20.0,0.0,0.0,0.0,0.0,0:08,3,1,2:01,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Renee,Forte,Terry,Etim,3056.0,2954.0,0.0,63.0,14.0,62.0,13.0,0.0,0.0,0.0,0.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Daron,Cruickshank,John,Makdessi,1896.0,3349.0,0.0,197.0,88.0,195.0,86.0,0.0,0.0,0.0,0.0,0:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Daron,Cruickshank,Paul,Felder,3023.0,3349.0,0.0,110.0,69.0,87.0,46.0,4.0,2.0,3.0,0.0,6:12,3,3,3:56,F,Lightweight,M,Submission,Rear Naked Choke
+Daron,Cruickshank,Erik,Koch,2193.0,3349.0,0.0,21.0,6.0,21.0,6.0,0.0,0.0,0.0,0.0,0:00,3,1,3:21,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Daron,Cruickshank,Adriano,Martins,1828.0,3349.0,0.0,45.0,38.0,22.0,16.0,1.0,1.0,1.0,0.0,4:04,3,2,2:49,F,Lightweight,M,Submission,Straight Armbar From Half Guard
+Daron,Cruickshank,Yves,Edwards,3119.0,3349.0,0.0,128.0,48.0,126.0,48.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Dennis,Hallman,John,Makdessi,1896.0,2669.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0:00,3,1,2:58,F,Lightweight,M,Submission,Rear Naked Choke
+Dennis,Hallman,Jens,Pulver,1146.0,2669.0,0.0,136.0,100.0,60.0,27.0,0.0,0.0,1.0,0.0,16:01,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Kyle,Watson,John,Makdessi,1896.0,176.0,1.0,103.0,55.0,98.0,50.0,0.0,0.0,0.0,0.0,0:01,3,3,1:27,F,Lightweight,M,KO/TKO,Spinning Back Fist Head
+Kyle,Watson,Sako,Chivitchian,3475.0,176.0,0.0,153.0,54.0,132.0,36.0,1.0,0.0,0.0,0.0,2:58,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michal,Figlak,Fares,Ziam,11.0,2998.0,0.0,162.0,111.0,108.0,60.0,7.0,3.0,0.0,1.0,6:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kenny,Florian,BJ,Penn,1267.0,2969.0,0.0,189.0,151.0,94.0,57.0,3.0,1.0,1.0,0.0,4:11,5,4,3:54,T,Lightweight,M,Submission,Rear Naked Choke
+Kenny,Florian,Sean,Sherk,732.0,2969.0,0.0,217.0,161.0,104.0,60.0,13.0,8.0,1.0,0.0,19:48,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Roman,Bogatov,Leonardo,Santos,833.0,3739.0,0.0,181.0,116.0,119.0,66.0,2.0,1.0,0.0,0.0,1:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Adriano,Martins,Leonardo,Santos,833.0,1828.0,0.0,70.0,23.0,70.0,23.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Adriano,Martins,Donald,Cerrone,3499.0,1828.0,1.0,37.0,16.0,37.0,16.0,1.0,1.0,0.0,0.0,0:06,3,1,4:40,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Adriano,Martins,Rustam,Khabilov,2244.0,1828.0,0.0,81.0,19.0,80.0,18.0,4.0,0.0,0.0,0.0,0:07,3,3,5:00,F,Lightweight,M,Decision,Split
+Adriano,Martins,Kajan,Johnson,2362.0,1828.0,1.0,63.0,26.0,63.0,26.0,0.0,0.0,0.0,0.0,0:01,3,3,0:49,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Efrain,Escudero,Leonardo,Santos,833.0,3065.0,0.0,132.0,66.0,98.0,36.0,4.0,2.0,0.0,0.0,6:56,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Efrain,Escudero,Evan,Dunham,3145.0,3065.0,0.0,109.0,48.0,80.0,22.0,4.0,3.0,1.0,0.0,3:30,3,3,1:59,F,Lightweight,M,Submission,Armbar From Back Control
+Efrain,Escudero,Mac,Danzig,3298.0,3065.0,0.0,190.0,130.0,119.0,67.0,5.0,1.0,0.0,0.0,5:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Efrain,Escudero,Jacob,Volkmann,226.0,3065.0,0.0,108.0,85.0,35.0,17.0,9.0,3.0,2.0,0.0,11:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,Jaynes,Gabriel,Benitez,3803.0,2397.0,1.0,104.0,38.0,104.0,38.0,0.0,0.0,0.0,0.0,0:00,3,1,4:06,F,Lightweight,M,KO/TKO,Knee to Body At Distance
+Justin,Jaynes,Frank,Camacho,3582.0,2397.0,0.0,15.0,4.0,15.0,4.0,0.0,0.0,0.0,0.0,0:00,3,1,0:41,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Enrique,Barzola,Horacio,Gutierrez,2686.0,3839.0,0.0,45.0,16.0,38.0,10.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Sam,Sicilia,Cristiano,Marcello,1870.0,710.0,0.0,92.0,39.0,90.0,39.0,2.0,0.0,0.0,0.0,0:05,3,2,2:53,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Brandon,Jenkins,Drakkar,Klose,2201.0,2391.0,2.0,109.0,77.0,108.0,76.0,3.0,2.0,0.0,0.0,1:55,3,2,0:33,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Eddie,Alvarez,Rafael,Dos Anjos,3185.0,4007.0,0.0,41.0,12.0,41.0,12.0,1.0,0.0,0.0,0.0,0:22,5,1,3:49,T,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Eddie,Alvarez,Donald,Cerrone,3499.0,4007.0,1.0,182.0,101.0,166.0,88.0,2.0,0.0,0.0,0.0,1:57,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Eddie,Alvarez,Anthony,Pettis,1225.0,4007.0,0.0,164.0,109.0,109.0,56.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Eddie,Alvarez,Gilbert,Melendez,1733.0,4007.0,0.0,187.0,93.0,129.0,37.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Jason,High,Rafael,Dos Anjos,3185.0,2557.0,1.0,85.0,53.0,68.0,36.0,2.0,2.0,3.0,0.0,1:52,3,2,3:36,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Khabib,Nurmagomedov,Rafael,Dos Anjos,3185.0,1436.0,0.0,76.0,40.0,56.0,20.0,1.0,0.0,0.0,0.0,0:13,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Khabib,Nurmagomedov,Gleison,Tibau,397.0,1436.0,0.0,110.0,46.0,87.0,28.0,6.0,1.0,0.0,0.0,0:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Khabib,Nurmagomedov,Thiago,Tavares,440.0,1436.0,0.0,10.0,2.0,10.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,1:55,F,Lightweight,M,KO/TKO,Elbows to Head From Half Guard
+Khabib,Nurmagomedov,Pat,Healy,2607.0,1436.0,0.0,189.0,68.0,157.0,44.0,2.0,0.0,0.0,0.0,0:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Khabib,Nurmagomedov,Kamal,Shalorus,738.0,1436.0,0.0,51.0,18.0,44.0,13.0,2.0,0.0,0.0,0.0,0:05,3,3,2:08,F,Lightweight,M,Submission,Rear Naked Choke
+Kyle,Bradley,Rafael,Dos Anjos,3185.0,3696.0,0.0,183.0,99.0,112.0,42.0,8.0,5.0,2.0,0.0,8:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kyle,Bradley,Joe,Lauzon,2102.0,3696.0,0.0,62.0,30.0,54.0,23.0,2.0,1.0,2.0,0.0,0:37,3,2,1:34,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Rob,Emerson,Rafael,Dos Anjos,3185.0,3089.0,0.0,201.0,85.0,165.0,52.0,12.0,2.0,0.0,0.0,4:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rob,Emerson,Kurt,Pellegrino,1276.0,3089.0,0.0,69.0,27.0,58.0,16.0,5.0,1.0,1.0,0.0,1:29,3,2,3:14,F,Lightweight,M,Submission,Rear Naked Choke
+Manuel,Torres,Frank,Camacho,3582.0,370.0,0.0,40.0,24.0,31.0,16.0,5.0,0.0,0.0,0.0,0:14,3,1,3:27,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Jai,Herbert,Francisco,Trinaldo,358.0,2583.0,1.0,66.0,37.0,58.0,30.0,3.0,2.0,2.0,1.0,3:18,3,3,1:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jai,Herbert,Khama,Worthy,95.0,2583.0,0.0,21.0,11.0,21.0,11.0,0.0,0.0,0.0,0.0,0:00,3,1,2:47,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Jai,Herbert,Renato,Moicano,1644.0,2583.0,0.0,83.0,61.0,41.0,26.0,7.0,5.0,1.0,0.0,7:35,3,2,4:34,F,Lightweight,M,Submission,Rear Naked Choke
+Norman,Parke,Francisco,Trinaldo,358.0,1315.0,0.0,196.0,70.0,191.0,66.0,0.0,0.0,0.0,0.0,0:46,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Norman,Parke,Colin,Fletcher,2975.0,1315.0,0.0,154.0,66.0,141.0,56.0,0.0,0.0,0.0,0.0,0:35,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Leandro,Silva,Francisco,Trinaldo,358.0,692.0,0.0,86.0,67.0,54.0,36.0,2.0,0.0,0.0,1.0,3:58,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leandro,Silva,Rustam,Khabilov,2244.0,692.0,0.0,111.0,49.0,82.0,24.0,10.0,2.0,0.0,0.0,3:52,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leandro,Silva,Jason,Saggo,900.0,692.0,0.0,160.0,75.0,132.0,48.0,2.0,1.0,0.0,0.0,3:21,3,3,5:00,F,Lightweight,M,Decision,Split
+Leandro,Silva,Efrain,Escudero,3065.0,692.0,0.0,101.0,56.0,63.0,24.0,7.0,2.0,0.0,0.0,5:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Piotr,Hallmann,Francisco,Trinaldo,358.0,2668.0,1.0,46.0,24.0,43.0,22.0,4.0,1.0,0.0,0.0,1:42,3,2,3:50,F,Lightweight,M,Submission,Kimura From Half Guard
+Piotr,Hallmann,Al,Iaquinta,2467.0,2668.0,0.0,200.0,87.0,197.0,85.0,8.0,2.0,0.0,0.0,2:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Piotr,Hallmann,Alex,Oliveira,1398.0,2668.0,1.0,121.0,54.0,109.0,42.0,4.0,0.0,0.0,0.0,3:00,3,3,0:51,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Piotr,Hallmann,Gleison,Tibau,397.0,2668.0,0.0,89.0,41.0,74.0,30.0,11.0,5.0,0.0,0.0,5:39,3,3,5:00,F,Lightweight,M,Decision,Split
+Piotr,Hallmann,Yves,Edwards,3119.0,2668.0,0.0,84.0,31.0,79.0,27.0,1.0,1.0,0.0,0.0,0:43,3,3,2:31,F,Lightweight,M,Submission,Rear Naked Choke
+CJ,Keith,Francisco,Trinaldo,358.0,2262.0,0.0,34.0,27.0,19.0,12.0,5.0,2.0,1.0,0.0,3:59,3,2,1:50,F,Lightweight,M,Submission,Arm Triangle From Half Guard
+CJ,Keith,Ramsey,Nijem,1474.0,2262.0,0.0,34.0,19.0,15.0,5.0,3.0,1.0,0.0,0.0,1:04,3,1,2:29,F,Lightweight,M,KO/TKO,Punch to Head From Mount
+Michel,Quinones,Sage,Northcutt,1450.0,1133.0,0.0,166.0,82.0,161.0,79.0,5.0,3.0,0.0,0.0,0:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Garett,Whiteley,Vinc,Pichel,1209.0,147.0,0.0,123.0,83.0,81.0,44.0,12.0,8.0,1.0,0.0,10:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Garett,Whiteley,Alan,Patrick,1298.0,147.0,1.0,42.0,19.0,35.0,16.0,2.0,1.0,0.0,0.0,0:53,3,1,3:54,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Garett,Whiteley,David,Michaud,1707.0,147.0,0.0,204.0,123.0,140.0,77.0,4.0,4.0,0.0,0.0,7:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rustam,Khabilov,Vinc,Pichel,1209.0,2244.0,0.0,5.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0:02,3,1,2:15,F,Lightweight,M,KO/TKO,Slam to   On Ground
+Rustam,Khabilov,Jorge,Masvidal,1819.0,2244.0,0.0,103.0,47.0,93.0,38.0,2.0,1.0,0.0,0.0,1:26,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rustam,Khabilov,Jason,Saggo,900.0,2244.0,0.0,100.0,43.0,72.0,19.0,2.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rustam,Khabilov,Norman,Parke,1315.0,2244.0,0.0,72.0,17.0,72.0,17.0,3.0,1.0,0.0,0.0,1:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rustam,Khabilov,Benson,Henderson,2594.0,2244.0,1.0,95.0,48.0,70.0,26.0,3.0,1.0,2.0,1.0,2:53,5,4,1:16,F,Lightweight,M,Submission,Rear Naked Choke
+Jordan,Rinaldi,Alvaro,Herrera Mendoza,2569.0,1035.0,0.0,7.0,2.0,7.0,2.0,0.0,0.0,1.0,0.0,0:00,3,1,2:01,F,Lightweight,M,Submission,Von Flue Choke From Side Control
+Jordan,Rinaldi,Abel,Trujillo,351.0,1035.0,0.0,102.0,57.0,80.0,35.0,3.0,3.0,0.0,0.0,4:04,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mads,Burnell,Michel,Prazeres,1166.0,3619.0,0.0,69.0,43.0,48.0,26.0,6.0,4.0,1.0,0.0,8:51,3,3,1:26,F,Lightweight,M,Submission,North-South Choke
+Dong,Hyun Ma,Devonte,Smith,628.0,1945.0,1.0,43.0,19.0,43.0,19.0,0.0,0.0,0.0,0.0,0:02,3,1,3:53,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Dong,Hyun Ma,Scott,Holtzman,2522.0,1945.0,1.0,108.0,55.0,92.0,44.0,2.0,1.0,0.0,0.0,4:54,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,
+Dong,Hyun Ma,Marco,Polo Reyes,1066.0,1945.0,2.0,312.0,147.0,299.0,135.0,0.0,0.0,0.0,0.0,1:24,3,3,1:52,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Dong,Hyun Ma,Damien,Brown,3653.0,1945.0,0.0,123.0,46.0,123.0,46.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Dong,Hyun Ma,Takanori,Gomi,2795.0,1945.0,0.0,3.0,2.0,3.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,1:30,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Chris,Gruetzemacher,Claudio,Puelles,1152.0,2710.0,0.0,103.0,72.0,68.0,43.0,8.0,1.0,1.0,0.0,6:20,3,3,3:25,F,Lightweight,M,Submission,Kneebar On Ground
+Chris,Gruetzemacher,Joe,Lauzon,2102.0,2710.0,0.0,138.0,49.0,137.0,48.0,2.0,0.0,0.0,0.0,0:00,3,2,5:00,F,Lightweight,M,KO/TKO,"to    
+      Corner Stoppage"
+Olivier,Aubin-Mercier,Alexander,Hernandez,2576.0,3912.0,0.0,137.0,86.0,81.0,39.0,10.0,4.0,0.0,1.0,7:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Olivier,Aubin-Mercier,Evan,Dunham,3145.0,3912.0,0.0,14.0,4.0,14.0,4.0,0.0,0.0,0.0,0.0,0:00,3,1,0:53,F,Lightweight,M,KO/TKO,Knees to Body In Clinch
+Olivier,Aubin-Mercier,Anthony,Rocco Martin,1843.0,3912.0,0.0,96.0,56.0,41.0,15.0,0.0,0.0,1.0,1.0,5:11,3,3,5:00,F,Lightweight,M,Decision,Split
+Pat,Healy,Bobby,Green,2728.0,2607.0,0.0,152.0,93.0,138.0,80.0,6.0,3.0,0.0,0.0,2:30,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Pat,Healy,Jorge,Masvidal,1819.0,2607.0,0.0,132.0,105.0,95.0,69.0,1.0,1.0,0.0,0.0,3:17,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Pat,Healy,Gleison,Tibau,397.0,2607.0,0.0,143.0,87.0,93.0,44.0,6.0,4.0,0.0,0.0,4:33,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Felipe,Silva,Claudio,Puelles,1152.0,687.0,0.0,49.0,16.0,49.0,16.0,7.0,2.0,1.0,0.0,1:28,3,3,2:23,F,Lightweight,M,Submission,Kneebar On Ground
+Felipe,Silva,Mairbek,Taisumov,466.0,687.0,1.0,4.0,2.0,4.0,2.0,0.0,0.0,0.0,0.0,0:01,3,1,1:24,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Felipe,Silva,Shane,Campbell,3575.0,687.0,0.0,14.0,10.0,13.0,9.0,0.0,0.0,0.0,0.0,0:00,3,1,1:13,F,Lightweight,M,KO/TKO,Punch to Body At Distance
+Rodrigo,Damm,Al,Iaquinta,2467.0,3308.0,1.0,221.0,93.0,221.0,93.0,0.0,0.0,0.0,0.0,0:06,3,3,2:26,F,Lightweight,M,KO/TKO,Elbows to Head At Distance
+Rodrigo,Damm,Evan,Dunham,3145.0,3308.0,0.0,350.0,156.0,344.0,152.0,2.0,1.0,0.0,0.0,0:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Koji,Oishi,Laverne,Clark,3453.0,1411.0,0.0,174.0,138.0,45.0,13.0,0.0,0.0,0.0,2.0,5:15,3,3,5:00,F,Lightweight,M,Decision,Majority
+Aalon,Cruz,Uros,Medic,1747.0,3344.0,1.0,74.0,55.0,63.0,45.0,0.0,0.0,0.0,0.0,0:56,3,1,1:40,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Brok,Weaver,Roosevelt,Roberts,1003.0,171.0,0.0,76.0,54.0,61.0,40.0,3.0,1.0,3.0,0.0,3:04,3,2,3:26,F,Lightweight,M,Submission,Rear Naked Choke
+Darrell,Horcher,Roosevelt,Roberts,1003.0,2510.0,0.0,42.0,23.0,35.0,16.0,0.0,0.0,1.0,0.0,0:05,3,1,4:50,F,Lightweight,M,Submission,Guillotine Choke Standing
+Darrell,Horcher,Scott,Holtzman,2522.0,2510.0,0.0,212.0,173.0,82.0,49.0,11.0,7.0,0.0,0.0,9:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Darrell,Horcher,Devin,Powell,1174.0,2510.0,0.0,137.0,97.0,79.0,43.0,3.0,0.0,2.0,1.0,1:54,3,3,5:00,F,Lightweight,M,Decision,Split
+Abner,Lloveras,Chris,Gruetzemacher,2710.0,1999.0,0.0,217.0,135.0,182.0,103.0,0.0,0.0,0.0,0.0,0:30,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,Buchholz,Jeremy,Stephens,542.0,3638.0,2.0,52.0,30.0,50.0,28.0,0.0,0.0,0.0,0.0,0:26,3,1,3:23,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cuts
+Justin,Buchholz,Matt,Wiman,116.0,3638.0,0.0,30.0,24.0,9.0,6.0,1.0,1.0,3.0,0.0,2:40,3,1,2:56,F,Lightweight,M,Submission,Rear Naked Choke
+Justin,Buchholz,Mac,Danzig,3298.0,3638.0,0.0,219.0,146.0,126.0,62.0,6.0,3.0,0.0,1.0,4:46,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,Buchholz,Terry,Etim,3056.0,3638.0,0.0,54.0,31.0,50.0,27.0,0.0,0.0,3.0,1.0,1:44,3,2,2:38,F,Lightweight,M,Submission,D'Arce Choke From Front Headlock
+Diego,Saraiva,Jeremy,Stephens,542.0,817.0,0.0,154.0,109.0,90.0,50.0,2.0,2.0,0.0,1.0,9:51,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Saraiva,Dustin,Hazelett,2609.0,817.0,0.0,147.0,83.0,105.0,44.0,1.0,1.0,1.0,0.0,4:14,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Diego,Saraiva,Jorge,Gurgel,2693.0,817.0,0.0,301.0,120.0,230.0,67.0,0.0,0.0,0.0,0.0,5:14,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leonard,Garcia,Cole,Miller,1692.0,2876.0,0.0,90.0,59.0,48.0,21.0,2.0,1.0,10.0,2.0,11:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leonard,Garcia,Roger,Huerta,2484.0,2876.0,0.0,300.0,152.0,206.0,85.0,7.0,6.0,0.0,1.0,10:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+KJ,Noons,Donald,Cerrone,3499.0,1451.0,0.0,213.0,130.0,152.0,78.0,7.0,4.0,0.0,0.0,5:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+KJ,Noons,Joshua,Burkman,3621.0,1451.0,0.0,114.0,62.0,108.0,57.0,10.0,3.0,0.0,0.0,3:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+KJ,Noons,George,Sotiropoulos,595.0,1451.0,0.0,199.0,50.0,199.0,50.0,7.0,1.0,0.0,0.0,0:26,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Paul,Kelly,Donald,Cerrone,3499.0,2257.0,0.0,101.0,62.0,74.0,37.0,4.0,3.0,1.0,0.0,3:31,3,2,3:48,F,Lightweight,M,Submission,Rear Naked Choke
+Paul,Kelly,Dennis,Siver,649.0,2257.0,2.0,171.0,44.0,165.0,38.0,2.0,0.0,0.0,0.0,0:26,3,2,2:53,F,Lightweight,M,KO/TKO,Punches to Head In Clinch
+Richie,Smullen,Luis,Pena,1273.0,618.0,1.0,23.0,8.0,23.0,8.0,1.0,1.0,1.0,1.0,1:01,3,1,3:32,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Dakota,Bush,Austin,Hubbard,2487.0,3608.0,0.0,181.0,126.0,115.0,67.0,1.0,1.0,0.0,2.0,6:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Max,Rohskopf,Austin,Hubbard,2487.0,967.0,0.0,102.0,59.0,101.0,58.0,0.0,0.0,0.0,0.0,0:00,3,2,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,
+Michael,McBride,Scott,Holtzman,2522.0,1792.0,1.0,198.0,109.0,190.0,104.0,4.0,2.0,0.0,2.0,6:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Michael,McBride,Nik,Lentz,2052.0,1792.0,0.0,97.0,80.0,50.0,38.0,6.0,5.0,1.0,0.0,7:18,3,2,4:17,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Cody,Pfister,Scott,Holtzman,2522.0,1221.0,1.0,177.0,120.0,99.0,53.0,3.0,3.0,1.0,1.0,6:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Cody,Pfister,Sage,Northcutt,1450.0,1221.0,0.0,21.0,19.0,9.0,8.0,2.0,2.0,1.0,0.0,1:56,3,2,0:41,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Cody,Pfister,James,Moontasri,1627.0,1221.0,0.0,104.0,62.0,63.0,32.0,0.0,0.0,1.0,0.0,2:28,3,2,1:49,F,Lightweight,M,Submission,Rear Naked Choke
+Cody,Pfister,Yosdenis,Cedeno,3503.0,1221.0,0.0,116.0,66.0,76.0,26.0,0.0,0.0,1.0,2.0,1:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Will,Brooks,Nik,Lentz,2052.0,3665.0,0.0,88.0,40.0,82.0,34.0,2.0,0.0,1.0,1.0,0:46,3,2,2:05,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Will,Brooks,Ross,Pearson,1284.0,3665.0,0.0,140.0,76.0,115.0,54.0,2.0,0.0,0.0,0.0,2:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Eiji,Mitsuoka,Takanori,Gomi,2795.0,1657.0,0.0,156.0,95.0,107.0,48.0,0.0,0.0,0.0,0.0,0:26,3,2,2:21,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Isaac,Vallie-Flagg,Matt,Wiman,116.0,297.0,0.0,140.0,104.0,101.0,68.0,3.0,0.0,0.0,0.0,5:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Isaac,Vallie-Flagg,Takanori,Gomi,2795.0,297.0,0.0,263.0,153.0,240.0,130.0,0.0,0.0,0.0,1.0,3:52,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Isaac,Vallie-Flagg,Yves,Edwards,3119.0,297.0,0.0,125.0,64.0,115.0,58.0,3.0,1.0,0.0,0.0,2:51,3,3,5:00,F,Lightweight,M,Decision,Split
+Shane,Nelson,Matt,Wiman,116.0,1498.0,0.0,164.0,82.0,130.0,55.0,5.0,2.0,0.0,0.0,5:38,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Shane,Nelson,Aaron,Riley,1038.0,1498.0,0.0,236.0,154.0,122.0,50.0,5.0,2.0,0.0,0.0,7:48,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Brian,Geraghty,Matt,Wiman,116.0,2852.0,0.0,37.0,25.0,33.0,21.0,2.0,1.0,0.0,0.0,1:44,3,1,2:09,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Alex,Ricci,Paul,Felder,3023.0,1050.0,1.0,71.0,23.0,71.0,23.0,0.0,0.0,0.0,0.0,0:03,3,1,4:44,F,Lightweight,M,KO/TKO,Elbow to Head At Distance
+Alex,Ricci,Jeremy,Kennedy,2252.0,1050.0,0.0,94.0,43.0,71.0,27.0,14.0,5.0,0.0,0.0,11:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Danilo,Belluardo,Joel,Alvarez,4005.0,3810.0,0.0,113.0,87.0,41.0,19.0,0.0,0.0,0.0,1.0,0:17,3,2,2:22,F,Lightweight,M,KO/TKO,Punches to Head From Half Guard
+Danilo,Belluardo,Mark,Madsen,1925.0,3810.0,0.0,31.0,24.0,29.0,22.0,2.0,1.0,0.0,0.0,0:51,3,1,1:12,F,Lightweight,M,KO/TKO,Punches to Head From Half Guard
+Keita,Nakamura,Rob,Emerson,3089.0,1531.0,0.0,220.0,89.0,212.0,81.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Marcin,Held,Diego,Sanchez,870.0,2599.0,0.0,108.0,69.0,81.0,46.0,1.0,0.0,0.0,0.0,9:15,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Marcin,Held,Joe,Lauzon,2102.0,2599.0,0.0,86.0,44.0,62.0,20.0,2.0,1.0,1.0,0.0,1:37,3,3,5:00,F,Lightweight,M,Decision,Split
+Joe,Stevenson,Diego,Sanchez,870.0,539.0,0.0,193.0,91.0,193.0,91.0,4.0,1.0,1.0,0.0,0:46,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Stevenson,BJ,Penn,1267.0,539.0,2.0,105.0,71.0,69.0,41.0,0.0,0.0,1.0,0.0,6:33,5,2,4:02,T,Lightweight,M,Submission,Rear Naked Choke
+Joe,Stevenson,George,Sotiropoulos,595.0,539.0,0.0,116.0,47.0,87.0,20.0,3.0,2.0,3.0,1.0,5:19,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joe,Stevenson,Kenny,Florian,2969.0,539.0,0.0,44.0,24.0,37.0,17.0,2.0,1.0,1.0,0.0,1:06,3,1,4:03,F,Lightweight,M,Submission,Rear Naked Choke
+David,Bielkheden,Mark,Bocek,3746.0,3774.0,0.0,68.0,45.0,43.0,20.0,2.0,1.0,1.0,0.0,4:00,3,1,4:57,F,Lightweight,M,Submission,Rear Naked Choke
+John,Alessio,Mark,Bocek,3746.0,4045.0,0.0,153.0,117.0,107.0,74.0,11.0,5.0,0.0,0.0,9:44,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Grice,Terry,Etim,3056.0,2724.0,0.0,20.0,16.0,9.0,5.0,0.0,0.0,3.0,0.0,0:29,3,1,4:48,F,Lightweight,M,Submission,Guillotine Choke From Bottom Guard
+Matt,Grice,Shannon,Gugerty,2703.0,2724.0,0.0,20.0,7.0,10.0,1.0,1.0,1.0,2.0,0.0,1:13,3,1,2:36,F,Lightweight,M,Submission,Guillotine Choke From Mount
+Matt,Grice,Matt,Veach,276.0,2724.0,1.0,40.0,22.0,29.0,12.0,3.0,1.0,0.0,0.0,1:24,3,1,4:34,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Reza,Madadi,Joe,Duffy,3154.0,1930.0,0.0,172.0,61.0,161.0,51.0,0.0,0.0,0.0,1.0,4:20,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Reza,Madadi,Yan,Cabral,3593.0,1930.0,0.0,117.0,61.0,85.0,32.0,10.0,1.0,0.0,0.0,3:09,3,3,1:56,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Reza,Madadi,Norman,Parke,1315.0,1930.0,0.0,154.0,56.0,145.0,47.0,6.0,1.0,0.0,0.0,4:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Reza,Madadi,Cristiano,Marcello,1870.0,1930.0,0.0,251.0,77.0,241.0,72.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Ivan,Jorge,Joe,Duffy,3154.0,2327.0,0.0,31.0,10.0,29.0,8.0,0.0,0.0,1.0,0.0,0:00,3,1,3:05,F,Lightweight,M,Submission,Triangle Choke On Ground
+Ivan,Jorge,Rodrigo,Damm,3308.0,2327.0,0.0,171.0,69.0,170.0,68.0,1.0,1.0,1.0,0.0,0:11,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Gunther,Davi,Ramos,1107.0,2694.0,0.0,5.0,4.0,5.0,4.0,1.0,1.0,1.0,0.0,1:45,3,1,1:57,F,Lightweight,M,Submission,Rear Naked Choke
+Nick,Hein,Davi,Ramos,1107.0,2601.0,0.0,21.0,13.0,12.0,6.0,1.0,1.0,1.0,0.0,2:10,3,1,4:15,F,Lightweight,M,Submission,Rear Naked Choke
+Nick,Hein,James,Vick,250.0,2601.0,0.0,143.0,43.0,140.0,40.0,0.0,0.0,0.0,1.0,0:15,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Shamar,Bailey,Evan,Dunham,3145.0,3882.0,0.0,353.0,94.0,351.0,92.0,0.0,0.0,1.0,0.0,0:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Shamar,Bailey,Danny,Castillo,3513.0,3882.0,0.0,61.0,45.0,34.0,22.0,3.0,3.0,0.0,0.0,4:36,3,1,4:52,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Per,Eklund,Evan,Dunham,3145.0,3109.0,1.0,28.0,14.0,27.0,13.0,0.0,0.0,1.0,0.0,0:31,3,1,2:13,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Per,Eklund,Sam,Stout,519.0,3109.0,0.0,180.0,83.0,127.0,33.0,0.0,0.0,0.0,0.0,5:32,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Brendan,O'Reilly,Dong,Hyun Ma,1945.0,1422.0,0.0,116.0,98.0,32.0,21.0,4.0,4.0,0.0,1.0,9:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Brendan,O'Reilly,Zhang,Lipeng,17.0,1422.0,0.0,179.0,130.0,40.0,19.0,4.0,2.0,1.0,0.0,8:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mickael,Lebout,Stevie,Ray,1096.0,2082.0,0.0,156.0,53.0,150.0,48.0,1.0,1.0,0.0,0.0,0:46,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kajan,Johnson,Rustam,Khabilov,2244.0,2362.0,0.0,88.0,34.0,70.0,17.0,8.0,3.0,0.0,0.0,4:10,3,3,5:00,F,Lightweight,M,Decision,Split
+Kajan,Johnson,Stevie,Ray,1096.0,2362.0,0.0,78.0,37.0,62.0,24.0,4.0,3.0,1.0,0.0,1:40,3,3,5:00,F,Lightweight,M,Decision,Split
+Kajan,Johnson,Naoyuki,Kotani,2176.0,2362.0,0.0,95.0,61.0,55.0,21.0,8.0,1.0,0.0,0.0,2:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kajan,Johnson,Zhang,Lipeng,17.0,2362.0,0.0,81.0,51.0,47.0,20.0,2.0,1.0,0.0,0.0,2:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Chris,Wade,Rustam,Khabilov,2244.0,219.0,0.0,110.0,79.0,73.0,50.0,9.0,6.0,0.0,1.0,6:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Chris,Wade,Frankie,Perez,1249.0,219.0,0.0,99.0,53.0,63.0,22.0,5.0,3.0,0.0,0.0,3:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Chris,Wade,Zhang,Lipeng,17.0,219.0,0.0,67.0,47.0,46.0,28.0,7.0,0.0,0.0,0.0,3:46,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Curt,Warburton,Joe,Lauzon,2102.0,193.0,1.0,33.0,12.0,33.0,12.0,0.0,0.0,1.0,0.0,0:27,3,1,1:58,F,Lightweight,M,Submission,Kimura From Guard
+Curt,Warburton,Maciej,Jewtuszko,2385.0,193.0,0.0,86.0,45.0,67.0,30.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Curt,Warburton,Spencer,Fisher,2981.0,193.0,0.0,212.0,170.0,93.0,68.0,6.0,1.0,2.0,0.0,2:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gabe,Ruediger,Joe,Lauzon,2102.0,920.0,0.0,29.0,19.0,28.0,19.0,3.0,2.0,1.0,0.0,1:33,3,1,2:01,F,Lightweight,M,Submission,Armbar From Mount
+Gabe,Ruediger,Melvin,Guillard,2700.0,920.0,2.0,45.0,25.0,40.0,20.0,3.0,3.0,0.0,0.0,1:12,3,2,1:01,F,Lightweight,M,KO/TKO,Punch to Body At Distance
+Gabe,Ruediger,Paul,Taylor,436.0,920.0,1.0,72.0,47.0,61.0,37.0,1.0,0.0,0.0,0.0,3:18,3,2,1:42,F,Lightweight,M,KO/TKO,Kick to Head In Clinch
+Jason,Reinhardt,Joe,Lauzon,2102.0,1078.0,0.0,10.0,8.0,7.0,5.0,2.0,1.0,1.0,0.0,0:56,3,1,1:14,F,Lightweight,M,Submission,Rear Naked Choke
+Brandon,Melendez,Joe,Lauzon,2102.0,1734.0,0.0,35.0,27.0,11.0,4.0,4.0,3.0,6.0,1.0,4:35,3,2,2:09,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Jens,Pulver,Joe,Lauzon,2102.0,1146.0,1.0,11.0,9.0,11.0,9.0,1.0,1.0,0.0,0.0,0:00,3,1,0:48,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jens,Pulver,BJ,Penn,1267.0,1146.0,0.0,70.0,60.0,31.0,23.0,3.0,3.0,3.0,0.0,4:56,3,2,3:12,F,Lightweight,M,Submission,Rear Naked Choke
+Jason,Novelli,Marco,Polo Reyes,1066.0,1445.0,0.0,183.0,67.0,166.0,50.0,0.0,0.0,0.0,0.0,2:33,3,3,5:00,F,Lightweight,M,Decision,Split
+Jason,Novelli,David,Teymur,417.0,1445.0,1.0,61.0,26.0,61.0,26.0,1.0,0.0,0.0,0.0,0:02,3,2,1:25,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Anthony,Christodoulou,Mairbek,Taisumov,466.0,3463.0,0.0,59.0,37.0,59.0,37.0,2.0,2.0,0.0,0.0,1:01,3,2,0:38,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Marcin,Bandel,Mairbek,Taisumov,466.0,3874.0,1.0,10.0,9.0,10.0,9.0,0.0,0.0,0.0,0.0,0:05,3,1,1:01,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Tae,Hyun Bang,Mairbek,Taisumov,466.0,3872.0,0.0,107.0,48.0,87.0,33.0,7.0,5.0,0.0,0.0,3:49,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tae,Hyun Bang,Nick,Hein,2601.0,3872.0,0.0,106.0,48.0,76.0,20.0,5.0,2.0,0.0,0.0,0:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tae,Hyun Bang,Kajan,Johnson,2362.0,3872.0,0.0,91.0,29.0,91.0,29.0,9.0,4.0,0.0,1.0,1:45,3,3,2:01,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Thibault,Gouti,Olivier,Aubin-Mercier,3912.0,2764.0,0.0,95.0,74.0,61.0,44.0,8.0,3.0,1.0,0.0,7:34,3,3,2:28,F,Lightweight,M,Submission,Rear Naked Choke
+Thibault,Gouti,Chad,Laprise,2114.0,2764.0,2.0,40.0,22.0,35.0,17.0,0.0,0.0,0.0,0.0,0:30,3,1,1:36,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Thibault,Gouti,Sage,Northcutt,1450.0,2764.0,0.0,204.0,125.0,138.0,63.0,9.0,1.0,0.0,0.0,1:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Thibault,Gouti,Teemu,Packalen,1352.0,2764.0,1.0,11.0,6.0,11.0,6.0,0.0,0.0,1.0,0.0,0:10,3,1,0:24,F,Lightweight,M,Submission,Rear Naked Choke
+Tony,Sims,Olivier,Aubin-Mercier,3912.0,662.0,0.0,95.0,76.0,8.0,3.0,10.0,6.0,0.0,0.0,12:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tony,Sims,Abel,Trujillo,351.0,662.0,0.0,11.0,4.0,11.0,4.0,2.0,0.0,1.0,0.0,0:17,3,1,3:18,F,Lightweight,M,Submission,Guillotine Choke On Ground
+David,Michaud,Olivier,Aubin-Mercier,3912.0,1707.0,1.0,127.0,82.0,86.0,49.0,15.0,3.0,1.0,0.0,6:15,3,3,1:35,F,Lightweight,M,Submission,Rear Naked Choke
+Jake,Lindsey,Olivier,Aubin-Mercier,3912.0,2009.0,0.0,61.0,44.0,48.0,31.0,5.0,2.0,1.0,0.0,3:05,3,2,3:22,F,Lightweight,M,Submission,Inverted Triangle From Side Control
+Jake,Lindsey,Jon,Tuck,347.0,2009.0,0.0,126.0,86.0,83.0,46.0,5.0,3.0,0.0,0.0,6:24,3,3,2:47,F,Lightweight,M,KO/TKO,"Kick to Body From Back Control
+      Verbal Submission"
+Valmir,Lazaro,James,Vick,250.0,2090.0,1.0,227.0,83.0,221.0,77.0,1.0,0.0,0.0,1.0,0:23,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Valmir,Lazaro,James,Krause,2168.0,2090.0,0.0,221.0,98.0,209.0,87.0,10.0,0.0,0.0,0.0,1:42,3,3,5:00,F,Lightweight,M,Decision,Split
+Ivan,Menjivar,Matt,Serra,750.0,1720.0,0.0,108.0,67.0,40.0,14.0,7.0,6.0,0.0,0.0,13:18,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Leonardo,Mafra,Stevie,Ray,1096.0,1923.0,1.0,41.0,19.0,41.0,19.0,0.0,0.0,0.0,0.0,0:02,3,1,2:30,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Yusuke,Kasuya,Nick,Hein,2601.0,2276.0,0.0,116.0,50.0,112.0,46.0,0.0,0.0,0.0,1.0,0:02,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Serra,BJ,Penn,1267.0,750.0,0.0,92.0,71.0,52.0,32.0,1.0,1.0,0.0,0.0,0:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Matt,Serra,Din,Thomas,409.0,750.0,0.0,92.0,59.0,61.0,29.0,0.0,0.0,0.0,0.0,1:45,3,3,5:00,F,Lightweight,M,Decision,Split
+Paul,Creighton,BJ,Penn,1267.0,3358.0,0.0,108.0,91.0,56.0,39.0,0.0,0.0,0.0,0.0,3:28,3,2,3:23,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Caol,Uno,BJ,Penn,1267.0,319.0,1.0,6.0,5.0,6.0,5.0,1.0,1.0,0.0,0.0,0:02,3,1,0:11,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Caol,Uno,Spencer,Fisher,2981.0,319.0,0.0,100.0,77.0,85.0,62.0,2.0,1.0,0.0,0.0,3:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Caol,Uno,Hermes,Franca,2947.0,319.0,1.0,44.0,35.0,22.0,13.0,2.0,2.0,1.0,0.0,1:24,3,2,2:46,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Caol,Uno,Jens,Pulver,1146.0,319.0,0.0,185.0,103.0,131.0,50.0,0.0,0.0,0.0,0.0,3:40,5,5,5:00,T,Lightweight,M,Decision,Unanimous
+Din,Thomas,BJ,Penn,1267.0,409.0,1.0,13.0,11.0,8.0,6.0,1.0,0.0,0.0,0.0,0:08,3,1,2:42,F,Lightweight,M,KO/TKO,Knee to Head At Distance
+Din,Thomas,Josh,Neer,1501.0,409.0,0.0,210.0,124.0,164.0,80.0,4.0,3.0,0.0,0.0,8:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Din,Thomas,Kenny,Florian,2969.0,409.0,0.0,82.0,50.0,57.0,27.0,2.0,2.0,1.0,0.0,1:42,3,1,4:31,F,Lightweight,M,Submission,Rear Naked Choke
+Din,Thomas,Caol,Uno,319.0,409.0,0.0,112.0,85.0,56.0,35.0,0.0,0.0,0.0,0.0,9:13,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joey,Gilbert,BJ,Penn,1267.0,2835.0,0.0,86.0,76.0,32.0,22.0,2.0,2.0,0.0,0.0,4:30,3,1,4:57,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Sam,Stout,Ross,Pearson,1284.0,519.0,1.0,75.0,25.0,75.0,25.0,0.0,0.0,0.0,0.0,0:02,3,2,1:33,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+Sam,Stout,Thiago,Tavares,440.0,519.0,0.0,136.0,57.0,128.0,50.0,11.0,2.0,0.0,0.0,2:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Sam,Stout,Yves,Edwards,3119.0,519.0,0.0,43.0,23.0,32.0,14.0,2.0,1.0,0.0,0.0,1:15,3,1,3:52,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Sam,Stout,Terry,Etim,3056.0,519.0,0.0,192.0,69.0,192.0,69.0,2.0,0.0,0.0,0.0,0:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Sam,Stout,Kenny,Florian,2969.0,519.0,0.0,22.0,19.0,8.0,5.0,2.0,1.0,1.0,0.0,1:37,3,1,1:46,F,Lightweight,M,Submission,Rear Naked Choke
+Sam,Stout,Spencer,Fisher,2981.0,519.0,0.0,240.0,89.0,239.0,88.0,2.0,0.0,0.0,0.0,0:09,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Sam,Stout,Rich,Clementi,3444.0,519.0,0.0,132.0,69.0,102.0,40.0,9.0,3.0,3.0,0.0,5:23,3,3,5:00,F,Lightweight,M,Decision,Split
+Andre,Winner,Ross,Pearson,1284.0,113.0,0.0,164.0,108.0,129.0,74.0,7.0,0.0,0.0,0.0,3:47,3,3,5:00,T,Lightweight,M,Decision,Unanimous
+Andre,Winner,Dennis,Siver,649.0,113.0,1.0,81.0,37.0,71.0,30.0,1.0,0.0,1.0,0.0,0:35,3,1,3:37,F,Lightweight,M,Submission,Rear Naked Choke
+Andre,Winner,Anthony,Njokuani,1464.0,113.0,0.0,214.0,118.0,211.0,116.0,3.0,2.0,0.0,0.0,1:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Felipe,Olivieri,Anthony,Rocco Martin,1843.0,1391.0,0.0,147.0,64.0,141.0,60.0,7.0,2.0,1.0,0.0,4:01,3,3,3:02,F,Lightweight,M,Submission,Rear Naked Choke
+Joshua,Burkman,Michel,Prazeres,1166.0,3621.0,0.0,45.0,34.0,34.0,24.0,3.0,2.0,1.0,0.0,1:12,3,1,1:42,F,Lightweight,M,Submission,North-South Choke
+JC,Cottrell,Michel,Prazeres,1166.0,3375.0,0.0,101.0,70.0,77.0,48.0,14.0,7.0,1.0,1.0,6:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+JC,Cottrell,Jason,Gonzalez,2786.0,3375.0,0.0,18.0,4.0,18.0,4.0,0.0,0.0,1.0,0.0,0:07,3,1,3:54,F,Lightweight,M,Submission,D'Arce Choke On Ground
+Mairbek,Taisumov,Michel,Prazeres,1166.0,466.0,1.0,106.0,66.0,67.0,35.0,11.0,3.0,0.0,0.0,5:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Te,Edwards,Dennis,Bermudez,3790.0,3116.0,0.0,147.0,83.0,122.0,63.0,9.0,5.0,2.0,0.0,0:42,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Tommy,Hayden,Fabricio,Camoes,3581.0,2614.0,0.0,33.0,26.0,13.0,6.0,4.0,1.0,1.0,0.0,1:07,3,1,4:03,F,Lightweight,M,Submission,Rear Naked Choke
+Cody,McKenzie,Sam,Stout,519.0,1761.0,0.0,194.0,59.0,189.0,54.0,2.0,1.0,1.0,0.0,0:45,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yosdenis,Cedeno,Chad,Laprise,2114.0,3503.0,0.0,106.0,55.0,83.0,35.0,7.0,4.0,0.0,0.0,7:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Yosdenis,Cedeno,Ernest,Chavez,3487.0,3503.0,0.0,133.0,94.0,62.0,28.0,2.0,2.0,0.0,0.0,4:31,3,3,5:00,F,Lightweight,M,Decision,Split
+Don,Madge,Te,Edwards,3116.0,1929.0,0.0,16.0,6.0,15.0,5.0,1.0,1.0,0.0,0.0,3:48,3,2,0:14,F,Lightweight,M,KO/TKO,Kick to Head In Clinch
+Fernando,Bruno,Glaico,Franca Moreira,2946.0,3644.0,0.0,57.0,47.0,31.0,23.0,9.0,4.0,1.0,0.0,6:40,3,3,4:46,T,Lightweight,M,Submission,Rear Naked Choke
+TJ,Grant,Gray,Maynard,1798.0,2738.0,0.0,28.0,13.0,28.0,13.0,0.0,0.0,0.0,0.0,0:00,3,1,2:07,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+TJ,Grant,Shane,Roller,965.0,2738.0,0.0,61.0,11.0,60.0,10.0,3.0,1.0,2.0,2.0,2:45,3,3,2:12,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Roger,Huerta,Gray,Maynard,1798.0,2484.0,0.0,100.0,43.0,79.0,23.0,7.0,3.0,1.0,0.0,3:14,3,3,5:00,F,Lightweight,M,Decision,Split
+Roger,Huerta,Kenny,Florian,2969.0,2484.0,0.0,113.0,65.0,99.0,51.0,7.0,5.0,0.0,0.0,2:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rich,Clementi,Gray,Maynard,1798.0,3444.0,0.0,111.0,66.0,61.0,22.0,7.0,5.0,2.0,0.0,9:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rich,Clementi,Gleison,Tibau,397.0,3444.0,0.0,26.0,22.0,10.0,7.0,3.0,2.0,1.0,0.0,3:21,3,1,4:35,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Rich,Clementi,Yves,Edwards,3119.0,3444.0,1.0,129.0,79.0,96.0,51.0,0.0,0.0,1.0,0.0,3:32,3,3,4:07,F,Lightweight,M,Submission,Rear Naked Choke
+Rich,Clementi,Din,Thomas,409.0,3444.0,1.0,107.0,63.0,75.0,33.0,1.0,1.0,1.0,0.0,2:15,3,2,3:11,F,Lightweight,M,Submission,Rear Naked Choke
+Joe,Veres,Gray,Maynard,1798.0,260.0,1.0,4.0,3.0,4.0,3.0,0.0,0.0,0.0,0.0,0:02,3,1,0:09,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joe,Veres,Corey,Hill,2554.0,260.0,0.0,78.0,66.0,40.0,29.0,0.0,0.0,0.0,0.0,3:25,3,2,0:37,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Enrique,Marin,Sage,Northcutt,1450.0,1866.0,0.0,135.0,106.0,66.0,41.0,2.0,0.0,1.0,1.0,4:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mike,de la Torre,Mark,Bocek,3746.0,3269.0,0.0,209.0,108.0,171.0,70.0,13.0,3.0,0.0,0.0,6:14,3,3,5:00,F,Lightweight,M,Decision,Split
+Chris,Saunders,Myles,Jury,2305.0,801.0,0.0,49.0,12.0,49.0,12.0,0.0,0.0,1.0,0.0,0:00,3,1,4:03,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Allan,Zuniga,John,Gunther,2694.0,2.0,0.0,152.0,94.0,71.0,27.0,19.0,8.0,0.0,0.0,11:08,3,3,5:00,F,Lightweight,M,Decision,Majority
+Jerrod,Sanders,Yosdenis,Cedeno,3503.0,858.0,1.0,38.0,27.0,21.0,13.0,0.0,0.0,0.0,1.0,3:02,3,1,5:00,F,Lightweight,M,TKO - Doctor's Stoppage,Knee Injury
+Tito,Ortiz,Guy,Mezger,1710.0,1376.0,0.0,5.0,0.0,5.0,0.0,1.0,0.0,1.0,0.0,--,1,1,2:00,T,Lightweight,M,Submission,Guillotine Choke After Drop to Ground
+Damien,Brown,Alan,Patrick,1298.0,3653.0,0.0,147.0,117.0,39.0,25.0,7.0,5.0,1.0,0.0,12:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Damien,Brown,Cesar,Arzamendia,3930.0,3653.0,0.0,27.0,17.0,27.0,17.0,0.0,0.0,1.0,0.0,0:03,3,1,2:27,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Martin,Svensson,David,Teymur,417.0,486.0,1.0,65.0,41.0,62.0,38.0,1.0,1.0,0.0,0.0,0:29,3,2,1:26,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Charlie,Brenneman,Leandro,Silva,692.0,3680.0,0.0,16.0,12.0,8.0,4.0,1.0,1.0,1.0,0.0,1:04,3,1,4:15,F,Lightweight,M,Submission,Rear Naked Choke
+Charlie,Brenneman,Danny,Castillo,3513.0,3680.0,1.0,25.0,20.0,21.0,16.0,3.0,0.0,0.0,1.0,0:58,3,2,0:21,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Josh,Shockley,Jason,Saggo,900.0,719.0,0.0,45.0,29.0,24.0,10.0,3.0,2.0,0.0,0.0,3:41,3,1,4:57,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Josh,Shockley,Ivan,Jorge,2327.0,719.0,0.0,81.0,41.0,64.0,25.0,10.0,3.0,1.0,0.0,6:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Maguire,Mitch,Clarke,3445.0,1907.0,0.0,188.0,118.0,105.0,41.0,1.0,0.0,0.0,1.0,2:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Cholish,Mitch,Clarke,3445.0,3469.0,0.0,139.0,25.0,131.0,17.0,3.0,0.0,0.0,0.0,0:16,3,2,4:36,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+John,Cholish,Gleison,Tibau,397.0,3469.0,0.0,69.0,23.0,67.0,21.0,4.0,2.0,1.0,0.0,1:27,3,2,2:34,F,Lightweight,M,Submission,Guillotine Choke On Ground
+John,Cholish,Danny,Castillo,3513.0,3469.0,0.0,147.0,62.0,136.0,52.0,3.0,1.0,0.0,0.0,2:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Carlo,Prater,TJ,Grant,2738.0,1168.0,0.0,163.0,116.0,113.0,68.0,7.0,3.0,1.0,0.0,6:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Carlo,Prater,Marcus,LeVesseur,2039.0,1168.0,0.0,140.0,109.0,77.0,53.0,7.0,3.0,0.0,0.0,8:28,3,3,5:00,F,Lightweight,M,Decision,Split
+Yoislandy,Izquierdo,Reza,Madadi,1930.0,2427.0,0.0,2.0,2.0,1.0,1.0,7.0,3.0,1.0,0.0,2:15,3,2,1:28,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Yoislandy,Izquierdo,Rafaello,Oliveira,1402.0,2427.0,0.0,199.0,178.0,40.0,29.0,7.0,4.0,5.0,0.0,11:01,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Mike,Wilkinson,Brendan,Loughnane,1973.0,136.0,1.0,142.0,96.0,119.0,75.0,2.0,0.0,0.0,0.0,1:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Roger,Bowling,Abel,Trujillo,351.0,3701.0,0.0,69.0,48.0,64.0,43.0,6.0,5.0,0.0,0.0,2:12,3,2,1:35,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Roger,Bowling,Anthony,Njokuani,1464.0,3701.0,1.0,48.0,28.0,46.0,26.0,1.0,0.0,0.0,0.0,0:02,3,2,2:52,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+TJ,O'Brien,Cole,Miller,1692.0,1430.0,1.0,81.0,36.0,76.0,32.0,0.0,0.0,2.0,0.0,0:49,3,2,2:38,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+TJ,O'Brien,Paul,Kelly,2257.0,1430.0,1.0,171.0,106.0,104.0,44.0,1.0,1.0,0.0,1.0,2:54,3,2,3:16,F,Lightweight,M,KO/TKO,Elbows to Head From Crucifix
+Dan,Lauzon,Cole,Miller,1692.0,2101.0,0.0,37.0,18.0,34.0,15.0,0.0,0.0,1.0,0.0,0:06,3,1,3:05,F,Lightweight,M,Submission,Inverted Triangle From Bottom
+Dan,Lauzon,Efrain,Escudero,3065.0,2101.0,1.0,187.0,67.0,184.0,64.0,3.0,0.0,0.0,0.0,1:34,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dan,Lauzon,Spencer,Fisher,2981.0,2101.0,1.0,32.0,28.0,17.0,13.0,0.0,0.0,0.0,0.0,0:11,3,1,4:38,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Junie,Browning,Cole,Miller,1692.0,3649.0,0.0,18.0,5.0,16.0,3.0,0.0,0.0,1.0,0.0,0:00,3,1,1:58,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Jorge,Gurgel,Cole,Miller,1692.0,2693.0,0.0,159.0,59.0,141.0,41.0,2.0,1.0,2.0,1.0,2:06,3,3,4:48,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Jorge,Gurgel,Aaron,Riley,1038.0,2693.0,0.0,261.0,133.0,222.0,98.0,1.0,1.0,0.0,0.0,2:27,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jorge,Gurgel,Mark,Hominick,2520.0,2693.0,0.0,158.0,43.0,158.0,43.0,0.0,0.0,0.0,0.0,0:12,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jorge,Gurgel,Alvin,Robinson,997.0,2693.0,0.0,248.0,186.0,78.0,44.0,4.0,2.0,1.0,1.0,8:05,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Andy,Wang,Cole,Miller,1692.0,197.0,1.0,34.0,14.0,32.0,12.0,0.0,0.0,0.0,0.0,0:15,3,1,1:10,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Cain,Carrizosa,Chris,Wade,219.0,3533.0,0.0,6.0,5.0,1.0,0.0,1.0,1.0,1.0,0.0,0:44,3,1,1:12,F,Lightweight,M,Submission,Guillotine Choke On Ground
+Cain,Carrizosa,Leonardo,Mafra,1923.0,3533.0,0.0,252.0,151.0,191.0,94.0,6.0,5.0,0.0,0.0,6:53,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Elias,Silverio,Shane,Campbell,3575.0,669.0,0.0,103.0,73.0,69.0,44.0,5.0,2.0,0.0,1.0,4:31,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Elias,Silverio,Isaac,Vallie-Flagg,297.0,669.0,0.0,75.0,37.0,59.0,21.0,1.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Quinn,Mulhern,Katsunori,Kikuno,2235.0,1575.0,0.0,104.0,73.0,48.0,23.0,4.0,3.0,0.0,0.0,8:21,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Naoyuki,Kotani,Yan,Cabral,3593.0,2176.0,0.0,38.0,24.0,24.0,11.0,5.0,2.0,1.0,0.0,4:20,3,2,3:06,F,Lightweight,M,Submission,Rear Naked Choke
+Naoyuki,Kotani,Norman,Parke,1315.0,2176.0,0.0,91.0,41.0,83.0,34.0,2.0,2.0,0.0,0.0,3:33,3,2,3:41,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Naoyuki,Kotani,Dennis,Siver,649.0,2176.0,1.0,87.0,47.0,66.0,28.0,2.0,0.0,0.0,0.0,3:49,3,2,2:04,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Naoyuki,Kotani,Thiago,Tavares,440.0,2176.0,0.0,175.0,159.0,28.0,21.0,6.0,4.0,2.0,1.0,5:08,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kazuki,Tokudome,Norman,Parke,1315.0,385.0,0.0,137.0,77.0,128.0,68.0,13.0,2.0,0.0,1.0,4:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Kazuki,Tokudome,Cristiano,Marcello,1870.0,385.0,0.0,117.0,67.0,76.0,33.0,4.0,1.0,0.0,0.0,0:55,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Justin,Edwards,Joe,Proctor,1156.0,3118.0,0.0,177.0,69.0,175.0,67.0,0.0,0.0,3.0,0.0,0:28,3,3,4:58,F,Lightweight,M,Submission,"Guillotine Choke On Ground
+      Technical Submission"
+Justin,Edwards,Ramsey,Nijem,1474.0,3118.0,0.0,148.0,75.0,113.0,46.0,7.0,5.0,1.0,0.0,4:45,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jeremy,Larsen,Joe,Proctor,1156.0,2109.0,1.0,31.0,13.0,28.0,10.0,0.0,0.0,0.0,0.0,0:05,3,1,1:59,F,Lightweight,M,KO/TKO,Knee to Head In Clinch
+Jeremy,Larsen,Lucas,Martins,1827.0,2109.0,1.0,116.0,44.0,111.0,39.0,0.0,0.0,0.0,0.0,0:04,3,3,0:13,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Jeff,Cox,Gleison,Tibau,397.0,3365.0,0.0,6.0,4.0,5.0,3.0,0.0,0.0,1.0,1.0,0:56,3,1,1:52,F,Lightweight,M,Submission,Arm Triangle From Side Control
+Jeff,Cox,Manvel,Gamburyan,2885.0,3365.0,0.0,6.0,5.0,4.0,3.0,5.0,1.0,1.0,0.0,0:14,3,1,1:41,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Jason,Dent,Gleison,Tibau,397.0,3240.0,0.0,174.0,112.0,83.0,36.0,6.0,5.0,1.0,0.0,12:24,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Jason,Dent,George,Sotiropoulos,595.0,3240.0,0.0,170.0,70.0,120.0,33.0,3.0,3.0,2.0,0.0,5:28,3,2,4:36,F,Lightweight,M,Submission,Armbar From Mount
+Jason,Dent,Roger,Huerta,2484.0,3240.0,0.0,239.0,122.0,174.0,71.0,9.0,6.0,0.0,1.0,10:50,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Juan,Manuel Puig,Adriano,Martins,1828.0,1149.0,1.0,25.0,10.0,24.0,9.0,0.0,0.0,0.0,0.0,0:03,3,1,2:21,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Sage,Northcutt,Francisco,Trevino,361.0,1450.0,0.0,3.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0:09,3,1,0:57,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Frankie,Perez,Sam,Stout,519.0,1249.0,0.0,16.0,2.0,16.0,2.0,0.0,0.0,0.0,0.0,0:00,3,1,0:54,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Frankie,Perez,Johnny,Case,3523.0,1249.0,0.0,137.0,79.0,111.0,59.0,5.0,4.0,0.0,0.0,7:05,3,3,1:54,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Caros,Fodor,Sam,Stout,519.0,2965.0,0.0,164.0,86.0,120.0,46.0,3.0,1.0,0.0,0.0,6:39,3,3,5:00,F,Lightweight,M,Decision,Split
+Paul,Taylor,Sam,Stout,519.0,436.0,0.0,296.0,108.0,295.0,107.0,2.0,1.0,0.0,0.0,0:27,3,3,5:00,F,Lightweight,M,Decision,Split
+Henry,Martinez,Daron,Cruickshank,3349.0,1837.0,1.0,95.0,55.0,91.0,52.0,0.0,0.0,0.0,0.0,0:01,3,2,2:57,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Chris,Tickle,Daron,Cruickshank,3349.0,396.0,0.0,84.0,59.0,30.0,17.0,5.0,4.0,0.0,2.0,8:16,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Danny,Downes,Ramsey,Nijem,1474.0,3171.0,0.0,190.0,163.0,77.0,59.0,14.0,8.0,4.0,0.0,12:44,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Gerald,Strebendt,Josh,Thomson,400.0,513.0,1.0,26.0,19.0,18.0,11.0,1.0,1.0,0.0,0.0,2:27,3,1,2:45,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Jeff,Curran,Matt,Serra,750.0,3328.0,0.0,159.0,118.0,80.0,45.0,10.0,6.0,0.0,1.0,13:10,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dale,Hartt,Dennis,Siver,649.0,2630.0,0.0,31.0,16.0,23.0,8.0,0.0,0.0,2.0,0.0,1:11,3,1,3:23,F,Lightweight,M,Submission,Rear Naked Choke
+Dale,Hartt,Shannon,Gugerty,2703.0,2630.0,0.0,23.0,16.0,8.0,3.0,1.0,1.0,2.0,0.0,3:10,3,1,3:33,F,Lightweight,M,Submission,Rear Naked Choke
+Nate,Mohr,Dennis,Siver,649.0,1645.0,1.0,200.0,57.0,190.0,48.0,1.0,0.0,0.0,0.0,0:07,3,3,3:45,F,Lightweight,M,KO/TKO,Spinning Back Kick Body
+Nate,Mohr,Manvel,Gamburyan,2885.0,1645.0,0.0,12.0,8.0,6.0,3.0,3.0,1.0,1.0,0.0,0:59,3,1,1:31,F,Lightweight,M,Submission,Ankle Lock From Guard
+Nate,Mohr,Kurt,Pellegrino,1276.0,1645.0,0.0,12.0,9.0,7.0,4.0,2.0,1.0,1.0,0.0,1:53,3,1,2:58,F,Lightweight,M,Submission,Ankle Lock After Drop to Ground
+Pat,Audinwood,Thiago,Tavares,440.0,3911.0,0.0,63.0,50.0,11.0,7.0,2.0,2.0,1.0,0.0,2:58,3,1,3:47,F,Lightweight,M,Submission,Guillotine Choke Standing
+Jason,Black,Thiago,Tavares,440.0,3761.0,0.0,64.0,52.0,18.0,11.0,4.0,2.0,2.0,0.0,5:05,3,2,2:49,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Jason,Black,Matt,Grice,2724.0,3761.0,1.0,170.0,132.0,73.0,44.0,3.0,3.0,0.0,0.0,12:44,3,3,5:00,F,Lightweight,M,Decision,Split
+Yui,Chul Nam,Kazuki,Tokudome,385.0,1525.0,0.0,174.0,131.0,55.0,31.0,7.0,3.0,0.0,0.0,7:43,3,3,5:00,F,Lightweight,M,Decision,Split
+Jason,Gilliam,Jamie,Varner,283.0,2830.0,0.0,16.0,10.0,13.0,7.0,1.0,1.0,2.0,0.0,1:20,3,1,1:34,F,Lightweight,M,Submission,Rear Naked Choke
+John,Gunderson,Yves,Edwards,3119.0,2695.0,0.0,177.0,98.0,125.0,54.0,1.0,1.0,1.0,0.0,8:03,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Gunderson,Rafaello,Oliveira,1402.0,2695.0,0.0,83.0,55.0,45.0,21.0,7.0,6.0,4.0,1.0,11:22,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Nick,Agallar,Yves,Edwards,3119.0,4087.0,1.0,63.0,39.0,57.0,33.0,0.0,0.0,0.0,0.0,0:11,3,2,2:14,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Eddie,Ruiz,Yves,Edwards,3119.0,918.0,1.0,79.0,57.0,40.0,21.0,0.0,0.0,3.0,1.0,6:59,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Joao,Pierini,Yves,Edwards,3119.0,1202.0,0.0,9.0,6.0,9.0,6.0,0.0,0.0,0.0,0.0,0:09,3,1,1:19,F,Lightweight,M,KO/TKO,"to    
+      Shoulder Injury"
+Jacob,Volkmann,Paul,Kelly,2257.0,226.0,0.0,85.0,45.0,61.0,24.0,0.0,0.0,2.0,2.0,3:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ben,Wall,Justin,Salas,888.0,209.0,1.0,28.0,22.0,26.0,20.0,6.0,0.0,0.0,0.0,0:42,3,1,2:41,F,Lightweight,M,KO/TKO,Punch to Head In Clinch
+David,Kaplan,George,Roop,952.0,2284.0,0.0,302.0,133.0,226.0,62.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+David,Kaplan,Junie,Browning,3649.0,2284.0,0.0,71.0,38.0,63.0,31.0,2.0,2.0,2.0,1.0,3:06,3,2,1:32,F,Lightweight,M,Submission,Armbar From Side Control
+Dustin,Hazelett,Mark,Bocek,3746.0,2609.0,0.0,33.0,24.0,18.0,9.0,1.0,1.0,1.0,0.0,1:48,3,1,2:33,F,Lightweight,M,Submission,Triangle Choke From Mount
+Joe,Brammer,Mark,Bocek,3746.0,3691.0,0.0,26.0,15.0,16.0,6.0,2.0,2.0,1.0,0.0,2:13,3,1,3:36,F,Lightweight,M,Submission,Rear Naked Choke
+Joe,Brammer,Aaron,Riley,1038.0,3691.0,0.0,184.0,124.0,104.0,46.0,8.0,3.0,0.0,0.0,5:06,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Doug,Evans,Mark,Bocek,3746.0,3050.0,0.0,129.0,87.0,58.0,26.0,17.0,7.0,0.0,0.0,10:38,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Doug,Evans,Roger,Huerta,2484.0,3050.0,0.0,107.0,60.0,78.0,34.0,6.0,0.0,0.0,1.0,3:03,3,2,3:30,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Francisco,Trevino,Renee,Forte,2954.0,361.0,0.0,79.0,20.0,70.0,14.0,9.0,5.0,0.0,0.0,4:33,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Colin,Fletcher,Mike,Ricci,1051.0,2975.0,0.0,145.0,55.0,137.0,47.0,2.0,2.0,0.0,0.0,3:39,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Allen,Berube,Leonard,Garcia,2876.0,3783.0,0.0,15.0,11.0,6.0,4.0,0.0,0.0,1.0,2.0,1:17,3,1,4:22,F,Lightweight,M,Submission,Rear Naked Choke
+John,Cofer,Justin,Lawrence,2095.0,3433.0,1.0,163.0,59.0,155.0,54.0,3.0,1.0,0.0,0.0,0:53,3,3,0:19,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+John,Cofer,Mike,Rio,1032.0,3433.0,0.0,111.0,67.0,67.0,30.0,11.0,4.0,1.0,0.0,5:52,3,3,4:11,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Brian,Cobb,Terry,Etim,3056.0,3439.0,1.0,43.0,19.0,43.0,19.0,1.0,1.0,0.0,0.0,0:24,3,2,0:10,F,Lightweight,M,KO/TKO,Kick to Head At Distance
+Mark,Holst,Paul,Sass,811.0,2523.0,0.0,15.0,11.0,4.0,2.0,2.0,0.0,4.0,0.0,0:00,3,1,4:45,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Mark,Holst,John,Gunderson,2695.0,2523.0,0.0,117.0,83.0,59.0,31.0,8.0,4.0,0.0,0.0,12:30,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Antonio,McKee,Jacob,Volkmann,226.0,1766.0,0.0,58.0,21.0,47.0,10.0,2.0,1.0,2.0,0.0,4:24,3,3,5:00,F,Lightweight,M,Decision,Split
+Ronys,Torres,Jacob,Volkmann,226.0,377.0,0.0,125.0,79.0,57.0,24.0,6.0,5.0,0.0,0.0,10:01,3,3,5:00,F,Lightweight,M,Decision,Split
+Ronys,Torres,Melvin,Guillard,2700.0,377.0,0.0,86.0,39.0,81.0,34.0,0.0,0.0,0.0,2.0,1:36,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Waylon,Lowe,Melvin,Guillard,2700.0,1967.0,1.0,27.0,20.0,21.0,14.0,0.0,0.0,0.0,0.0,0:02,3,1,3:28,F,Lightweight,M,KO/TKO,Knee to Body In Clinch
+Waylon,Lowe,Steve,Lopez,1980.0,1967.0,0.0,117.0,68.0,71.0,23.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Split
+Rick,Davis,Melvin,Guillard,2700.0,3291.0,1.0,28.0,10.0,28.0,10.0,0.0,0.0,0.0,0.0,0:02,3,1,1:37,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Marcus,LeVesseur,Cody,McKenzie,1761.0,2039.0,0.0,16.0,10.0,7.0,1.0,0.0,0.0,2.0,1.0,0:02,3,1,3:05,F,Lightweight,M,Submission,Guillotine Choke From Bottom Guard
+Aaron,Wilkinson,Cody,McKenzie,1761.0,137.0,0.0,10.0,8.0,2.0,0.0,1.0,1.0,2.0,2.0,0:52,3,1,2:03,F,Lightweight,M,Submission,Guillotine Choke From Bottom Half Guard
+Genki,Sudo,Duane,Ludwig,1957.0,503.0,0.0,101.0,73.0,57.0,38.0,0.0,0.0,0.0,0.0,4:07,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Wes,Albritton,Tito,Ortiz,1376.0,4061.0,0.0,31.0,28.0,24.0,21.0,1.0,1.0,0.0,0.0,--,1,1,0:31,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+David,Lee,Tyson,Griffin,2722.0,2078.0,0.0,11.0,7.0,1.0,0.0,1.0,1.0,1.0,0.0,1:35,3,1,1:50,F,Lightweight,M,Submission,Rear Naked Choke
+David,Lee,Junior,Assuncao,3916.0,2078.0,1.0,84.0,59.0,49.0,29.0,1.0,0.0,2.0,0.0,5:08,3,2,1:55,F,Lightweight,M,Submission,Rear Naked Choke
+Valeri,Ignatov,Matt,Hughes,2482.0,2463.0,0.0,164.0,124.0,117.0,77.0,9.0,5.0,0.0,0.0,--,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Dokonjonosuke,Mishima,Joe,Stevenson,539.0,1668.0,0.0,2.0,2.0,1.0,1.0,0.0,0.0,3.0,0.0,0:00,3,1,2:07,F,Lightweight,M,Submission,Guillotine Choke From Bottom Guard
+Dokonjonosuke,Mishima,Kenny,Florian,2969.0,1668.0,0.0,132.0,94.0,72.0,38.0,1.0,1.0,1.0,0.0,7:17,3,3,3:57,F,Lightweight,M,Submission,Rear Naked Choke
+Willamy,Freire,Waylon,Lowe,1967.0,2935.0,0.0,54.0,38.0,28.0,15.0,8.0,4.0,0.0,0.0,9:37,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Alberto,Crane,Kurt,Pellegrino,1276.0,3360.0,0.0,66.0,37.0,51.0,23.0,2.0,1.0,0.0,0.0,2:02,3,2,1:55,F,Lightweight,M,KO/TKO,Punches to Head On Ground
+Alberto,Crane,Roger,Huerta,2484.0,3360.0,0.0,148.0,97.0,64.0,26.0,0.0,0.0,0.0,0.0,6:32,3,3,1:50,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Jess,Liaudin,David,Bielkheden,3774.0,2027.0,0.0,104.0,86.0,53.0,36.0,11.0,7.0,0.0,0.0,9:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rolando,Delgado,Paul,Kelly,2257.0,3253.0,0.0,134.0,90.0,74.0,32.0,1.0,1.0,2.0,2.0,7:54,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Rolando,Delgado,Andre,Winner,113.0,3253.0,2.0,28.0,14.0,28.0,14.0,0.0,0.0,0.0,0.0,0:13,3,1,3:22,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Kelly,Dullanty,Matt,Serra,750.0,3150.0,0.0,20.0,14.0,8.0,2.0,3.0,1.0,3.0,0.0,2:22,3,1,2:58,F,Lightweight,M,Submission,Triangle Choke From Bottom Guard
+Fabiano,Iha,Caol,Uno,319.0,2461.0,0.0,24.0,14.0,17.0,8.0,4.0,2.0,0.0,0.0,0:54,3,1,1:48,F,Lightweight,M,KO/TKO,Punches to Head From Guard
+Fabiano,Iha,Din,Thomas,409.0,2461.0,0.0,128.0,98.0,69.0,42.0,1.0,1.0,0.0,0.0,6:09,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Fabiano,Iha,Dave,Menne,1719.0,2461.0,0.0,199.0,130.0,99.0,37.0,0.0,0.0,1.0,0.0,9:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Fabiano,Iha,Laverne,Clark,3453.0,2461.0,1.0,6.0,6.0,6.0,6.0,0.0,0.0,0.0,0.0,--,1,1,1:21,F,Lightweight,M,TKO - Doctor's Stoppage,Facial Cut
+Cameron,Dollar,Jason,Dent,3240.0,3192.0,0.0,36.0,14.0,36.0,14.0,0.0,0.0,1.0,0.0,0:30,3,1,4:46,F,Lightweight,M,Submission,Anaconda Choke From Front Headlock
+John,Polakowski,Rolando,Delgado,3253.0,1187.0,1.0,59.0,44.0,27.0,15.0,4.0,1.0,3.0,0.0,4:06,3,2,2:18,F,Lightweight,M,Submission,Guillotine Choke After Drop to Guard
+Corey,Hill,Dale,Hartt,2630.0,2554.0,0.0,22.0,12.0,18.0,8.0,0.0,0.0,0.0,0.0,0:07,3,2,0:20,F,Lightweight,M,KO/TKO,"to    
+      Leg Injury"
+Corey,Hill,Justin,Buchholz,3638.0,2554.0,0.0,96.0,40.0,80.0,24.0,0.0,0.0,1.0,1.0,0:11,3,2,3:57,F,Lightweight,M,Submission,Rear Naked Choke
+Richard,Crunkilton,Hermes,Franca,2947.0,3348.0,1.0,125.0,97.0,54.0,27.0,11.0,2.0,9.0,0.0,0:43,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+Ryan,Roberts,Marcus,Aurelio,3909.0,1008.0,1.0,11.0,6.0,11.0,6.0,0.0,0.0,1.0,0.0,0:06,3,1,0:16,F,Lightweight,M,Submission,Armbar On Ground
+Luke,Caudillo,Marcus,Aurelio,3909.0,3508.0,0.0,81.0,71.0,27.0,20.0,4.0,1.0,0.0,0.0,2:23,3,1,4:29,F,Lightweight,M,KO/TKO,Punches to Head From Side Control
+Luke,Caudillo,Nate,Mohr,1645.0,3508.0,0.0,187.0,71.0,185.0,70.0,0.0,0.0,0.0,0.0,0:00,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Halverson,Jorge,Gurgel,2693.0,2665.0,0.0,192.0,118.0,137.0,68.0,5.0,1.0,0.0,0.0,8:41,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+John,Halverson,Roger,Huerta,2484.0,2665.0,0.0,18.0,13.0,18.0,13.0,1.0,1.0,0.0,0.0,0:12,3,1,0:19,F,Lightweight,M,KO/TKO,Punches to Head From Back Control
+Danny,Abbadi,Jorge,Gurgel,2693.0,4106.0,0.0,208.0,101.0,159.0,58.0,7.0,1.0,1.0,0.0,2:03,3,3,5:00,F,Lightweight,M,Decision,Split
+Christophe,Leninger,Guy,Mezger,1710.0,2055.0,0.0,110.0,86.0,54.0,35.0,0.0,0.0,0.0,0.0,--,1,2,3:00,F,Lightweight,M,Decision,Unanimous
+Leigh,Remedios,Genki,Sudo,503.0,1074.0,0.0,37.0,17.0,29.0,9.0,3.0,2.0,3.0,0.0,3:31,3,2,1:38,F,Lightweight,M,Submission,Rear Naked Choke
+Donnie,Chappell,Tony,Fryklund,2921.0,3491.0,0.0,15.0,11.0,8.0,5.0,1.0,1.0,1.0,0.0,--,1,1,1:31,F,Lightweight,M,Submission,"Other - Choke From Mount
+      Strangle Choke"
+John,Lewis,Jens,Pulver,1146.0,2035.0,1.0,3.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0:00,3,1,0:15,F,Lightweight,M,KO/TKO,Punch to Head At Distance
+Joao,Roque,Jens,Pulver,1146.0,951.0,0.0,98.0,18.0,84.0,4.0,0.0,0.0,0.0,1.0,2:13,3,3,5:00,F,Lightweight,M,Decision,Unanimous
+David,Velasquez,Jens,Pulver,1146.0,271.0,0.0,123.0,69.0,107.0,54.0,3.0,3.0,2.0,0.0,5:13,3,2,2:41,F,Lightweight,M,KO/TKO,Punches to Head From Mount
+Chris,Brennan,Pat,Miletich,1698.0,3681.0,0.0,77.0,67.0,14.0,6.0,0.0,0.0,1.0,0.0,--,1,1,9:02,F,Lightweight,M,Submission,Shoulder Choke From Half Guard
+Royce,Alger,Enson,Inoue,2450.0,4036.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,--,1,1,1:36,F,Lightweight,M,Submission,Armbar From Bottom Guard
+Townsend,Saunders,Pat,Miletich,1698.0,804.0,0.0,74.0,64.0,27.0,18.0,0.0,0.0,1.0,1.0,--,1,2,3:00,F,Lightweight,M,Decision,Split
+Townsend,Saunders,Mikey,Burnett,3618.0,804.0,1.0,150.0,57.0,135.0,42.0,0.0,0.0,1.0,0.0,--,1,2,3:00,F,Lightweight,M,Decision,Unanimous
+Brad,Gumm,Shonie,Carter,3529.0,2696.0,0.0,74.0,55.0,40.0,22.0,6.0,5.0,0.0,1.0,6:48,2,2,5:00,F,Lightweight,M,Decision,Unanimous
+Frank,Caracci,Laverne,Clark,3453.0,3555.0,0.0,52.0,35.0,30.0,15.0,2.0,2.0,0.0,0.0,--,1,1,6:52,F,Lightweight,M,KO/TKO,"Punches to Head From Guard
+      Submission to Strikes"
+Josh,Stuart,Laverne,Clark,3453.0,508.0,,,,,,,,,,,1,1,1:15,F,Lightweight,M,KO/TKO,to
+David,Roberts,Marcelo,Mello,1731.0,1011.0,0.0,15.0,9.0,13.0,7.0,2.0,1.0,0.0,0.0,--,1,1,1:23,F,Lightweight,M,KO/TKO,Elbows to Head From Back Control
+Eugenio,Tadeu,Mikey,Burnett,3618.0,472.0,0.0,142.0,100.0,80.0,42.0,1.0,1.0,1.0,0.0,--,1,1,9:45,F,Lightweight,M,KO/TKO,Punches to Head At Distance
+Paulo,Santos,Cesar,Marscucci,1856.0,837.0,,,,,,,,,,,1,1,0:27,F,Lightweight,M,KO/TKO,to
+Nick,Sanzo,Jerry,Bohlander,3737.0,821.0,0.0,5.0,3.0,4.0,2.0,1.0,1.0,1.0,0.0,--,1,1,0:39,F,Lightweight,M,Submission,Neck Crank From Crucifix
+Rainy,Martinez,Jerry,Bohlander,3737.0,1840.0,0.0,7.0,4.0,3.0,0.0,1.0,1.0,1.0,0.0,--,1,1,1:24,F,Lightweight,M,Submission,Rear Naked Choke
+Courtney,Turner,Chris,Brennan,3681.0,333.0,,,,,,,,,,,1,1,1:20,F,Lightweight,M,Submission,Armbar
+Todd,Butler,Kevin,Jackson,2424.0,3603.0,0.0,7.0,4.0,6.0,3.0,1.0,1.0,0.0,0.0,--,1,1,1:27,F,Lightweight,M,KO/TKO,"Punches to Head From Back Control
+      Submission to Strikes"
+Yuri,Vaulin,Joe,Moreira,1608.0,279.0,0.0,80.0,76.0,9.0,7.0,3.0,3.0,0.0,0.0,--,1,2,3:00,F,Lightweight,M,Decision,Unanimous
+Saeed,Hosseini,Jack,Nilson,1471.0,2499.0,0.0,15.0,13.0,13.0,11.0,0.0,0.0,0.0,0.0,--,1,1,1:23,F,Lightweight,M,KO/TKO,Elbows to Head From Back Control
+Wallid,Ismail,Yoshiki,Takahashi,464.0,2433.0,0.0,99.0,72.0,43.0,20.0,1.0,1.0,0.0,0.0,--,1,2,3:00,F,Lightweight,M,Decision,Unanimous
+Jackie,Lee,Nick,Sanzo,821.0,2077.0,,,,,,,,,,,1,1,0:48,F,Lightweight,M,KO/TKO,to

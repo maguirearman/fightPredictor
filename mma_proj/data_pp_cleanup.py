@@ -33,11 +33,7 @@ def feature_selection(merged_data):
     selected_features = [
     'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 
     'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 
-    'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_f_name_y', 
-    'fighter_l_name_y', 'fighter_nickname_y', 'fighter_height_cm_y', 
-    'fighter_weight_lbs_y', 'fighter_reach_cm_y', 'fighter_stance_y', 
-    'fighter_dob_y', 'fighter_w_y', 'fighter_l_y', 'fighter_d_y', 
-    'fighter_nc_dq_y', 'fight_stat_id_y', 'fighter_id_y', 'knockdowns_y', 
+    'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 
     'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 
     'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
     'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner']

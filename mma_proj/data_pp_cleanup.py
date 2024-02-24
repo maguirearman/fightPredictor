@@ -44,7 +44,7 @@ def feature_selection(merged_data):
     # Verify if 'winner' is in selected features
     if 'winner' in selected_features:
         # Verify correlation with the target variable
-        corr_with_target = merged_data[selected_features].corr()['winner'].abs().sort_values(ascending=False)
+        corr_with_target = merged_data[selected_features].corr(numeric_only=True)['winner'].abs().sort_values(ascending=False)
         print("\nCorrelation with Target:\n", corr_with_target)
         
         return merged_data[selected_features]

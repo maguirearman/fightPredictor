@@ -1,4 +1,8 @@
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.impute import SimpleImputer
 
 def read_data():
     ufc_events = pd.read_csv('archive/ufc_event_data.csv')
@@ -19,11 +23,24 @@ def merge_data(ufc_fights, ufc_events, ufc_fighters, ufc_fight_stats):
     return merged_data
 
 def clean_data(merged_data):
-    unique_columns = ['fight_id', 'event_name', 'event_date', 'event_city', 'event_state', 'event_country', 'f_1', 'f_2']
+    # Convert control time columns to total seconds
+    merged_data['ctrl_time_x'] = merged_data['ctrl_time_x'].apply(lambda x: int(x.split(':')[0]) * 60 + int(x.split(':')[1]) if pd.notnull(x) and x != '--' else 0)
+    merged_data['ctrl_time_y'] = merged_data['ctrl_time_y'].apply(lambda x: int(x.split(':')[0]) * 60 + int(x.split(':')[1]) if pd.notnull(x) and x != '--' else 0)
+    
+    # Drop non-numeric columns
+    non_numeric_columns = ['referee', 'event_name', 'event_date', 'event_city', 'event_state', 'event_country', 'fight_url', 'fighter_url_fighter1', 'fighter_url_fighter2', 'event_url', 'fight_url_x', 'fight_url_y', 'fighter_url_x', 'fighter_url_y']
+    merged_data = merged_data.drop(columns=non_numeric_columns)
+    
+    # Impute NaN values for numeric columns
+    numeric_columns = merged_data.select_dtypes(include='number').columns
+    imputer = SimpleImputer(strategy='mean')
+    merged_data[numeric_columns] = imputer.fit_transform(merged_data[numeric_columns])
+    
+    unique_columns = ['fight_id', 'f_1', 'f_2']
     merged_data.drop_duplicates(subset=unique_columns, inplace=True)
-    columns_to_drop = ['referee', 'title_fight', 'event_name', 'event_date', 'event_city', 'event_state', 'event_country', 'fight_url', 'fighter_url_fighter1', 'fighter_url_fighter2', 'event_url', 'fight_url_x', 'fight_url_y', 'fighter_url_x', 'fighter_url_y']
-    merged_data.drop(columns_to_drop, axis=1, inplace=True)
+    
     return merged_data
+
 
 def feature_selection(merged_data):
     # Perform feature selection here
@@ -52,6 +69,28 @@ def feature_selection(merged_data):
         print("'winner' column not found in selected features.")
         return None
 
+def train_logistic_regression(data):
+    # Separate features and target variable
+    X = data.drop(columns=['winner'])
+    y = data['winner']
+    
+    # Split data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    
+    # Initialize and train the logistic regression model
+    model = LogisticRegression(max_iter=1000)  # Increase max_iter if needed
+    model.fit(X_train, y_train)
+    
+    # Predict on the test set
+    y_pred = model.predict(X_test)
+    
+    # Evaluate the model
+    accuracy = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred)
+    
+    return model, accuracy, report
+
 
 def main():
     # Read data
@@ -68,6 +107,9 @@ def main():
     
     # If selected_data is not None, save it to CSV
     if selected_data is not None:
+        model, accuracy, report = train_logistic_regression(selected_data)
+        print("Accuracy: ", accuracy)
+        print("Classification Report:\n", report)
         selected_data.to_csv('data/selected_data.csv', index=False)
     else:
         print("No features selected. Nothing saved to CSV.")

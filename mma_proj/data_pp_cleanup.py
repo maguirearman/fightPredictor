@@ -107,9 +107,9 @@ def main():
     
     # If selected_data is not None, save it to CSV
     if selected_data is not None:
-        model, accuracy, report = train_logistic_regression(selected_data)
-        print("Accuracy: ", accuracy)
-        print("Classification Report:\n", report)
+    #     model, accuracy, report = train_logistic_regression(selected_data)
+    #     print("Accuracy: ", accuracy)
+    #     print("Classification Report:\n", report)
         selected_data.to_csv('data/selected_data.csv', index=False)
     else:
         print("No features selected. Nothing saved to CSV.")

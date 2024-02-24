@@ -29,29 +29,53 @@ def feature_selection(merged_data):
     # Perform feature selection here
     # You can use any of the techniques mentioned earlier
     
-    # For example, let's say we want to select features based on correlation with the target variable
-    corr_matrix = merged_data.corr(numeric_only=True)  # Explicitly set numeric_only=True
-    corr_with_target = corr_matrix['winner'].abs().sort_values(ascending=False)
-    selected_features = corr_with_target.index[1:]  # Exclude the target variable
+     # Example: Select features based on domain knowledge
+    selected_features = [
+    'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 
+    'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 
+    'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_f_name_y', 
+    'fighter_l_name_y', 'fighter_nickname_y', 'fighter_height_cm_y', 
+    'fighter_weight_lbs_y', 'fighter_reach_cm_y', 'fighter_stance_y', 
+    'fighter_dob_y', 'fighter_w_y', 'fighter_l_y', 'fighter_d_y', 
+    'fighter_nc_dq_y', 'fight_stat_id_y', 'fighter_id_y', 'knockdowns_y', 
+    'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 
+    'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
+    'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner']
+    # Inspect the selected features
+    print("Selected Features:\n", selected_features)
 
-    # Inspect the resulting DataFrame after feature selection
-    print(selected_features)
 
-
-    # Verify correlation with the target variable
-    corr_with_target = selected_features.corr()['winner'].abs().sort_values(ascending=False)
-    print("Correlation with Target:\n", corr_with_target)
-
-    
-    return merged_data[selected_features]
+    # Verify if 'winner' is in selected features
+    if 'winner' in selected_features:
+        # Verify correlation with the target variable
+        corr_with_target = merged_data[selected_features].corr()['winner'].abs().sort_values(ascending=False)
+        print("\nCorrelation with Target:\n", corr_with_target)
+        
+        return merged_data[selected_features]
+    else:
+        print("'winner' column not found in selected features.")
+        return None
 
 
 def main():
+    # Read data
     ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters = read_data()
+    
+    # Merge data
     merged_data = merge_data(ufc_fights, ufc_events, ufc_fighters, ufc_fight_stats)
+    
+    # Clean data
     cleaned_data = clean_data(merged_data)
+    
+    # Perform feature selection
     selected_data = feature_selection(cleaned_data)
-    selected_data.to_csv('data/selected_data.csv', index=False)
+    
+    # If selected_data is not None, save it to CSV
+    if selected_data is not None:
+        selected_data.to_csv('data/selected_data.csv', index=False)
+    else:
+        print("No features selected. Nothing saved to CSV.")
 
 if __name__ == "__main__":
     main()
+    

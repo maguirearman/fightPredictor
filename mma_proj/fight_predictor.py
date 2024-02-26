@@ -174,6 +174,32 @@ def train_svm(data):
     
     return model
 
+def train_and_evaluate_sgd(X, y, n_splits=5):
+    # Initialize SGD Classifier
+    sgd = SGDClassifier(loss='log', max_iter=1000, random_state=42)  # 'log' for logistic regression
+    
+    # Initialize cross-validation
+    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
+    
+    # Perform cross-validation
+    cv_scores = cross_val_score(sgd, X, y, cv=cv, scoring='accuracy')
+    
+    # Fit the model on the entire dataset
+    sgd.fit(X, y)
+    
+    # Make predictions
+    y_pred = sgd.predict(X)
+    
+    # Print cross-validation results
+    print("SGD Classifier Cross-Validation Accuracy Scores:", cv_scores)
+    print("SGD Classifier Mean Accuracy:", cv_scores.mean())
+    
+    # Generate classification report on the entire dataset
+    print("\nSGD Classifier Classification Report:")
+    print(classification_report(y, y_pred))
+    
+    # Return the trained model
+    return sgd
 
 
 
@@ -198,6 +224,8 @@ def main():
         gbm = train_and_evaluate_gbm(selected_data.drop(columns=['winner']), selected_data['winner'])
         nn = train_neural_network(selected_data)
         svm = train_svm(selected_data)
+        sgd = train_and_evaluate_sgd(selected_data.drop(columns=['winner']), selected_data['winner'])
+
     else:
         print("No features selected. Nothing saved to CSV.")
 

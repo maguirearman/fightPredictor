@@ -3,7 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.impute import SimpleImputer
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.model_selection import cross_val_score, StratifiedKFold
 
 
 def read_data():
@@ -60,14 +61,11 @@ def feature_selection(merged_data):
     'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
     'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner']
     # Inspect the selected features
-    print("Selected Features:\n", selected_features)
+    #print("Selected Features:\n", selected_features)
 
 
     # Verify if 'winner' is in selected features
     if 'winner' in selected_features:
-        # Verify correlation with the target variable
-        corr_with_target = merged_data[selected_features].corr(numeric_only=True)['winner'].abs().sort_values(ascending=False)
-        print("\nCorrelation with Target:\n", corr_with_target)
         
         return merged_data[selected_features]
     else:
@@ -92,8 +90,40 @@ def train_random_forest(data):
     # Evaluate the model
     accuracy = accuracy_score(y_test, y_pred)
     report = classification_report(y_test, y_pred)
+
+    print("Random Forest Classifer accuracy: ", accuracy)
+    print("Classification Report:\n", report)
     
     return model, accuracy, report
+
+def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.1, n_splits=5):
+    # Initialize Gradient Boosting Classifier
+    gbm = GradientBoostingClassifier(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate, random_state=42)
+    
+    # Initialize cross-validation
+    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
+    
+    # Perform cross-validation
+    cv_scores = cross_val_score(gbm, X, y, cv=cv, scoring='accuracy')
+    
+    # Fit the model on the entire dataset
+    gbm.fit(X, y)
+    
+    # Make predictions
+    y_pred = gbm.predict(X)
+    
+    # Print cross-validation results
+    print("GBM Booster Cross-Validation Accuracy Scores:", cv_scores)
+    print("GBM Booster Mean Accuracy:", cv_scores.mean())
+    
+    # Generate classification report on the entire dataset
+    print("\nGBM Booster Classification Report:")
+    print(classification_report(y, y_pred))
+    
+    # Return the trained model
+    return gbm
+
+
 
 
 def main():
@@ -112,9 +142,8 @@ def main():
     # If selected_data is not None, save it to CSV
     if selected_data is not None:
         selected_data.to_csv('data/selected_data.csv', index=False)
-        model, accuracy, report = train_random_forest(selected_data)
-        print("Accuracy: ", accuracy)
-        # print("Classification Report:\n", report)
+        random_forest = train_random_forest(selected_data)
+        gbm = train_and_evaluate_gbm(selected_data.drop(columns=['winner']), selected_data['winner'])
     else:
         print("No features selected. Nothing saved to CSV.")
 

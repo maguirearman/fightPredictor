@@ -5,6 +5,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.model_selection import cross_val_score, StratifiedKFold
+from sklearn.neural_network import MLPClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import SGDClassifier
 
 
 def read_data():
@@ -94,7 +97,7 @@ def train_random_forest(data):
     print("Random Forest Classifer accuracy: ", accuracy)
     print("Classification Report:\n", report)
     
-    return model, accuracy, report
+    return model
 
 def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.1, n_splits=5):
     # Initialize Gradient Boosting Classifier
@@ -123,6 +126,55 @@ def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.
     # Return the trained model
     return gbm
 
+def train_neural_network(data):
+    # Separate features and target variable
+    X = data.drop(columns=['fighter_id_x', 'fighter_id_y', 'winner'])
+    y = data['winner']
+    
+    # Split data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Initialize and train the MLP neural network
+    model = MLPClassifier(hidden_layer_sizes=(100, 50), activation='relu', solver='adam', max_iter=500, random_state=42)
+    model.fit(X_train, y_train)
+    
+    # Predict on the test set
+    y_pred = model.predict(X_test)
+    
+    # Evaluate the model
+    accuracy = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred)
+
+    print("Neural Network accuracy: ", accuracy)
+    print("Classification Report:\n", report)
+    
+    return model
+
+def train_svm(data):
+    # Separate features and target variable
+    X = data.drop(columns=['fighter_id_x', 'fighter_id_y', 'winner'])
+    y = data['winner']
+    
+    # Split data into training and testing sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Initialize and train the SVM model
+    model = SVC(kernel='rbf', random_state=42)  # Using radial basis function (RBF) kernel as an example
+    model.fit(X_train, y_train)
+    
+    # Predict on the test set
+    y_pred = model.predict(X_test)
+    
+    # Evaluate the model
+    accuracy = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred)
+
+    print("SVM Classifier accuracy: ", accuracy)
+    print("Classification Report:\n", report)
+    
+    return model
+
+
 
 
 
@@ -144,6 +196,8 @@ def main():
         selected_data.to_csv('data/selected_data.csv', index=False)
         random_forest = train_random_forest(selected_data)
         gbm = train_and_evaluate_gbm(selected_data.drop(columns=['winner']), selected_data['winner'])
+        nn = train_neural_network(selected_data)
+        svm = train_svm(selected_data)
     else:
         print("No features selected. Nothing saved to CSV.")
 

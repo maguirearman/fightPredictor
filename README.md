@@ -8,3 +8,7 @@ Goal: To build a model that predicts which UFC Fighter would win in a matchup
 
 Database: https://www.kaggle.com/datasets/remypereira/mma-dataset-2023-ufc?resource=download
 
+archive folder is the original data sets
+
+data set is the scraped data that i worked on
+

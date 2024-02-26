@@ -38,6 +38,9 @@ def clean_data(merged_data):
     imputer = SimpleImputer(strategy='mean')
     merged_data[numeric_columns] = imputer.fit_transform(merged_data[numeric_columns])
     
+    # Replace winner IDs with 'x' or 'y'
+    merged_data['winner'] = merged_data.apply(lambda row: 0 if row['winner'] == row['f_1'] else 1, axis=1)
+    
     unique_columns = ['fight_id', 'f_1', 'f_2']
     merged_data.drop_duplicates(subset=unique_columns, inplace=True)
     
@@ -73,7 +76,7 @@ def feature_selection(merged_data):
 
 def train_random_forest(data):
     # Separate features and target variable
-    X = data.drop(columns=['winner'])
+    X = data.drop(columns=['fighter_id_x', 'fighter_id_y', 'winner'])
     y = data['winner']
     
     # Split data into training and testing sets
@@ -108,10 +111,10 @@ def main():
     
     # If selected_data is not None, save it to CSV
     if selected_data is not None:
+        selected_data.to_csv('data/selected_data.csv', index=False)
         model, accuracy, report = train_random_forest(selected_data)
         print("Accuracy: ", accuracy)
         # print("Classification Report:\n", report)
-        selected_data.to_csv('data/selected_data.csv', index=False)
     else:
         print("No features selected. Nothing saved to CSV.")
 

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';
+import PredictButton from './PredictButton'; 
 
 function App() {
   // Define some dummy weight classes and fighters
@@ -26,6 +27,11 @@ function App() {
     setSelectedFighter2(fighter);
   };
 
+  const handlePredictFight = () => {
+      // Perform prediction logic here
+      console.log('Predicting fight...');
+    };
+
   return (
     <div className="App">
       <h1>MMA Fight Predictor</h1>
@@ -44,7 +50,7 @@ function App() {
         selectedFighter={selectedFighter2}
         onSelectFighter={handleSelectFighter2}
       />
-      {/* Add other components here */}
+      <PredictButton onClick={handlePredictFight} /> {/* Add PredictButton component with onClick prop */}
     </div>
   );
 }

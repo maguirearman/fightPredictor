@@ -4,6 +4,13 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+def read_data():
+    ufc_events = pd.read_csv('archive/ufc_event_data.csv')
+    ufc_fights = pd.read_csv('archive/ufc_fight_data.csv')
+    ufc_fight_stats = pd.read_csv('archive/ufc_fight_stat_data.csv')
+    ufc_fighters = pd.read_csv('archive/ufc_fighter_data.csv')
+    return ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters
+
 @app.route('/predict', methods=['OPTIONS', 'POST'])
 def predict_fight():
     if request.method == 'OPTIONS':

@@ -28,9 +28,33 @@ function App() {
   };
 
   const handlePredictFight = () => {
+    const data = {
+      weightClass: selectedWeightClass,
+      fighter1: selectedFighter1,
+      fighter2: selectedFighter2
+    };
+
+    fetch('http://127.0.0.1:5000/predict', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Response from backend:', data);
+      // Handle the response as needed
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // Handle errors
+    }); 
       // Perform prediction logic here
       console.log('Predicting fight...');
-    };
+  };
+
+
 
   return (
     <div className="App">

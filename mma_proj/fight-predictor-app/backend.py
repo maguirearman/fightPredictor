@@ -1,22 +1,31 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/predict-fight', methods=['POST'])
+@app.route('/predict', methods=['OPTIONS', 'POST'])
 def predict_fight():
-    # Receive selected parameters from the frontend
-    data = request.json
-    weight_class = data['weight_class']
-    fighter_ids = [data['fighter1'], data['fighter2']]
+    if request.method == 'OPTIONS':
+        response = jsonify({'message': 'Preflight request accepted.'})
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', '*')
+        response.headers.add('Access-Control-Allow-Methods', '*')
+        return response
 
-    # Logic to fetch fight IDs based on weight class and fighter IDs
-    # This is where you would interact with your database or any other data source
+    if request.method == 'POST':
+        # Receive selected parameters from the frontend
+        data = request.json
+        weight_class = data['weightClass']
+        fighter1 = data['fighter1']
+        fighter2 = data['fighter2']
 
-    # Dummy prediction using placeholders
-    predicted_winner = 'Fighter 1' if weight_class == 'Flyweight' else 'Fighter 2'
+        # Dummy prediction using placeholders
+        predicted_winner = 'Fighter 1' if weight_class == 'Flyweight' else 'Fighter 2'
 
-    # Return the predicted winner to the frontend
-    return jsonify({'predicted_winner': predicted_winner})
+        response = jsonify({'predicted_winner': predicted_winner})
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
 
 if __name__ == '__main__':
     app.run(debug=True)

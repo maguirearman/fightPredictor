@@ -59,3 +59,9 @@ F1-score (1): 37%
 Accuracy (Mean): 78.25%
 - Conclusion
 The Gradient Boosting Machine (GBM) classifier demonstrates the best overall performance, achieving the highest accuracy and F1-scores for both classes. Additionally, it maintains high accuracy during cross-validation, indicating robustness and generalization capability.
+
+
+
+
+flask run
+npm start

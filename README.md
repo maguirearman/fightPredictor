@@ -63,5 +63,5 @@ The Gradient Boosting Machine (GBM) classifier demonstrates the best overall per
 
 
 
-flask run
-npm start
+
+npm start: Concurrently runs flask server (flask run) and the react frontend.

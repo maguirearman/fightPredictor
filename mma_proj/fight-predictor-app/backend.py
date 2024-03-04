@@ -4,6 +4,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.ensemble import GradientBoostingClassifier
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import csv
 
 app = Flask(__name__)
 CORS(app)
@@ -100,6 +101,35 @@ def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.
     
     # Return the trained model
     return gbm
+
+
+
+def get_fighter_names():
+    fighter_names = []
+    names_count = {}
+    with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            fighter_name = f"{row['fighter_f_name']} {row['fighter_l_name']}"
+            if fighter_name in fighter_names:
+                # If the name already exists, add the middle name or nickname
+                nickname = row.get('fighter_nickname', '')
+                if nickname:
+                    fighter_name += f" '{nickname}'"
+                # If both middle name and nickname are missing, add a unique identifier
+                else:
+                    if fighter_name in names_count:
+                        names_count[fighter_name] += 1
+                        fighter_name += f" {names_count[fighter_name]}"
+                    else:
+                        names_count[fighter_name] = 1
+            fighter_names.append(fighter_name)
+    return fighter_names
+
+@app.route('/fighters', methods=['GET'])
+def get_fighters():
+    fighters = get_fighter_names()
+    return jsonify(fighters)
 
 
 

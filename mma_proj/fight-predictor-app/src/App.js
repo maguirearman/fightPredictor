@@ -1,5 +1,5 @@
 // App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';
 import PredictButton from './PredictButton'; 
@@ -7,7 +7,8 @@ import PredictButton from './PredictButton';
 function App() {
   // Define some dummy weight classes and fighters
   const weightClasses = ['Flyweight', 'Bantamweight', 'Featherweight', 'Lightweight', 'Welterweight', 'Middleweight', 'Light Heavyweight', 'Heavyweight', 'Womens Strawweight', 'Womens Flyweight', 'Womens Bantamweight'];
-  const fighters = ['Fighter 1', 'Fighter 2', 'Fighter 3', 'Fighter 4'];
+  const [fighters, setFighters] = useState([]);
+
 
   // State to track the selected weight class and fighter
   const [selectedWeightClass, setSelectedWeightClass] = useState('');
@@ -26,6 +27,7 @@ function App() {
   const handleSelectFighter2 = (fighter) => {
     setSelectedFighter2(fighter);
   };
+
 
   const handlePredictFight = () => {
     const data = {
@@ -53,6 +55,20 @@ function App() {
       // Perform prediction logic here
       console.log('Predicting fight...');
   };
+
+
+  // Fetch fighters data from the server on component mount
+  useEffect(() => {
+    fetch('http://127.0.0.1:5000/fighters')
+      .then(response => response.json())
+      .then(data => {
+        setFighters(data);
+      console.log('Fetched fighters:', data);
+      })
+      .catch(error => {
+        console.error('Error fetching fighters:', error);
+      });
+  }, []); // Empty dependency array to ensure the effect runs only once on component mount
 
 
 

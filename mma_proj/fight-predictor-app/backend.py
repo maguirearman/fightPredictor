@@ -126,11 +126,30 @@ def get_fighter_names():
             fighter_names.append(fighter_name)
     return fighter_names
 
-@app.route('/fighters', methods=['GET'])
-def get_fighters():
-    fighters = get_fighter_names()
-    return jsonify(fighters)
+def extract_fighter_ids(weight_class, fighter1_name, fighter2_name):
+    fighter_ids = []
+    with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row['weight_class'] == weight_class:
+                if row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter1_name:
+                    fighter_ids.append(row['fighter_id'])
+                elif row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter2_name:
+                    fighter_ids.append(row['fighter_id'])
+    return fighter_ids
 
+@app.route('/fighters', methods=['OPTIONS','GET'])
+def get_fighters():
+    if request.method == 'OPTIONS':
+        # Respond to preflight request
+        response = jsonify({'message': 'Preflight request accepted.'})
+        response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+        response.headers.add('Access-Control-Allow-Methods', 'POST')
+        return response
+    fighters = get_fighter_names()
+    response = jsonify(fighters)
+    return response
 
 
 
@@ -150,6 +169,8 @@ def predict_fight():
         weight_class = data['weightClass']
         fighter1 = data['fighter1']
         fighter2 = data['fighter2']
+        # fighter_ids = extract_fighter_ids(weight_class, fighter1, fighter2)
+        # print(fighter_ids)
 
     # Read data
     ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters = read_data()

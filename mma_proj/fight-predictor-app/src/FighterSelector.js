@@ -2,11 +2,13 @@
 
 import React from 'react';
 
-function FighterSelector({ fighters, selectedFighter, onSelectFighter }) {
+function FighterSelector({ fighters, selectedFighter, onSelectFighter, label }) {
+  const selectId = label.toLowerCase().replace(/\s+/g, '-'); // Generate unique ID based on label
+
   return (
     <div>
-      <label htmlFor="fighter">Select a Fighter:</label>
-      <select id="fighter" value={selectedFighter} onChange={(e) => onSelectFighter(e.target.value)}>
+      <label htmlFor={selectId}>Select a Fighter:</label>
+      <select id={selectId} value={selectedFighter} onChange={(e) => onSelectFighter(e.target.value)}>
         <option value="">Select</option>
         {fighters.map((fighter) => (
           <option key={fighter} value={fighter}>
@@ -17,5 +19,6 @@ function FighterSelector({ fighters, selectedFighter, onSelectFighter }) {
     </div>
   );
 }
+
 
 export default FighterSelector;

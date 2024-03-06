@@ -84,11 +84,13 @@ function App() {
         fighters={fighters}
         selectedFighter={selectedFighter1}
         onSelectFighter={handleSelectFighter1}
+        label={`Select Fighter 1: ${selectedFighter1}`}
       />
       <FighterSelector
         fighters={fighters}
         selectedFighter={selectedFighter2}
         onSelectFighter={handleSelectFighter2}
+        label={`Select Fighter 2: ${selectedFighter2}`}
       />
       <PredictButton onClick={handlePredictFight} /> {/* Add PredictButton component with onClick prop */}
     </div>

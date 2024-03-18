@@ -18,6 +18,28 @@ function App() {
   // Functions to handle selecting weight class and fighters
   const handleSelectWeightClass = (weightClass) => {
     setSelectedWeightClass(weightClass);
+    if (weightClass) {
+      fetchFighters(weightClass);
+    }
+  };
+
+
+  const fetchFighters = (weightClass) => {
+    // Send a request to the backend to fetch fighters for the selected weight class
+    fetch(`http://localhost:5000/fighters?weightClass=${weightClass}`, {
+      method: 'GET',
+      headers: {
+        'Origin': 'http://localhost:3000' // Replace with the actual origin of your frontend application
+      },
+      mode: 'cors'
+    })
+      .then(response => response.json())
+      .then(data => {
+        setFighters(data);
+      })
+      .catch(error => {
+        console.error('Error fetching fighters:', error);
+      });
   };
 
   const handleSelectFighter1 = (fighter) => {

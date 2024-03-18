@@ -138,15 +138,21 @@ def extract_fighter_ids(weight_class, fighter1_name, fighter2_name):
                     fighter_ids.append(row['fighter_id'])
     return fighter_ids
 
-@app.route('/fighters', methods=['OPTIONS','GET'])
+@app.route('/fighters', methods=['GET'])
 def get_fighters():
     if request.method == 'OPTIONS':
         # Respond to preflight request
-        response = jsonify({'message': 'Preflight request accepted.'})
-        response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
+        response = make_response(jsonify({'message': 'Preflight request accepted.'}), 200)
+        response.headers.add('Access-Control-Allow-Origin', '*')
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-        response.headers.add('Access-Control-Allow-Methods', 'POST')
+        response.headers.add('Access-Control-Allow-Methods', 'GET')
         return response
+
+
+    # Get the weight class from the query parameters
+    weight_class = request.args.get('weightClass')
+    print(weight_class)
+
     fighters = get_fighter_names()
     response = jsonify(fighters)
     return response

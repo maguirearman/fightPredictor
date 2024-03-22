@@ -136,14 +136,17 @@ def get_fighter_names():
             fighter_names.append(fighter_name)
     return fighter_names
 
-# Define a method to check if a fighter belongs to the specified weight class
 def check_fighter_weight_class(weight_class, fighter_id):
-    with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
+    # Convert the fighter ID to a string and append '.0'
+    fighter_id_str = str(fighter_id) + '.0'
+    with open('archive/ufc_fight_data.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row['weight_class'] == weight_class and row['fighter_id'] == fighter_id:
+            # Check if the weight class matches and if the fighter ID matches either f_1 or f_2
+            if row['weight_class'] == weight_class and (row['f_1'] == fighter_id_str or row['f_2'] == fighter_id_str):
                 return True
     return False
+
 
 # Define a method to extract fighter IDs based on their names and weight class
 def extract_fighter_ids(fighter1_name, fighter2_name):
@@ -198,15 +201,16 @@ def predict_fight():
         fighter2 = data['fighter2']
         print(fighter1)
         print(fighter2)
+        # Extract fighter IDs
+        fighter_ids = extract_fighter_ids(fighter1, fighter2)
+        print(fighter_ids)
+        # Check if fighters belong to the specified weight class
+        for fighter_id in fighter_ids:
+            if not check_fighter_weight_class(weight_class, fighter_id):
+                error_message = f'Fighter with ID {fighter_id} does not belong to the specified weight class.'
+                print(error_message)
 
 
-    # Extract fighter IDs
-    fighter_ids = extract_fighter_ids(fighter1, fighter2)
-    print(fighter_ids)
-
-    # Check if fighters belong to the specified weight class
-    if not check_fighter_weight_class(weight_class, fighter1) or not check_fighter_weight_class(weight_class, fighter2):
-        return jsonify({'error': 'One or more fighters do not belong to the specified weight class.'}), 400
     
 
     

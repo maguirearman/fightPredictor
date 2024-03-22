@@ -137,25 +137,24 @@ def get_fighter_names():
     return fighter_names
 
 # Define a method to check if a fighter belongs to the specified weight class
-def check_fighter_weight_class(weight_class, fighter_name):
-    with open('archive/ufc_fight_data.csv', newline='') as csvfile:
+def check_fighter_weight_class(weight_class, fighter_id):
+    with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row['weight_class'] == weight_class and (row['fighter1'] == fighter_name or row['fighter2'] == fighter_name):
+            if row['weight_class'] == weight_class and row['fighter_id'] == fighter_id:
                 return True
     return False
 
 # Define a method to extract fighter IDs based on their names and weight class
-def extract_fighter_ids(weight_class, fighter1_name, fighter2_name):
+def extract_fighter_ids(fighter1_name, fighter2_name):
     fighter_ids = []
     with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row['weight_class'] == weight_class:
-                if row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter1_name:
-                    fighter_ids.append(row['fighter_id'])
-                elif row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter2_name:
-                    fighter_ids.append(row['fighter_id'])
+            if row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter1_name:
+                fighter_ids.append(row['fighter_id'])
+            elif row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter2_name:
+                fighter_ids.append(row['fighter_id'])
     return fighter_ids
 
 
@@ -197,16 +196,19 @@ def predict_fight():
         print(weight_class)
         fighter1 = data['fighter1']
         fighter2 = data['fighter2']
-        # fighter_ids = extract_fighter_ids(weight_class, fighter1, fighter2)
-        # print(fighter_ids)
+        print(fighter1)
+        print(fighter2)
+
+
+    # Extract fighter IDs
+    fighter_ids = extract_fighter_ids(fighter1, fighter2)
+    print(fighter_ids)
 
     # Check if fighters belong to the specified weight class
     if not check_fighter_weight_class(weight_class, fighter1) or not check_fighter_weight_class(weight_class, fighter2):
         return jsonify({'error': 'One or more fighters do not belong to the specified weight class.'}), 400
     
-    # Extract fighter IDs
-    fighter_ids = extract_fighter_ids(weight_class, fighter1, fighter2)
-    print(fighter_ids)
+
     
     # Predict the outcome of the fight
     #predicted_winner = predict_fight_outcome(weight_class, fighter1, fighter2)

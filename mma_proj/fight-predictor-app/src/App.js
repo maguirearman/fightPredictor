@@ -26,7 +26,7 @@ function App() {
 
   const fetchFighters = (weightClass) => {
     // Send a request to the backend to fetch fighters for the selected weight class
-    fetch(`http://localhost:5000/fighters?weightClass=${weightClass}`, {
+    fetch(`http://127.0.0.1:5000/fighters?weightClass=${weightClass}`, {
       method: 'GET',
       headers: {
         'Origin': 'http://localhost:3000' // Replace with the actual origin of your frontend application

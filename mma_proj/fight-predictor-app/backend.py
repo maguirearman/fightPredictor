@@ -2,9 +2,12 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import GradientBoostingClassifier
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 import csv
+from sklearn.model_selection import cross_val_score, StratifiedKFold
+from sklearn.metrics import classification_report
+
 
 app = Flask(__name__)
 CORS(app)
@@ -102,8 +105,15 @@ def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.
     # Return the trained model
     return gbm
 
+# Use your machine learning model to predict the outcome of the fight
+def predict_fight_outcome(weight_class, fighter1_name, fighter2_name):
+    # Example: Use your trained machine learning model to predict the outcome
+    # Replace this with your actual prediction logic
+    predicted_winner = 'Fighter 1' if weight_class == 'Flyweight' else 'Fighter 2'
+    return predicted_winner
 
 
+# Function returns a list of the names of all fighters
 def get_fighter_names():
     fighter_names = []
     names_count = {}
@@ -126,6 +136,16 @@ def get_fighter_names():
             fighter_names.append(fighter_name)
     return fighter_names
 
+# Define a method to check if a fighter belongs to the specified weight class
+def check_fighter_weight_class(weight_class, fighter_name):
+    with open('archive/ufc_fight_data.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row['weight_class'] == weight_class and (row['fighter1'] == fighter_name or row['fighter2'] == fighter_name):
+                return True
+    return False
+
+# Define a method to extract fighter IDs based on their names and weight class
 def extract_fighter_ids(weight_class, fighter1_name, fighter2_name):
     fighter_ids = []
     with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
@@ -137,6 +157,7 @@ def extract_fighter_ids(weight_class, fighter1_name, fighter2_name):
                 elif row['fighter_f_name'] + ' ' + row['fighter_l_name'] == fighter2_name:
                     fighter_ids.append(row['fighter_id'])
     return fighter_ids
+
 
 @app.route('/fighters', methods=['GET'])
 def get_fighters():
@@ -151,7 +172,7 @@ def get_fighters():
 
     # Get the weight class from the query parameters
     weight_class = request.args.get('weightClass')
-    print(weight_class)
+
 
     fighters = get_fighter_names()
     response = jsonify(fighters)
@@ -173,10 +194,24 @@ def predict_fight():
         # Receive selected parameters from the frontend
         data = request.json
         weight_class = data['weightClass']
+        print(weight_class)
         fighter1 = data['fighter1']
         fighter2 = data['fighter2']
         # fighter_ids = extract_fighter_ids(weight_class, fighter1, fighter2)
         # print(fighter_ids)
+
+    # Check if fighters belong to the specified weight class
+    if not check_fighter_weight_class(weight_class, fighter1) or not check_fighter_weight_class(weight_class, fighter2):
+        return jsonify({'error': 'One or more fighters do not belong to the specified weight class.'}), 400
+    
+    # Extract fighter IDs
+    fighter_ids = extract_fighter_ids(weight_class, fighter1, fighter2)
+    print(fighter_ids)
+    
+    # Predict the outcome of the fight
+    #predicted_winner = predict_fight_outcome(weight_class, fighter1, fighter2)
+    
+    #return jsonify({'predicted_winner': predicted_winner})
 
     # Read data
     ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters = read_data()

@@ -28,9 +28,6 @@ function App() {
     // Send a request to the backend to fetch fighters for the selected weight class
     fetch(`http://127.0.0.1:5000/fighters?weightClass=${weightClass}`, {
       method: 'GET',
-      headers: {
-        'Origin': 'http://localhost:3000' // Replace with the actual origin of your frontend application
-      },
       mode: 'cors'
     })
       .then(response => response.json())
@@ -82,16 +79,21 @@ function App() {
   // Fetch fighters data from the server on component mount
   useEffect(() => {
     fetch('http://127.0.0.1:5000/fighters')
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then(data => {
         setFighters(data);
-      console.log('Fetched fighters:', data);
+        console.log('Fetched fighters:', data);
       })
       .catch(error => {
         console.error('Error fetching fighters:', error);
       });
-  }, []); // Empty dependency array to ensure the effect runs only once on component mount
-
+  }, []); // Empty dependency array means this effect runs only once on component mount
+  
 
 
   return (

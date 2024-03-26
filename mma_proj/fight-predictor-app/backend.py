@@ -7,10 +7,15 @@ from flask_cors import CORS
 import csv
 from sklearn.model_selection import cross_val_score, StratifiedKFold
 from sklearn.metrics import classification_report
+from flask_cors import cross_origin
 
 
 app = Flask(__name__)
-CORS(app)
+# Apply CORS globally to all routes, the simplest solution
+app = Flask(__name__)
+CORS(app, support_credentials=True, resources={r"*": {"origins": "*"}})
+
+
 
 def read_data():
     ufc_events = pd.read_csv('archive/ufc_event_data.csv')
@@ -161,7 +166,8 @@ def extract_fighter_ids(fighter1_name, fighter2_name):
     return fighter_ids
 
 
-@app.route('/fighters', methods=['GET'])
+@app.route('/fighters', methods=['GET', 'OPTIONS'])
+@cross_origin(origin='http://localhost:3000', headers=['Content-Type'], methods=['GET', 'OPTIONS'])
 def get_fighters():
     if request.method == 'OPTIONS':
         # Respond to preflight request
@@ -182,7 +188,8 @@ def get_fighters():
 
 
 
-@app.route('/predict', methods=['OPTIONS', 'POST'])
+@app.route('/predict', methods=['POST', 'OPTIONS'])
+@cross_origin(origin='http://localhost:3000', headers=['Content-Type'], methods=['POST', 'OPTIONS'])
 def predict_fight():
     if request.method == 'OPTIONS':
         # Respond to preflight request

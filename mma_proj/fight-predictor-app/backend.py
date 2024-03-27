@@ -194,7 +194,7 @@ def predict_fight():
     if request.method == 'OPTIONS':
         # Respond to preflight request
         response = jsonify({'message': 'Preflight request accepted.'})
-        response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3000')
+        response.headers.add('Access-Control-Allow-Origin', '*')
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
         response.headers.add('Access-Control-Allow-Methods', 'POST')
         return response

@@ -5,17 +5,16 @@ from sklearn.ensemble import GradientBoostingClassifier
 from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 import csv
-from sklearn.model_selection import cross_val_score, StratifiedKFold
-from sklearn.metrics import classification_report
 from flask_cors import cross_origin
+import joblib
 
 
-app = Flask(__name__)
 # Apply CORS globally to all routes, the simplest solution
 app = Flask(__name__)
 CORS(app, support_credentials=True, resources={r"*": {"origins": "*"}})
 
-
+# Load the trained model
+model = joblib.load('trained_model.pkl')
 
 def read_data():
     ufc_events = pd.read_csv('archive/ufc_event_data.csv')
@@ -24,7 +23,6 @@ def read_data():
     ufc_fighters = pd.read_csv('archive/ufc_fighter_data.csv')
     return ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters
 
-def merge_data(ufc_fights, ufc_events, ufc_fighters, ufc_fight_stats):
     merged_data = pd.merge(ufc_fights, ufc_events, on='event_id')
     merged_data = pd.merge(merged_data, ufc_fighters, left_on='f_1', right_on='fighter_id', suffixes=('_fighter1', '_fighter2'))
     merged_data = pd.merge(merged_data, ufc_fighters, left_on='f_2', right_on='fighter_id', suffixes=('_fighter2', '_fighter1'))
@@ -57,58 +55,6 @@ def clean_data(merged_data):
     
     return merged_data
 
-
-def feature_selection(merged_data):
-    # Perform feature selection here
-    # You can use any of the techniques mentioned earlier
-    
-     # Example: Select features based on domain knowledge
-    selected_features = [
-    'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 
-    'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 
-    'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 
-    'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 
-    'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
-    'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner']
-    # Inspect the selected features
-    #print("Selected Features:\n", selected_features)
-
-
-    # Verify if 'winner' is in selected features
-    if 'winner' in selected_features:
-        
-        return merged_data[selected_features]
-    else:
-        print("'winner' column not found in selected features.")
-        return None
-    
-
-def train_and_evaluate_gbm(X, y, n_estimators=100, max_depth=3, learning_rate=0.1, n_splits=5):
-    # Initialize Gradient Boosting Classifier
-    gbm = GradientBoostingClassifier(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate, random_state=42)
-    
-    # Initialize cross-validation
-    cv = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
-    
-    # Perform cross-validation
-    cv_scores = cross_val_score(gbm, X, y, cv=cv, scoring='accuracy')
-    
-    # Fit the model on the entire dataset
-    gbm.fit(X, y)
-    
-    # Make predictions
-    y_pred = gbm.predict(X)
-    
-    # Print cross-validation results
-    print("GBM Booster Cross-Validation Accuracy Scores:", cv_scores)
-    print("GBM Booster Mean Accuracy:", cv_scores.mean())
-    
-    # Generate classification report on the entire dataset
-    print("\nGBM Booster Classification Report:")
-    print(classification_report(y, y_pred))
-    
-    # Return the trained model
-    return gbm
 
 # Use your machine learning model to predict the outcome of the fight
 def predict_fight_outcome(weight_class, fighter1_name, fighter2_name):
@@ -216,39 +162,12 @@ def predict_fight():
             if not check_fighter_weight_class(weight_class, fighter_id):
                 error_message = f'Fighter with ID {fighter_id} does not belong to the specified weight class.'
                 print(error_message)
+        predict_fight_outcome(weight_class, fighter1, fighter2)
+        
+        
 
 
-    
 
-    
-    # Predict the outcome of the fight
-    #predicted_winner = predict_fight_outcome(weight_class, fighter1, fighter2)
-    
-    #return jsonify({'predicted_winner': predicted_winner})
-
-    # Read data
-    ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters = read_data()
-    
-    # Merge data
-    merged_data = merge_data(ufc_fights, ufc_events, ufc_fighters, ufc_fight_stats)
-    
-    # Clean data
-    cleaned_data = clean_data(merged_data)
-    
-    # Perform feature selection
-    selected_data = feature_selection(cleaned_data)
-    
-    # If selected_data is not None, save it to CSV
-    if selected_data is not None:
-        selected_data.to_csv('data/selected_data.csv', index=False)
-        gbm = train_and_evaluate_gbm(selected_data.drop(columns=['winner']), selected_data['winner'])
-
-        # Dummy prediction using placeholders
-        predicted_winner = 'Fighter 1' if weight_class == 'Flyweight' else 'Fighter 2'
-
-        response = jsonify({'predicted_winner': predicted_winner})
-        response.headers.add('Access-Control-Allow-Origin', '*')
-        return response
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True, resources={r"*": {"origins": "*"}})
 
 # Load the trained model
-model = joblib.load('trained_model.pkl')
+model = joblib.load('mlModel.plk')
 
 def read_data():
     ufc_events = pd.read_csv('archive/ufc_event_data.csv')
@@ -23,6 +23,11 @@ def read_data():
     ufc_fighters = pd.read_csv('archive/ufc_fighter_data.csv')
     return ufc_events, ufc_fights, ufc_fight_stats, ufc_fighters
 
+def load_and_prepare_data():
+    ufc_events = pd.read_csv('archive/ufc_event_data.csv')
+    ufc_fights = pd.read_csv('archive/ufc_fight_data.csv')
+    ufc_fight_stats = pd.read_csv('archive/ufc_fight_stat_data.csv')
+    ufc_fighters = pd.read_csv('archive/ufc_fighter_data.csv')
     merged_data = pd.merge(ufc_fights, ufc_events, on='event_id')
     merged_data = pd.merge(merged_data, ufc_fighters, left_on='f_1', right_on='fighter_id', suffixes=('_fighter1', '_fighter2'))
     merged_data = pd.merge(merged_data, ufc_fighters, left_on='f_2', right_on='fighter_id', suffixes=('_fighter2', '_fighter1'))
@@ -31,6 +36,26 @@ def read_data():
     merged_data = pd.merge(merged_data, ufc_fight_stats_fighter1, left_on=['fight_id', 'f_1'], right_on=['fight_id', 'fighter_id'])
     merged_data = pd.merge(merged_data, ufc_fight_stats_fighter2, left_on=['fight_id', 'f_2'], right_on=['fight_id', 'fighter_id'])
     merged_data.drop(['event_id', 'fighter_id_fighter1', 'fighter_id_fighter2'], axis=1, inplace=True)
+
+    # Convert control time columns to total seconds
+    merged_data['ctrl_time_x'] = merged_data['ctrl_time_x'].apply(lambda x: int(x.split(':')[0]) * 60 + int(x.split(':')[1]) if pd.notnull(x) and x != '--' else 0)
+    merged_data['ctrl_time_y'] = merged_data['ctrl_time_y'].apply(lambda x: int(x.split(':')[0]) * 60 + int(x.split(':')[1]) if pd.notnull(x) and x != '--' else 0)
+    
+    # Drop non-numeric columns
+    non_numeric_columns = ['referee', 'event_name', 'event_date', 'event_city', 'event_state', 'event_country', 'fight_url', 'fighter_url_fighter1', 'fighter_url_fighter2', 'event_url', 'fight_url_x', 'fight_url_y', 'fighter_url_x', 'fighter_url_y']
+    merged_data = merged_data.drop(columns=non_numeric_columns)
+    
+    # Impute NaN values for numeric columns
+    numeric_columns = merged_data.select_dtypes(include='number').columns
+    imputer = SimpleImputer(strategy='mean')
+    merged_data[numeric_columns] = imputer.fit_transform(merged_data[numeric_columns])
+    
+    # Replace winner IDs with 'x' or 'y'
+    merged_data['winner'] = merged_data.apply(lambda row: 0 if row['winner'] == row['f_1'] else 1, axis=1)
+    
+    unique_columns = ['fight_id', 'f_1', 'f_2']
+    merged_data.drop_duplicates(subset=unique_columns, inplace=True)
+    
     return merged_data
 
 def clean_data(merged_data):
@@ -122,15 +147,73 @@ def get_fighters():
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
         response.headers.add('Access-Control-Allow-Methods', 'GET')
         return response
-
-
-    # Get the weight class from the query parameters
-    weight_class = request.args.get('weightClass')
-
-
+    
     fighters = get_fighter_names()
     response = jsonify(fighters)
     return response
+
+def aggregate_fighter_stats(fighter_id, ufc_fight_data):
+    # Initialize dictionaries to hold the sums of each stat and the count of fights for averaging
+    stats_sum = {}
+    fight_count = 0
+
+    for _, row in ufc_fight_data.iterrows():
+        # Check if the current fighter is f_1 or f_2 in this row and assign stats accordingly
+        if row['f_1'] == fighter_id:
+            prefix = 'x'
+        elif row['f_2'] == fighter_id:
+            prefix = 'y'
+        else:
+            continue  # Skip this row if the fighter is not involved
+        
+        # Aggregate stats
+        for stat in ['knockdowns', 'total_strikes_att', 'total_strikes_succ',
+                     'sig_strikes_att', 'sig_strikes_succ', 'takedown_att',
+                     'takedown_succ', 'submission_att', 'reversals', 'ctrl_time']:
+            # Convert control time to total seconds for aggregation
+            if stat == 'ctrl_time':
+                minutes, seconds = map(int, row[f'{stat}_{prefix}'].split(':'))
+                total_seconds = minutes * 60 + seconds
+                stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
+            else:
+                stats_sum[stat] = stats_sum.get(stat, 0) + row[f'{stat}_{prefix}']
+        
+        fight_count += 1
+
+    # Compute averages
+    if fight_count > 0:
+        avg_stats = {stat: total / fight_count for stat, total in stats_sum.items()}
+    else:
+        raise ValueError(f"No fight data found for fighter ID {fighter_id}")
+
+    return avg_stats
+
+
+def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
+    # This function needs to extract and return the features for both fighters
+    # from the merged_data based on their names. 
+    fighter1_id, fighter2_id = extract_fighter_ids(fighter1_name, fighter2_name)
+
+
+
+    #structure of extracted features: 'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner'
+    
+    # Placeholder for feature extraction logic
+    avg_stats = aggregate_fighter_stats(fighter1_id, merged_data)
+    print(avg_stats)
+    fighter1_features = ...
+    fighter2_features = ...
+    
+    # Combine features into a single feature vector
+    # This also depends on how your model expects the input
+    features = pd.DataFrame([{
+        **fighter1_features,
+        **fighter2_features,
+        # Include other necessary features, like weight class if applicable
+    }])
+    
+    return features
+
 
 
 
@@ -146,6 +229,7 @@ def predict_fight():
         return response
 
     if request.method == 'POST':
+        merged_data = load_and_prepare_data()
         # Receive selected parameters from the frontend
         data = request.json
         weight_class = data['weightClass']
@@ -162,7 +246,15 @@ def predict_fight():
             if not check_fighter_weight_class(weight_class, fighter_id):
                 error_message = f'Fighter with ID {fighter_id} does not belong to the specified weight class.'
                 print(error_message)
-        predict_fight_outcome(weight_class, fighter1, fighter2)
+        # Extract features for the fighters
+        features = extract_features_for_fighters(fighter1, fighter2, merged_data)
+        # Predict the outcome
+        prediction = model.predict(features)
+        # Interpret the prediction (adjust according to your model's output)
+        predicted_winner = 'Fighter 1' if prediction[0] == 0 else 'Fighter 2'
+    
+        print("predicted_winner: "+ predicted_winner)
+    
         
         
 

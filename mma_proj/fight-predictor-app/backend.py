@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True, resources={r"*": {"origins": "*"}})
 
 # Load the trained model
-model = joblib.load('mlModel.plk')
+model = joblib.load('trained_model.pkl')
 
 def read_data():
     ufc_events = pd.read_csv('archive/ufc_event_data.csv')

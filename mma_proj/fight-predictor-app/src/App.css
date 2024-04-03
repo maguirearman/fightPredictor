@@ -18,6 +18,11 @@
   pointer-events: none;
 }
 
+.selector-container {
+  margin:auto;
+  width: 50%; /* Take the full width of the parent container */
+}
+
 h1 {
   font-family: 'Sternbach', sans-serif;
   color: var(--dark-blood-red); /* Assuming you have defined this color variable */

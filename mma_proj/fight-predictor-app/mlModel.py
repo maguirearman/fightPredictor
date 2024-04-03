@@ -38,6 +38,7 @@ def load_and_prepare_data():
     
     unique_columns = ['fight_id', 'f_1', 'f_2']
     merged_data.drop_duplicates(subset=unique_columns, inplace=True)
+    merged_data.to_csv('merged_data.csv', index=False)
     
     return merged_data
 

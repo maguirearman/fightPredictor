@@ -156,36 +156,45 @@ def aggregate_fighter_stats(fighter_id, ufc_fight_data):
     # Initialize dictionaries to hold the sums of each stat and the count of fights for averaging
     stats_sum = {}
     fight_count = 0
+    fighter_id_float = float(fighter_id)
+
+    # Define the stats we're interested in aggregating
+    stats_of_interest = ['knockdowns', 'total_strikes_att', 'total_strikes_succ',
+                         'sig_strikes_att', 'sig_strikes_succ', 'takedown_att',
+                         'takedown_succ', 'submission_att', 'reversals', 'ctrl_time']
 
     for _, row in ufc_fight_data.iterrows():
-        # Check if the current fighter is f_1 or f_2 in this row and assign stats accordingly
-        if row['f_1'] == fighter_id:
+        # Determine if the fighter is f_1 or f_2 in this fight
+        if row['f_1'] == fighter_id_float:
             prefix = 'x'
-        elif row['f_2'] == fighter_id:
+        elif row['f_2'] == fighter_id_float:
             prefix = 'y'
         else:
-            continue  # Skip this row if the fighter is not involved
+            continue  # This fight does not involve the fighter in question
         
-        # Aggregate stats
-        for stat in ['knockdowns', 'total_strikes_att', 'total_strikes_succ',
-                     'sig_strikes_att', 'sig_strikes_succ', 'takedown_att',
-                     'takedown_succ', 'submission_att', 'reversals', 'ctrl_time']:
-            # Convert control time to total seconds for aggregation
-            if stat == 'ctrl_time':
-                minutes, seconds = map(int, row[f'{stat}_{prefix}'].split(':'))
-                total_seconds = minutes * 60 + seconds
-                stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
-            else:
-                stats_sum[stat] = stats_sum.get(stat, 0) + row[f'{stat}_{prefix}']
+        # Aggregate stats for the fighter
+        for stat in stats_of_interest:
+            key = f'{stat}_{prefix}'  # Construct the key name for this stat
+            
+        if stat == 'ctrl_time':
+            value = row[key]
+        if isinstance(value, float):  # Check if the value is a float
+            # If it's a float, it might represent total seconds directly
+            total_seconds = int(value)
+        else:
+            # Assume it's a string formatted as 'MM:SS'
+            minutes, seconds = map(int, value.split(':'))
+            total_seconds = minutes * 60 + seconds
+        stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
         
         fight_count += 1
 
-    # Compute averages
-    if fight_count > 0:
-        avg_stats = {stat: total / fight_count for stat, total in stats_sum.items()}
-    else:
+    # Calculate average stats
+    if fight_count == 0:
         raise ValueError(f"No fight data found for fighter ID {fighter_id}")
-
+    
+    avg_stats = {stat: total / fight_count for stat, total in stats_sum.items()}
+    
     return avg_stats
 
 

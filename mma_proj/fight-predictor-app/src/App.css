@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/sternbach');
+
 :root {
   --dark-blood-red: #770000; /* Dark blood red */
   --light-gray: #D3D3D3; /* Light gray */
@@ -14,6 +16,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h1 {
+  font-family: 'Sternbach', sans-serif;
+  color: var(--dark-blood-red); /* Assuming you have defined this color variable */
+  /* Add any additional styling for your header here */
 }
 
 @media (prefers-reduced-motion: no-preference) {

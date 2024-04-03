@@ -1,3 +1,12 @@
+:root {
+  --dark-blood-red: #770000; /* Dark blood red */
+  --light-gray: #D3D3D3; /* Light gray */
+  --medium-gray: #A9A9A9; /* Medium gray */
+  --dark-gray: #808080; /* Dark gray */
+  --very-dark-gray: #505050; /* Very dark gray for backgrounds */
+  --font-color: #FFFFFF; /* White for text for better contrast */
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--very-dark-gray);;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +34,12 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--dark-blood-red);
+}
+
+body {
+  background-color: var(--dark-gray);
+  color: var(--dark-blood-red);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +49,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.button, .selector {
+  background-color: var(--dark-blood-red);
+  color: var(--font-color);
+  border: 1px solid var(--medium-gray);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover, .selector:hover {
+  background-color: var(--light-gray);
+  color: var(--very-dark-gray);
+}
+
+.button:active, .selector:active {
+  background-color: var(--medium-gray);
+  color: var(--very-dark-gray);
 }

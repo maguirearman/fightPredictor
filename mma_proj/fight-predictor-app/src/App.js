@@ -1,4 +1,5 @@
 // App.js
+import './App.css';
 import React, { useState, useEffect } from 'react';
 import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';

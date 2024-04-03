@@ -5,7 +5,7 @@ import React from 'react';
 function PredictButton({ onClick }) {
   return (
     <div>
-      <button onClick={onClick}>Predict Fight</button>
+      <button className="selector" onClick={onClick}>Predict Fight</button>
     </div>
   );
 }

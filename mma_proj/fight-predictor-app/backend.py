@@ -159,7 +159,7 @@ def aggregate_fighter_stats(fighter_id, ufc_fight_data):
     fighter_id_float = float(fighter_id)
 
     # Define the stats we're interested in aggregating
-    stats_of_interest = ['knockdowns', 'total_strikes_att', 'total_strikes_succ',
+    stats_of_interest = ['fighter_id','knockdowns', 'total_strikes_att', 'total_strikes_succ',
                          'sig_strikes_att', 'sig_strikes_succ', 'takedown_att',
                          'takedown_succ', 'submission_att', 'reversals', 'ctrl_time']
 
@@ -175,17 +175,14 @@ def aggregate_fighter_stats(fighter_id, ufc_fight_data):
         # Aggregate stats for the fighter
         for stat in stats_of_interest:
             key = f'{stat}_{prefix}'  # Construct the key name for this stat
-            
-        if stat == 'ctrl_time':
-            value = row[key]
-        if isinstance(value, float):  # Check if the value is a float
-            # If it's a float, it might represent total seconds directly
-            total_seconds = int(value)
-        else:
-            # Assume it's a string formatted as 'MM:SS'
-            minutes, seconds = map(int, value.split(':'))
-            total_seconds = minutes * 60 + seconds
-        stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
+            # Special handling for 'ctrl_time' due to its string format 'MM:SS'
+            if stat == 'ctrl_time' and isinstance(row.get(key, '0:0'), str):
+                minutes, seconds = map(int, row.get(key, '0:0').split(':'))
+                total_seconds = minutes * 60 + seconds
+                stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
+            else:
+                # Directly aggregate other stats
+                stats_sum[stat] = stats_sum.get(stat, 0) + row.get(key, 0)
         
         fight_count += 1
 
@@ -199,29 +196,40 @@ def aggregate_fighter_stats(fighter_id, ufc_fight_data):
 
 
 def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
-    # This function needs to extract and return the features for both fighters
-    # from the merged_data based on their names. 
+    # Assuming extract_fighter_ids is implemented elsewhere and returns correct IDs
     fighter1_id, fighter2_id = extract_fighter_ids(fighter1_name, fighter2_name)
 
+    # Aggregate stats for each fighter
+    fighter1_stats = aggregate_fighter_stats(fighter1_id, merged_data)
+    fighter2_stats = aggregate_fighter_stats(fighter2_id, merged_data)
+
+    # Add suffixes and prepare the final feature dictionary
+    fighter1_features = {f"{key}_x": value for key, value in fighter1_stats.items()}
+    fighter2_features = {f"{key}_y": value for key, value in fighter2_stats.items()}
 
 
-    #structure of extracted features: 'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 'submission_att_y', 'reversals_y', 'ctrl_time_y', 'winner'
+    print(fighter1_features)
+    print(fighter2_features)
+    # Ensure the order of features matches your requirement
+    ordered_features = {**fighter1_features, **fighter2_features}
     
-    # Placeholder for feature extraction logic
-    avg_stats = aggregate_fighter_stats(fighter1_id, merged_data)
-    print(avg_stats)
-    fighter1_features = ...
-    fighter2_features = ...
-    
-    # Combine features into a single feature vector
-    # This also depends on how your model expects the input
-    features = pd.DataFrame([{
-        **fighter1_features,
-        **fighter2_features,
-        # Include other necessary features, like weight class if applicable
-    }])
-    
-    return features
+    # If you need to strictly control the order, you might explicitly list them:
+    feature_order = [
+        'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 
+        'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 
+        'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 
+        'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 
+        'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
+        'submission_att_y', 'reversals_y', 'ctrl_time_y'
+    ]
+
+    # Use the ordered list to create a structured dictionary
+    #structured_features = {feature: ordered_features[feature] for feature in feature_order}
+
+    # Convert to DataFrame if required by your model
+    features_df = pd.DataFrame([fighter1_features, fighter2_features])
+
+    return features_df
 
 
 
@@ -257,12 +265,22 @@ def predict_fight():
                 print(error_message)
         # Extract features for the fighters
         features = extract_features_for_fighters(fighter1, fighter2, merged_data)
+        print(features)
         # Predict the outcome
-        prediction = model.predict(features)
+        #prediction = model.predict(features)
         # Interpret the prediction (adjust according to your model's output)
-        predicted_winner = 'Fighter 1' if prediction[0] == 0 else 'Fighter 2'
+        # predicted_winner = 'Fighter 1' if prediction[0] == 0 else 'Fighter 2'
     
-        print("predicted_winner: "+ predicted_winner)
+        # print("predicted_winner: "+ predicted_winner)
+
+            # Your logic here
+        prediction = 1
+
+        print(prediction)
+
+    
+        # Ensure a return statement that sends a response back to the client
+        return jsonify({'prediction': prediction}), 200
     
         
         

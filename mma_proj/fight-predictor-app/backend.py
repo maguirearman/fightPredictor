@@ -81,12 +81,7 @@ def clean_data(merged_data):
     return merged_data
 
 
-# Use your machine learning model to predict the outcome of the fight
-def predict_fight_outcome(weight_class, fighter1_name, fighter2_name):
-    # Example: Use your trained machine learning model to predict the outcome
-    # Replace this with your actual prediction logic
-    predicted_winner = 'Fighter 1' if weight_class == 'Flyweight' else 'Fighter 2'
-    return predicted_winner
+
 
 
 # Function returns a list of the names of all fighters
@@ -207,31 +202,13 @@ def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
     fighter1_features = {f"{key}_x": value for key, value in fighter1_stats.items()}
     fighter2_features = {f"{key}_y": value for key, value in fighter2_stats.items()}
 
+    # Combine features from both fighters into one dictionary, excluding the 'winner'
+    combined_features = {**fighter1_features, **fighter2_features}
 
-    print(fighter1_features)
-    print(fighter2_features)
-    # Ensure the order of features matches your requirement
-    ordered_features = {**fighter1_features, **fighter2_features}
-    
-    # If you need to strictly control the order, you might explicitly list them:
-    feature_order = [
-        'fighter_id_x', 'knockdowns_x', 'total_strikes_att_x', 'total_strikes_succ_x', 
-        'sig_strikes_att_x', 'sig_strikes_succ_x', 'takedown_att_x', 'takedown_succ_x', 
-        'submission_att_x', 'reversals_x', 'ctrl_time_x', 'fighter_id_y', 'knockdowns_y', 
-        'total_strikes_att_y', 'total_strikes_succ_y', 'sig_strikes_att_y', 
-        'sig_strikes_succ_y', 'takedown_att_y', 'takedown_succ_y', 
-        'submission_att_y', 'reversals_y', 'ctrl_time_y'
-    ]
-
-    # Use the ordered list to create a structured dictionary
-    #structured_features = {feature: ordered_features[feature] for feature in feature_order}
-
-    # Convert to DataFrame if required by your model
-    features_df = pd.DataFrame([fighter1_features, fighter2_features])
+    # Convert to DataFrame
+    features_df = pd.DataFrame([combined_features])
 
     return features_df
-
-
 
 
 @app.route('/predict', methods=['POST', 'OPTIONS'])
@@ -267,20 +244,17 @@ def predict_fight():
         features = extract_features_for_fighters(fighter1, fighter2, merged_data)
         print(features)
         # Predict the outcome
-        #prediction = model.predict(features)
-        # Interpret the prediction (adjust according to your model's output)
-        # predicted_winner = 'Fighter 1' if prediction[0] == 0 else 'Fighter 2'
-    
-        # print("predicted_winner: "+ predicted_winner)
-
-            # Your logic here
-        prediction = 1
-
+        prediction = model.predict(features)[0]  # Assuming the model predicts 0 or 1
         print(prediction)
+        # Map the prediction to the corresponding fighter's name
+        predicted_winner_name = fighter1 if prediction == 0 else fighter2
+    
+        print("predicted_winner: "+ predicted_winner_name)
 
     
         # Ensure a return statement that sends a response back to the client
-        return jsonify({'prediction': prediction}), 200
+        return jsonify({'prediction': predicted_winner_name}), 200
+
     
         
         

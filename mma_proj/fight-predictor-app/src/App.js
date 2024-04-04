@@ -16,6 +16,9 @@ function App() {
   const [selectedFighter1, setSelectedFighter1] = useState('');
   const [selectedFighter2, setSelectedFighter2] = useState('');
 
+  //Add state to track predicted winner
+  const [predictionResult, setPredictionResult] = useState('');
+
   // Functions to handle selecting weight class and fighters
   const handleSelectWeightClass = (weightClass) => {
     setSelectedWeightClass(weightClass);
@@ -48,14 +51,13 @@ function App() {
     setSelectedFighter2(fighter);
   };
 
-
   const handlePredictFight = () => {
     const data = {
       weightClass: selectedWeightClass,
       fighter1: selectedFighter1,
       fighter2: selectedFighter2
     };
-
+  
     fetch('http://127.0.0.1:5000/predict', {
       method: 'POST',
       headers: {
@@ -66,16 +68,15 @@ function App() {
     .then(response => response.json())
     .then(data => {
       console.log('Response from backend:', data);
-      // Handle the response as needed
+      // Set the prediction result to be displayed
+      setPredictionResult(`Predicted Winner: ${data.prediction}`);
     })
     .catch(error => {
       console.error('Error:', error);
-      // Handle errors
+      setPredictionResult('Failed to predict the fight.');
     }); 
-      // Perform prediction logic here
-      console.log('Predicting fight...');
+    console.log('Predicting fight...');
   };
-
 
   // Fetch fighters data from the server on component mount
   useEffect(() => {
@@ -117,8 +118,10 @@ function App() {
         onSelectFighter={handleSelectFighter2}
         label={`Select Fighter 2: ${selectedFighter2}`}
       />
-      <PredictButton onClick={handlePredictFight} /> {/* Add PredictButton component with onClick prop */}
-    </div>
+      <PredictButton onClick={handlePredictFight} />
+        {/* Display prediction result here */}
+        {predictionResult && <div className="prediction-result">{predictionResult}</div>}
+  </div>
   );
 }
 

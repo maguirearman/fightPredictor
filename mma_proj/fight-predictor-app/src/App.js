@@ -4,7 +4,9 @@ import React, { useState, useEffect } from 'react';
 // import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';
 import PredictButton from './PredictButton';
-import { ThemeProvider } from '@mui/material/styles'; // Import ThemeProvider
+import { ThemeProvider} from '@mui/material/styles'; // Import ThemeProvider
+import Grid from '@mui/material/Grid'; // Import Grid component
+import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
  
 
@@ -101,29 +103,44 @@ function App() {
   
 
   return (
-    <ThemeProvider theme={theme}> {/* Apply the theme here */}
-      <div className="App">
-        <h1>MMA Fight Predictor</h1>
-        {/* <WeightClassSelector
-          weightClasses={weightClasses}
-          selectedWeightClass={selectedWeightClass}
-          onSelectWeightClass={handleSelectWeightClass}
-        /> */}
-        <FighterSelector
-          fighters={fighters}
-          selectedFighter={selectedFighter1}
-          onSelectFighter={handleSelectFighter1}
-          label={`Select Fighter 1: ${selectedFighter1}`}
-        />
-        <FighterSelector
-          fighters={fighters}
-          selectedFighter={selectedFighter2}
-          onSelectFighter={handleSelectFighter2}
-          label={`Select Fighter 2: ${selectedFighter2}`}
-        />
-        <PredictButton onClick={handlePredictFight} />
-        {predictionResult && <div className="prediction-result">{predictionResult}</div>}
-      </div>
+    <ThemeProvider theme={theme}> 
+      <Box sx={{ flexGrow: 1, padding: 3 }}> {/* Add padding around the entire app */}
+        <Grid container spacing={3} justifyContent="center"> {/* Add spacing between items and center them */}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>MMA Fight Predictor</h1>
+              </Box>
+          </Grid>
+          <Grid item md={6} sm={8} xs={12}>
+            <FighterSelector
+              fighters={fighters}
+              selectedFighter={selectedFighter1}
+              onSelectFighter={handleSelectFighter1}
+              label={`Select Fighter 1`}
+            />
+          </Grid>
+          <Grid item md={6} sm={8} xs={12}>
+            <FighterSelector
+              fighters={fighters}
+              selectedFighter={selectedFighter2}
+              onSelectFighter={handleSelectFighter2}
+              label={`Select Fighter 2`}
+            />
+          </Grid>
+          <Grid item xs={12}>
+            <Box textAlign="center"> {/* Center the PredictButton */}
+              <PredictButton onClick={handlePredictFight} />
+            </Box>
+          </Grid>
+          {predictionResult && (
+            <Grid item xs={12}>
+              <Box textAlign="center"> {/* Center the prediction result */}
+                <div className="prediction-result">{predictionResult}</div>
+              </Box>
+            </Grid>
+          )}
+        </Grid>
+      </Box>
     </ThemeProvider>
   );
 }

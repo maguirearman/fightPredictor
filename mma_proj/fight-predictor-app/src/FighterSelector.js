@@ -1,33 +1,58 @@
 // FighterSelector.js
 import React from 'react';
-import Select from 'react-select';
+// import Select from 'react-select';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
 
 function FighterSelector({ fighters, selectedFighter, onSelectFighter, label }) {
-  // Convert your fighters array for use with react-select
-  // Assuming 'fighters' is an array of strings; adjust if it's an array of objects
-  const options = fighters.map(fighter => ({ value: fighter, label: fighter }));
-  
-  // Handler for changes in the selection
-  const handleChange = selectedOption => {
-    // Call onSelectFighter with the value of the selected option
-    onSelectFighter(selectedOption ? selectedOption.value : '');
+  // Prepare the options in the expected format if not already
+  const options = fighters.map(fighter => (typeof fighter === 'string' ? { label: fighter, value: fighter } : fighter));
+
+  // Handle selection change
+  const handleChange = (event, newValue) => {
+    onSelectFighter(newValue ? newValue.value : '');
   };
 
-  // Find the currently selected option based on the selectedFighter prop
-  const selectedOption = options.find(option => option.value === selectedFighter) || null;
+  // Determine the value based on the selectedFighter
+  const value = options.find(option => option.value === selectedFighter) || null;
 
   return (
-    <div className="selector-container" style={{ width: '50%' }}>
-      <label htmlFor={label.toLowerCase().replace(/\s+/g, '-')}>{label}</label>
-      <Select
-        inputId={label.toLowerCase().replace(/\s+/g, '-')} // ensures the label is properly associated with the react-select component
-        value={selectedOption}
-        onChange={handleChange}
-        options={options}
-        isClearable={true} // Allows users to clear the selected value
-        placeholder="Select a fighter"
-      />
-    </div>
+    <Autocomplete
+      value={value}
+      onChange={handleChange}
+      options={options}
+      getOptionLabel={(option) => option.label}
+      isOptionEqualToValue={(option, value) => option.value === value.value}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          label={label}
+          variant="outlined"
+          // Add custom styling here
+          InputProps={{
+            ...params.InputProps,
+            style: { backgroundColor: 'white' }, // Makes the input field white
+          }}
+        />
+      )}
+      fullWidth
+      // Apply sx prop for styling
+      sx={{
+        width: '50%', // Sets the width to half of its container
+        '& .MuiOutlinedInput-root': {
+          '& fieldset': {
+            borderColor: 'gray', // Changes the border color, adjust as needed
+          },
+          '&:hover fieldset': {
+            borderColor: 'black', // Changes the border color on hover, adjust as needed
+          },
+          '&.Mui-focused fieldset': {
+            borderColor: 'primary.main', // Changes the border color when focused to the theme's primary color
+          },
+        },
+      }}
+      clearOnEscape
+    />
   );
 }
 

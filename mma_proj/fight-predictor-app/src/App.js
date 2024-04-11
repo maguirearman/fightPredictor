@@ -5,7 +5,8 @@ import React, { useState, useEffect } from 'react';
 import FighterSelector from './FighterSelector';
 import PredictButton from './PredictButton';
 import { ThemeProvider } from '@mui/material/styles'; // Import ThemeProvider
-import theme from './theme.js'; // Import the custom theme 
+import theme from './theme.js'; // Import the custom theme
+ 
 
 function App() {
   // Define some dummy weight classes and fighters

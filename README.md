@@ -65,3 +65,14 @@ The Gradient Boosting Machine (GBM) classifier demonstrates the best overall per
 
 
 npm start: Concurrently runs flask server (flask run) and the react frontend.
+
+
+# Frontend Development
+
+Created a react application w node.js framework
+Connected frontend with backend using flask routes (fighters, predict, etc.)
+It is now functional and the user can select two fighters and then the winner will be predicted using my model
+Using Material UI to make things pretty
+Encountered a plethora of issues regarding cors errors so for now i am using this command to temporarily disable cors on chrome (just for testing)
+
+The command to disable cors errors: open -a Google\ Chrome --args --disable-web-security --user-data-dir

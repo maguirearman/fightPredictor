@@ -226,8 +226,8 @@ def predict_fight():
         merged_data = load_and_prepare_data()
         # Receive selected parameters from the frontend
         data = request.json
-        weight_class = data['weightClass']
-        print(weight_class)
+        # weight_class = data['weightClass']
+        # print(weight_class)
         fighter1 = data['fighter1']
         fighter2 = data['fighter2']
         print(fighter1)
@@ -236,10 +236,10 @@ def predict_fight():
         fighter_ids = extract_fighter_ids(fighter1, fighter2)
         print(fighter_ids)
         # Check if fighters belong to the specified weight class
-        for fighter_id in fighter_ids:
-            if not check_fighter_weight_class(weight_class, fighter_id):
-                error_message = f'Fighter with ID {fighter_id} does not belong to the specified weight class.'
-                print(error_message)
+        # for fighter_id in fighter_ids:
+        #     if not check_fighter_weight_class(weight_class, fighter_id):
+        #         error_message = f'Fighter with ID {fighter_id} does not belong to the specified weight class.'
+        #         print(error_message)
         # Extract features for the fighters
         features = extract_features_for_fighters(fighter1, fighter2, merged_data)
         print(features)

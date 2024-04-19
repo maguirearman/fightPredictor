@@ -8,6 +8,8 @@ import { ThemeProvider} from '@mui/material/styles'; // Import ThemeProvider
 import Grid from '@mui/material/Grid'; // Import Grid component
 import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
+import FighterCard from './FighterCard';
+import Typography from '@mui/material/Typography';
  
 
 function App() {
@@ -24,29 +26,6 @@ function App() {
   //Add state to track predicted winner
   const [predictionResult, setPredictionResult] = useState('');
 
-  // // Functions to handle selecting weight class and fighters
-  // const handleSelectWeightClass = (weightClass) => {
-  //   setSelectedWeightClass(weightClass);
-  //   if (weightClass) {
-  //     fetchFighters(weightClass);
-  //   }
-  // };
-
-
-  // const fetchFighters = (weightClass) => {
-  //   // Send a request to the backend to fetch fighters for the selected weight class
-  //   fetch(`http://127.0.0.1:5000/fighters?weightClass=${weightClass}`, {
-  //     method: 'GET',
-  //     mode: 'cors'
-  //   })
-  //     .then(response => response.json())
-  //     .then(data => {
-  //       setFighters(data);
-  //     })
-  //     .catch(error => {
-  //       console.error('Error fetching fighters:', error);
-  //     });
-  // };
 
   const handleSelectFighter1 = (fighter) => {
     setSelectedFighter1(fighter);
@@ -139,6 +118,17 @@ function App() {
               </Box>
             </Grid>
           )}
+          {/* Fighter Cards Section */}
+          <Grid item xs={12}>
+            <Typography variant="h4" component="div" gutterBottom>
+              Top Fighters
+            </Typography>
+          </Grid>
+          {fighters.map((fighter) => (
+            <Grid item xs={12} sm={6} md={4} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
         </Grid>
       </Box>
     </ThemeProvider>

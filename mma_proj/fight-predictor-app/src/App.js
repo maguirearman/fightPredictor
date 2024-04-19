@@ -27,6 +27,41 @@ function App() {
   const [predictionResult, setPredictionResult] = useState('');
 
 
+  // Manually defined fighters data
+  const fighterCardData = [
+    {
+      id: 1,
+      name: "Islam Makhachev",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-10/MAKHACHEV_ISLAM_BELT_L_10-21.png?itok=glu3eHJa",
+      ranking: "#1 Pound for Pound, Lightweight Champion",
+      weightClass: "Lightweight"
+    },
+    {
+      id: 2,
+      name: "Jon Jones",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/JONES_JON_L_BELT_03_04.png?itok=P6J6DQpm",
+      ranking: "#1 Pound for Pound, Heavyweight Champion",
+      weightClass: "Heavyweight"
+    },
+    {
+      id: 3,
+      name: "Leon Edwards",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-12/EDWARDS_LEON_BELT_L_12-16.png?itok=RVcuzrpG",
+      ranking: "#3 Pound for Pound, Welterweight Champion",
+      weightClass: "Welterweight"
+    },
+    {
+      id: 4,
+      name: "Alex Pereira",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/PEREIRA_ALEX_L_BELT_04-13.png?itok=-zKSPFcu",
+      ranking: "#4 Pound for Pound, Light Heavyweight Champion, Former Middleweight Champion",
+      weightClass: "Light Heavyweight"
+    },
+    // Add more fighters as needed
+  ];
+
+
+
   const handleSelectFighter1 = (fighter) => {
     setSelectedFighter1(fighter);
   };
@@ -124,7 +159,7 @@ function App() {
               Top Fighters
             </Typography>
           </Grid>
-          {fighters.map((fighter) => (
+          {fighterCardData.map(fighter => (
             <Grid item xs={12} sm={6} md={4} key={fighter.id}>
               <FighterCard fighter={fighter} />
             </Grid>

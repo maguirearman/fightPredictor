@@ -1,16 +1,29 @@
 // FighterCard.js
 import React from 'react';
-import { Card, CardMedia, CardContent, Typography } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, Box } from '@mui/material';
 
 function FighterCard({ fighter }) {
+  // Aspect ratio calculation based on original dimensions (460x700)
+  const aspectRatio = (700 / 460) * 100; // Calculate the height as a percentage of the width
+
+
   return (
-    <Card sx={{ maxWidth: 345, m: 2 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image={fighter.image} // Ensure you have a URL to the fighter's image
-        alt={fighter.name}
-      />
+    <Card sx={{ maxWidth: 250, m: 2 }}> 
+      <Box sx={{ width: '100%', pt: `${aspectRatio}%`, position: 'relative' }}> 
+        <CardMedia
+          component="img"
+          sx={{
+            position: 'absolute', // Absolutely position the image to cover the box
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover' // Cover ensures the image covers the box area, cropping if necessary
+          }}
+          image={fighter.image}
+          alt={fighter.name}
+        />
+      </Box>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {fighter.name}

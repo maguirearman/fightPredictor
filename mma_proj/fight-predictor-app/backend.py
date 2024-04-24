@@ -262,12 +262,12 @@ def predict_fight():
 
         print("Predicted Winner: " + predicted_winner_name)
     
-        # Ensure a return statement that sends a response back to the client
-        return jsonify({'prediction': predicted_winner_name}), 200
-
-    
-        
-        
+        # Return the probabilities along with the prediction
+        return jsonify({
+            'predicted_winner': predicted_winner_name,
+            'fighter1_probability': f"Probability that {fighter1} wins: {fighter1_probability * 100:.2f}%",
+            'fighter2_probability': f"Probability that {fighter2} wins: {fighter2_probability * 100:.2f}%"
+        }), 200
 
 
 

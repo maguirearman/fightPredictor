@@ -25,6 +25,10 @@ function App() {
 
   //Add state to track predicted winner
   const [predictionResult, setPredictionResult] = useState('');
+  
+  // Add state hooks to store the probabilities
+  const [fighter1Prob, setFighter1Prob] = useState('');
+  const [fighter2Prob, setFighter2Prob] = useState('');
 
 
   // Manually defined fighters data
@@ -167,7 +171,9 @@ function App() {
     .then(data => {
       console.log('Response from backend:', data);
       // Set the prediction result to be displayed
-      setPredictionResult(`Predicted Winner: ${data.prediction}`);
+      setPredictionResult(`Predicted Winner: ${data.predicted_winner}`);
+      setFighter1Prob(data.fighter1_probability);
+      setFighter2Prob(data.fighter2_probability);
     })
     .catch(error => {
       console.error('Error:', error);
@@ -229,6 +235,11 @@ function App() {
               <Box textAlign="center"> {/* Center the prediction result */}
                 <div className="prediction-result">{predictionResult}</div>
               </Box>
+              <div>
+                <h1>Probability of Winning</h1>
+                  {fighter1Prob && <p> {fighter1Prob}</p>}
+                  {fighter2Prob && <p> {fighter2Prob}</p>}
+              </div>
             </Grid>
           )}
           {/* Fighter Cards Section */}

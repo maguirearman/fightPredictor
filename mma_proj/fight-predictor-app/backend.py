@@ -243,14 +243,24 @@ def predict_fight():
         # Extract features for the fighters
         features = extract_features_for_fighters(fighter1, fighter2, merged_data)
         print(features)
-        # Predict the outcome
-        prediction = model.predict(features)[0]  # Assuming the model predicts 0 or 1
-        print(prediction)
-        # Map the prediction to the corresponding fighter's name
-        predicted_winner_name = fighter1 if prediction == 0 else fighter2
-    
-        print("predicted_winner: "+ predicted_winner_name)
+        
 
+        # Predict the outcome probabilities
+        probabilities = model.predict_proba(features)[0]  # Assuming the model provides probabilities for each class
+        print(f"Probabilities: {probabilities}")
+
+        # Assuming the model outputs probabilities in the order [prob_fighter1_win, prob_fighter2_win]
+        fighter1_probability = probabilities[0]
+        fighter2_probability = probabilities[1]
+
+        # Print the probabilities
+        print(f"Probability that {fighter1} wins: {fighter1_probability * 100:.2f}%")
+        print(f"Probability that {fighter2} wins: {fighter2_probability * 100:.2f}%")
+
+        # Decide the predicted winner based on probabilities
+        predicted_winner_name = fighter1 if fighter1_probability > fighter2_probability else fighter2
+
+        print("Predicted Winner: " + predicted_winner_name)
     
         # Ensure a return statement that sends a response back to the client
         return jsonify({'prediction': predicted_winner_name}), 200

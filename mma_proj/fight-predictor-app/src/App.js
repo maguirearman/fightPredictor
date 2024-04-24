@@ -1,6 +1,7 @@
 // App.js
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import { Canvas } from '@react-three/fiber';
 // import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';
 import PredictButton from './PredictButton';
@@ -10,6 +11,7 @@ import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
 import FighterCard from './FighterCard';
 import Typography from '@mui/material/Typography';
+import Experience from './Experience.jsx';
  
 
 function App() {
@@ -195,6 +197,13 @@ function App() {
   }, []); // Empty dependency array means this effect runs only once on component mount
   
   return (
+    <>
+    <Canvas
+      style={{ height: '100vh', width: '100vw', position: 'fixed'}}
+    >
+      <color attach="background" args={['#000000']} />
+      <Experience />
+    </Canvas>
     <ThemeProvider theme={theme}> 
       <Box sx={{ flexGrow: 1, padding: 3 }}> {/* Add padding around the entire app */}
         <Grid container spacing={2} justifyContent="center"> {/* Reduced spacing from 3 to 2 */}
@@ -245,6 +254,7 @@ function App() {
         </Grid>
       </Box>
     </ThemeProvider>
+    </>
   );
 }
 

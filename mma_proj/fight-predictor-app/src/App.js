@@ -1,7 +1,6 @@
 // App.js
 import './App.css';
 import React, { useState, useEffect } from 'react';
-// import WeightClassSelector from './WeightClassSelector';
 import FighterSelector from './FighterSelector';
 import PredictButton from './PredictButton';
 import { ThemeProvider} from '@mui/material/styles'; // Import ThemeProvider
@@ -12,42 +11,36 @@ import FighterCard from './FighterCard';
 import Typography from '@mui/material/Typography';
 import fighterCardData from './data/fighterCardData';
 
- 
-
+// Define the main App component
 function App() {
-  // Define some dummy weight classes and fighters
-  // const weightClasses = ['Flyweight', 'Bantamweight', 'Featherweight', 'Lightweight', 'Welterweight', 'Middleweight', 'Light Heavyweight', 'Heavyweight', 'Womens Strawweight', 'Womens Flyweight', 'Womens Bantamweight'];
+
+  // State to store the list of fighters
   const [fighters, setFighters] = useState([]);
-
-
   // State to track the selected weight class and fighter
-  // const [selectedWeightClass, setSelectedWeightClass] = useState('');
   const [selectedFighter1, setSelectedFighter1] = useState('');
   const [selectedFighter2, setSelectedFighter2] = useState('');
-
   //Add state to track predicted winner
   const [predictionResult, setPredictionResult] = useState('');
-  
   // Add state hooks to store the probabilities
   const [fighter1Prob, setFighter1Prob] = useState('');
   const [fighter2Prob, setFighter2Prob] = useState('');
 
 
+  // Event handlers to select a fighter
   const handleSelectFighter1 = (fighter) => {
     setSelectedFighter1(fighter);
   };
-
   const handleSelectFighter2 = (fighter) => {
     setSelectedFighter2(fighter);
   };
 
+  // Event handler to predict the fight
   const handlePredictFight = () => {
     const data = {
-      // weightClass: selectedWeightClass,
       fighter1: selectedFighter1,
       fighter2: selectedFighter2
     };
-  
+    // Make a POST request to the backend to predict the fight
     fetch('http://127.0.0.1:5000/predict', {
       method: 'POST',
       headers: {
@@ -57,6 +50,7 @@ function App() {
     })
     .then(response => response.json())
     .then(data => {
+      // Log the response from the backend
       console.log('Response from backend:', data);
       // Set the prediction result to be displayed
       setPredictionResult(`Predicted Winner: ${data.predicted_winner}`);
@@ -88,6 +82,7 @@ function App() {
       });
   }, []); // Empty dependency array means this effect runs only once on component mount
   
+  // Render the main App component
   return (
     <ThemeProvider theme={theme}> 
       <Box sx={{ flexGrow: 1, padding: 3 }}> {/* Add padding around the entire app */}
@@ -119,22 +114,22 @@ function App() {
             </Box>
           </Grid>
           {predictionResult && (
-            <Grid item xs={12}>
-              <Box textAlign="center"> {/* Center the prediction result */}
-                <div className="prediction-result">{predictionResult}</div>
-              </Box>
-              <div>
-                <h1>Probability of Winning</h1>
+            <Grid container spacing={2}>
+              <Grid item xs={12}>
+                <Box textAlign="center">
+                  <h1>Fight Prediction Results</h1>
+                  {predictionResult && <p> {predictionResult}</p>}
                   {fighter1Prob && <p> {fighter1Prob}</p>}
                   {fighter2Prob && <p> {fighter2Prob}</p>}
-              </div>
+                </Box>
+              </Grid>
             </Grid>
           )}
           {/* Fighter Cards Section */}
           <Grid item xs={12}>
-            <Typography variant="h4" component="div" gutterBottom>
-              Top Fighters
-            </Typography>
+            <Box textAlign="center">
+              <h1>Top 15 Pound For Pound</h1>
+            </Box>
           </Grid>
           {fighterCardData.map(fighter => (
             <Grid item xs={12} sm={6} md={4} key={fighter.id}>

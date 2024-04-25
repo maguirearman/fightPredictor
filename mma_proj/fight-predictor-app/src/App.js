@@ -199,7 +199,7 @@ function App() {
   return (
     <>
     <Canvas
-      style={{ height: '100vh', width: '100vw', position: 'fixed'}}
+      style={{ height: '100vh', width: '100vw' }}
     >
       <color attach="background" args={['#000000']} />
       <Experience />

@@ -13,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.7",
+    "gsap": "^3.12.5",
     "leva": "^0.9.35",
     "papaparse": "^5.4.1",
     "r3f-perf": "^7.2.1",

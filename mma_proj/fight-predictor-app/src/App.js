@@ -9,6 +9,7 @@ import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
 import FighterCard from './FighterCard';
 import fighterCardData from './data/fighterCardData';
+import Typography from '@mui/material/Typography';
 
 // Define the main App component
 function App() {
@@ -84,11 +85,16 @@ function App() {
   // Render the main App component
   return (
     <ThemeProvider theme={theme}> 
-      <Box sx={{ flexGrow: 1, padding: 3 }}> {/* Add padding around the entire app */}
+            <Box sx={{ flexGrow: 1, padding: 3 }}> {/* Add padding around the entire app */}
         <Grid container spacing={2} justifyContent="center"> {/* Reduced spacing from 3 to 2 */}
           <Grid item xs={12}>
             <Box textAlign="center">
-              <h1>MMA Fight Predictor</h1>
+              <h1>
+                MMA Fight Predictor
+                <Typography component="span" variant="h6" color="text.secondary" style={{ display: 'block', fontSize: '0.5em' }}>
+                  by Maguire Arman
+                </Typography>
+              </h1>
             </Box>
           </Grid>
           <Grid item md={6} sm={8} xs={12}>

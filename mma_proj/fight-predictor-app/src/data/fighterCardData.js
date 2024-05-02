@@ -227,5 +227,345 @@ const fighterCardData = [
     }
 ];
 
+const top15Bantamweight = [
+  {
+      id: 1,
+      name: "Sean O'Malley",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/OMALLEY_SEAN_BELT_L_03-09.png?itok=1XrvvVTW",
+      ranking: "Bantamweight Champion",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 2,
+      name: "Merab Dvalishvili",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/DVALISHVILI_MERAB_L_02-17.png?itok=LGCFlt_5",
+      ranking: "#1 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 3,
+      name: "Cory Sandhagen",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-08/SANDHAGEN_CORY_L_08-05.png?itok=X5omV-_A",
+      ranking: "#2 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 4,
+      name: "Petr Yan",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/YAN_PETR_L_03-09.png?itok=-isC77AZ",
+      ranking: "#3 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 5,
+      name: "Marlon Vera",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/VERA_MARLON_L_03-09.png?itok=fjcQzso-",
+      ranking: "#4 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 6,
+      name: "Henry Cejudo",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/CEJUDO_HENRY_L_05-06.png?itok=xgRWorSO",
+      ranking: "#5 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 7,
+      name: "Deiveson Figueiredo",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/FIGUEIREDO_DEIVESON_L_04-13.png?itok=F5dM8zkp",
+      ranking: "#6 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 8,
+      name: "Song Yadong",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/YADONG_SONG_L_03-09.png?itok=tAjT0wvN",
+      ranking: "#7 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 9,
+      name: "Rob Font",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/FONT_ROB_L_12-02.png?itok=yQOl1qFa",
+      ranking: "#8 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 10,
+      name: "Umar Nurmagomedov",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/NURMAGOMEDOV_UMAR_L_03-02.png?itok=qVVJ1ivh",
+      ranking: "#9 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 11,
+      name: "Kyler Phillips",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-08/PHILLIPS_KYLER_L_08-05.png?itok=PVh07MyL",
+      ranking: "#10 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 12,
+      name: "Dominick Cruz",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/7a064993-dfca-4c8e-aca4-8268fc6e711b%252FCRUZ_DOMINICK_L_12-11.png?itok=hesZixtu",
+      ranking: "#11 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 13,
+      name: "Jonathan Martinez",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/MARTINEZ_JONATHAN_L_10-14.png?itok=KtRQo-Fi",
+      ranking: "#12 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 14,
+      name: "Mario Bautista",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/BAUTISTA_MARIO_L_01-13.png?itok=0vvZb2mc",
+      ranking: "#13 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 15,
+      name: "Ricky Simon",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/SIMON_RICKY_L_01-13.png?itok=mF4zywoa",
+      ranking: "#14 Bantamweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 16,
+      name: "Pedro Munhoz",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/MUNHOZ_PEDRO_L_03-09.png?itok=0l14dtxt",
+      ranking: "#15 Bantamweight",
+      weightClass: "Bantamweight"
+  }
+];
 
-export { fighterCardData, top15Flyweight };
+const top15Featherweight = [
+  {
+      id: 1,
+      name: "Alexander Volkanovski",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/VOLKANOVSKI_ALEXANDER_L_02-17.png?itok=Vu9a3K_h",
+      ranking: "#1 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 2,
+      name: "Max Holloway",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/HOLLOWAY_MAX_L_04-13.png?itok=U9IB8OUQ",
+      ranking: "#2 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 3,
+      name: "Brian Ortega",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/ORTEGA_BRIAN_L_01-13.png?itok=OiFPqJjf",
+      ranking: "#3 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 4,
+      name: "Yair Rodriguez",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/RODRIGUEZ_YAIR_L_01-13.png?itok=Kn7kZSS3",
+      ranking: "#4 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 5,
+      name: "Movsar Evloev",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/EVLOEV_MOVSAR_L_01-13.png?itok=kLeWAGXn",
+      ranking: "#5 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 6,
+      name: "Arnold Allen",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/ALLEN_ARNOLD_L_11-11.png?itok=VQJwTVli",
+      ranking: "#6 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 7,
+      name: "Josh Emmett",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/EMMETT_JOSH_L_11-11.png?itok=TM0zuyKf",
+      ranking: "#7 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 8,
+      name: "Aljamain Sterling",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/STERLING_ALJAMAIN_L_04-13.png?itok=T1vPSqkE",
+      ranking: "#8 Featherweight",
+      weightClass: "Bantamweight"
+  },
+  {
+      id: 9,
+      name: "Calvin Kattar",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/KATTAR_CALVIN_L_01-13.png?itok=fIFKZXGT",
+      ranking: "#9 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 10,
+      name: "Giga Chikadze",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/CHIKADZE_GIGA_L_11-11.png?itok=bsw8jHhC",
+      ranking: "#10 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 11,
+      name: "Edson Barboza",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/BARBOZA_EDSON_L_04-27.png?itok=MrwC-1kR",
+      ranking: "#11 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 12,
+      name: "Bryce Mitchell",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/MITCHELL_BRYCE_L_02-17.png?itok=DDg0IL8h",
+      ranking: "#12 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 13,
+      name: "Dan Ige",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/IGE_DAN_L_04-13.png?itok=G-3CCIBQ",
+      ranking: "#13 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 14,
+      name: "Diego Lopes",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/LOPES_DIEGO_L_02-17.png?itok=QIb1KTtH",
+      ranking: "#14 Featherweight",
+      weightClass: "Featherweight"
+  },
+  {
+      id: 15,
+      name: "Sodiq Yusuff",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/YUSUFF_SODIQ_L_03-09.png?itok=mM9bmnMv",
+      ranking: "#15 Featherweight",
+      weightClass: "Featherweight"
+  }
+];
+
+const top15Lightweight = [
+  {
+      id: 1,
+      name: "Islam Makhachev",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-10/MAKHACHEV_ISLAM_BELT_L_10-21.png?itok=glu3eHJa",
+      ranking: "Lightweight Champion",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 2,
+      name: "Arman Tsarukyan",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/TSARUKYAN_ARMAN_L_03-09.png?itok=5dHQkD1V",
+      ranking: "#1 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 3,
+      name: "Charles Oliveira",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/OLIVEIRA_CHARLES_L_04-13.png?itok=zuTsqmoN",
+      ranking: "#2 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 4,
+      name: "Justin Gaethje",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/GAETHJE_JUSTIN_L_02-17.png?itok=dgiL3jJ7",
+      ranking: "#3 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 5,
+      name: "Dustin Poirier",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/POIRIER_DUSTIN_L_01-13.png?itok=PS1XPZg8",
+      ranking: "#4 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 6,
+      name: "Mateusz Gamrot",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/GAMROT_MATEUSZ_L_01-13.png?itok=uyU_wDLZ",
+      ranking: "#5 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 7,
+      name: "Beneil Dariush",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/DARIUSH_BENEIL_L_02-17.png?itok=nkWldFrL",
+      ranking: "#6 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 8,
+      name: "Michael Chandler",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/CHANDLER_MICHAEL_L_02-17.png?itok=ufQz0sbU",
+      ranking: "#7 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 9,
+      name: "Rafael Fiziev",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/FIZIEV_RAFIEL_L_01-13.png?itok=rbkOsztd",
+      ranking: "#8 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 10,
+      name: "Max Holloway",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/HOLLOWAY_MAX_L_04-13.png?itok=U9IB8OUQ",
+      ranking: "#9 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 11,
+      name: "Renato Moicano",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/MOICANO_RENATO_L_11-11.png?itok=06QKIfI_",
+      ranking: "#10 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 12,
+      name: "Dan Hooker",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/HOOKER_DAN_L_01-13.png?itok=vKwR5weS",
+      ranking: "#11 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 13,
+      name: "Jalin Turner",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/TURNER_JALIN_L_01-13.png?itok=PSdZC60x",
+      ranking: "#12 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 14,
+      name: "Benoît Saint Denis",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/SAINT_DENIS_BENOIT_L_01-13.png?itok=34RQ5s7O",
+      ranking: "#13 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 15,
+      name: "Rafael Dos Anjos",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/DOS_ANJOS_RAFIEL_L_01-13.png?itok=QlDFbOZl",
+      ranking: "#14 Lightweight",
+      weightClass: "Lightweight"
+  },
+  {
+      id: 16,
+      name: "Bobby Green",
+      image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/GREEN_BOBBY_L_01-13.png?itok=ZLFdIFJh",
+      ranking: "#15 Lightweight",
+      weightClass: "Lightweight"
+  }
+];
+
+
+
+
+export { fighterCardData, top15Flyweight, top15Bantamweight, top15Featherweight, top15Lightweight };

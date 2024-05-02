@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid'; // Import Grid component
 import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
 import FighterCard from './FighterCard';
-import { fighterCardData, top15Flyweight } from './data/fighterCardData';
+import { fighterCardData, top15Flyweight, top15Bantamweight, top15Featherweight, top15Lightweight } from './data/fighterCardData';
 import Typography from '@mui/material/Typography';
 
 // Define the main App component
@@ -152,6 +152,37 @@ function App() {
               <FighterCard fighter={fighter} />
             </Grid>
           ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Bantamweight</h1>
+            </Box>
+          </Grid>
+          {top15Bantamweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Featherweight</h1>
+            </Box>
+          </Grid>
+          {top15Featherweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Lightweight</h1>
+            </Box>
+          </Grid>
+          {top15Lightweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          
         </Grid>
       </Box>
     </ThemeProvider>

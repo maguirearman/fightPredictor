@@ -110,5 +110,122 @@ const fighterCardData = [
 
     // Add more fighters as needed
   ];
+  
+  
+  const top15Flyweight = [
+    {
+        id: 1,
+        name: "Alexandre Pantoja",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-12/PANTOJA_ALEXANDRE_L_12-16.png?itok=KUFPMuog",
+        ranking: "Flyweight Champion",
+        weightClass: "Flyweight" 
+    }, 
+    {
+        id: 2,
+        name: "Brandon Royval",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/ROYVAL_BRANDON_L_12-16.png?itok=vWmy1bNl",
+        ranking: "#1 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 3,
+        name: "Brandon Moreno",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-07/MORENO_BRANDON_L_06-12.png?itok=-Gi9L7O0",
+        ranking: "#2 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 4,
+        name: "Amir Albazi",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/ALBAZI_AMIR_L_06-03.png?itok=JaNXVxm3",
+        ranking: "#3 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 5,
+        name: "Kai Kara-France",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/KARA-FRANCE_KAI_L_07-30.png?itok=d8HO2jBS",
+        ranking: "#4 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 6,
+        name: "Alex Perez",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/PEREZ_ALEX_L_03-02.png?itok=fS-IUh_B",
+        ranking: "#5 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 7,
+        name: "Muhammad Mokaev",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/911ce7a0-a97f-497c-9a2d-b3bbfa3e50d8%252FMOKAEV_MUHAMMAD_L_03-19.png?itok=4J_mStsT",
+        ranking: "#6 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 8,
+        name: "Manel Kape",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-09/KAPE_MANEL_L_09-09.png?itok=aEvvQ_-y",
+        ranking: "#7 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 9,
+        name: "Matheus Nicolau",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/NICOLAU_MATHEUS_L_04-27.png?itok=4sUxYMxh",
+        ranking: "#8 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 10,
+        name: "Tim Elliott",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-12/ELLIOTT_TIM_L_12-09.png?itok=j4k6sbTK",
+        ranking: "#9 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 11,
+        name: "Steve Erceg",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-11/ERCEG_STEVEN_L_11-11.png?itok=tur1elen",
+        ranking: "#10 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 12,
+        name: "Matt Schnell",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/SCHNELL_MATT_L_03-02.png?itok=KaxNMZom",
+        ranking: "#11 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 13,
+        name: "Tagir Ulanbekov",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-12/ULANBEKOV_TAGIR_L_12-16.png?itok=KM0Nzaco",
+        ranking: "#12 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 14,
+        name: "Tatsuro Taira",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-12/TAIRA_TATSURO_L_12-09.png?itok=lYzc6l1z",
+        ranking: "#13 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 15,
+        name: "Sumudaerji",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/SUMUDAERJI_L_12-09.png?itok=9UL8yOfV",
+        ranking: "#14 Flyweight",
+        weightClass: "Flyweight"
+    },
+    {
+        id: 16,
+        name: "David Dvorak",
+        image: "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/DVORAK_DAVID_L_06-10.png?itok=zWHwGCXR",
+        ranking: "#15 Flyweight",
+        weightClass: "Flyweight"
+    }
+];
 
-export default fighterCardData;
+
+export { fighterCardData, top15Flyweight };

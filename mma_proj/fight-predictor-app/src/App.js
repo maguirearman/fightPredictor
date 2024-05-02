@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid'; // Import Grid component
 import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
 import FighterCard from './FighterCard';
-import fighterCardData from './data/fighterCardData';
+import { fighterCardData, top15Flyweight } from './data/fighterCardData';
 import Typography from '@mui/material/Typography';
 
 // Define the main App component
@@ -137,6 +137,17 @@ function App() {
             </Box>
           </Grid>
           {fighterCardData.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          {/* Fighter Cards Section */}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Flyweight</h1>
+            </Box>
+          </Grid>
+          {top15Flyweight.map(fighter => (
             <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
               <FighterCard fighter={fighter} />
             </Grid>

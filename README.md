@@ -1,17 +1,20 @@
-# fightPredictor
-Uses ufc database to predict the winner of an mma matchup
+# MMA Fight Predictor
 
-Goal: To build a model that predicts which UFC Fighter would win in a matchup
+A web application that predicts the winner of an MMA matchup using data from the UFC.
 
-- I started out with exploring database and preprocessing the records
-- Next, I used the joined tables to properly extract feature vectors
+# Goal
 
-Database: https://www.kaggle.com/datasets/remypereira/mma-dataset-2023-ufc?resource=download
+Develop a model that accurately predicts which UFC fighter would win in a matchup.
 
-archive folder is the original data sets
+# Approach
 
-data set is the scraped data that i worked on
+Data Exploration and Preprocessing:
+ - Examined and cleaned the UFC database, joining tables to extract relevant feature vectors.
+ - Data source: Kaggle MMA Dataset 2023 (https://www.kaggle.com/datasets/remypereira/mma-dataset-2023-ufc?resource=download)
+ - The archive folder contains the original datasets, while the data set folder includes the scraped data that was processed.
 
+Model Development
+- Created multiple models to compare predictive performance
 
 # MMA Fight Outcome Prediction
 Model Performance Summary
@@ -58,23 +61,29 @@ F1-score (0): 83%
 F1-score (1): 37%
 Accuracy (Mean): 78.25%
 - Conclusion
-The Gradient Boosting Machine (GBM) classifier demonstrates the best overall performance, achieving the highest accuracy and F1-scores for both classes. Additionally, it maintains high accuracy during cross-validation, indicating robustness and generalization capability.
+The Gradient Boosting Machine (GBM) classifier demonstrated the best overall performance, with the highest accuracy and F1 scores for both classes. It also maintains high cross-validation accuracy, indicating robustness.
 
+# Model Deployment
 
-I used joblib to load the model into my backend python file and then used the users inputs to retrieve data and use model to predict winner
+Backend Integration: 
+- The predictive model is loaded into the Python backend using joblib.
+- User inputs are utilized to fetch relevant data and generate predictions.
 
-
-npm start: Concurrently runs flask server (flask run) and the react frontend.
+Starting the Application: 
+- Run the app with npm start to concurrently start the Flask server (flask run) and the React frontend.
 
 
 # Frontend Development
 
-Created a react application w node.js framework
-Connected frontend with backend using flask routes (fighters, predict, etc.)
-It is now functional and the user can select two fighters and then the winner will be predicted using my model
-Using Material UI to make things pretty
+1. Developed a React application based on the Node.js framework.
+2. Connected the frontend and backend using Flask routes (e.g., /fighters, /predict).
+3. The application enables users to select two fighters and predict the winner based on the trained model.
+4. Utilized Material UI to enhance the interface's visual appeal.
 
 
-Encountered a plethora of issues regarding cors errors so for now i am using this command to temporarily disable cors on chrome (just for testing)
+Note: During testing, encountered CORS errors, which can be temporarily bypassed by disabling web security in Chrome. Run this command:
+open -a Google\ Chrome --args --disable-web-security --user-data-dir
 
-The command to disable cors errors: open -a Google\ Chrome --args --disable-web-security --user-data-dir
+# Publishing website
+
+I used Vercel to publish the website: https://fight-predictor.vercel.app/

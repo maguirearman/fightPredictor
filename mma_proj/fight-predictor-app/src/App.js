@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid'; // Import Grid component
 import Box from '@mui/material/Box'; // Import Box component
 import theme from './theme.js'; // Import the custom theme
 import FighterCard from './FighterCard';
-import { fighterCardData, top15Flyweight, top15Bantamweight, top15Featherweight, top15Lightweight } from './data/fighterCardData';
+import { fighterCardData, top15Flyweight, top15Bantamweight, top15Featherweight, top15Lightweight, top15Welterweight, top15Middleweight, top15LightHeavyweight, top15Heavyweight } from './data/fighterCardData';
 import Typography from '@mui/material/Typography';
 
 // Define the main App component
@@ -178,6 +178,46 @@ function App() {
             </Box>
           </Grid>
           {top15Lightweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Welterweight</h1>
+            </Box>
+          </Grid>
+          {top15Welterweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Middleweight</h1>
+            </Box>
+          </Grid>
+          {top15Middleweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Light Heavyweight</h1>
+            </Box>
+          </Grid>
+          {top15LightHeavyweight.map(fighter => (
+            <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
+              <FighterCard fighter={fighter} />
+            </Grid>
+          ))}
+          <Grid item xs={12}>
+            <Box textAlign="center">
+              <h1>Top 15 Heavyweight</h1>
+            </Box>
+          </Grid>
+          {top15Heavyweight.map(fighter => (
             <Grid item xs={6} sm={4} md={3} lg={2} key={fighter.id}>
               <FighterCard fighter={fighter} />
             </Grid>

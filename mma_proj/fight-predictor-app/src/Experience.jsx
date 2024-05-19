@@ -8,6 +8,8 @@ import { Perf } from 'r3f-perf'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useControls } from 'leva'
 import { OrbitControls } from '@react-three/drei'
+import MmaFighter from './MmaFighter.jsx'
+import { useRef } from 'react'
 import particlesVertexShader from './shaders/particles/vertex.glsl'
 import particlesFragmentShader from './shaders/particles/fragment.glsl'
 import * as THREE from 'three'
@@ -20,16 +22,11 @@ export default function Experience()
         pixelRatio: Math.min(window.devicePixelRatio, 2)
     }
 
-    const fighter = useGLTF('/models/fbxFighter.glb')
-    console.log(fighter)
-    const { actions } = useAnimations(fighter.animations)
-    console.log(actions)
-
-    const fighterGeometry = fighter.scene.children[0].children[0].geometry
-
     const { performance } = useControls('perf', { 
         performance: false 
     })
+
+    const fighter1 = useRef()
 
     const { directionalLightIntensity, directionalLightPosition, ambientLightIntensity } =  useControls("Lighting",{
         directionalLightIntensity: {
@@ -55,6 +52,7 @@ export default function Experience()
         colorB: '#0000ff'
     })
 
+
     return <>
 
         {performance ? <Perf position='top-left'/> : null}
@@ -68,33 +66,15 @@ export default function Experience()
             position={directionalLightPosition}
             intensity={directionalLightIntensity}
         />
-
-        <points
-            position={[-3, -5, 0]}
-            rotation={[Math.PI * 0.5, 0, -Math.PI * 0.5]}
-            scale={[0.04, 0.04, 0.04]}
-        >
-            <primitive object={fighterGeometry} />
-            <pointsMaterial
-                size={0.02}
-                sizeAttenuation={true}
-                // depthTest={false}
-                color={0xff0000}
-            />
-        </points>
-        <points
-            position={[3, -5., 0]}
-            scale={[0.04, 0.04, 0.04]}
-            rotation={[Math.PI * 0.5, 0, Math.PI * 0.5]}
-        >
-            <primitive object={fighterGeometry} />
-            <pointsMaterial
-                size={0.03}
-                sizeAttenuation={true}
-                // depthTest={false}
-                color={0x0000ff}
-            />
-        </points>
+        <MmaFighter 
+            color={'#ff0000'}
+            position={[-1, 0, 0]}
+        />
+        <MmaFighter 
+            color={'#ff0000'}
+            position={[-1, 0, 0]}
+        />
+        <primitive object={MmaFighter} ref={fighter1} />
     </>
    
 }

@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import GradientBoostingClassifier
@@ -11,7 +12,7 @@ import joblib
 
 # Apply CORS globally to all routes, the simplest solution
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://fight-predictor-btiypejiq-maguire-armans-projects.vercel.app/"}})
 
 # Load the trained model
 model = joblib.load('trained_model.pkl')
@@ -271,6 +272,7 @@ def predict_fight():
 
 
 
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Ensure the app uses the PORT environment variable defined by Heroku
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)

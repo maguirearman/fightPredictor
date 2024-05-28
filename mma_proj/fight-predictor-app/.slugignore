@@ -1,0 +1,12 @@
+*.log
+*.md
+*.txt
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv
+node_modules

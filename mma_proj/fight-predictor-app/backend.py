@@ -12,7 +12,7 @@ import joblib
 
 # Apply CORS globally to all routes, the simplest solution
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://fight-predictor-btiypejiq-maguire-armans-projects.vercel.app/"}})
+CORS(app, resources={r"/*": {"origins": "https://fight-predictor.vercel.app/"}})
 
 # Load the trained model
 model = joblib.load('trained_model.pkl')

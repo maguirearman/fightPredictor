@@ -87,3 +87,6 @@ open -a Google\ Chrome --args --disable-web-security --user-data-dir
 # Publishing website
 
 I used Vercel to publish the website: https://fight-predictor.vercel.app/
+
+
+changing back to before heroku

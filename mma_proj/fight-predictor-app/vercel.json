@@ -3,9 +3,13 @@
   "builds": [
     {
       "src": "api/backend.py",
-      "use": "@vercel/python",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
       "config": {
-        "zeroConfig": true
+        "distDir": "build"
       }
     }
   ],
@@ -13,14 +17,11 @@
     {
       "src": "/api/(.*)",
       "dest": "api/backend.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
-  ],
-  "build": {
-    "env": {
-      "PYTHONUNBUFFERED": "1",
-      "PIP_NO_CACHE_DIR": "off",
-      "PIP_DISABLE_PIP_VERSION_CHECK": "on",
-      "PIP_DEFAULT_TIMEOUT": "100"
-    }
-  }
+  ]
 }
+

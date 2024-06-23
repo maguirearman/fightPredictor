@@ -44,5 +44,5 @@ scikit-learn==0.24.2
 scipy==1.12.0
 six==1.16.0
 snowflake-connector-python==3.0.4
-setuptools>=57.0.0
+setuptools>=40.0.0
 

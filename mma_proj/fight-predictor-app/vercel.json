@@ -21,9 +21,6 @@
       "PIP_NO_CACHE_DIR": "off",
       "PIP_DISABLE_PIP_VERSION_CHECK": "on",
       "PIP_DEFAULT_TIMEOUT": "100"
-    },
-    "scripts": {
-      "build": "./install_distutils.sh && pip install -r requirements.txt"
     }
   }
 }

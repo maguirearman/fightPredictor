@@ -279,7 +279,3 @@ def handler(request, *args, **kwargs):
 def start_response(status, headers, exc_info=None):
     return make_response((status, headers))
     
-if __name__ == '__main__':
-    # Ensure the app uses the PORT environment variable defined by Heroku
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)

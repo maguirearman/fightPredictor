@@ -1,6 +1,9 @@
 import logging
 import pandas as pd
 import joblib
+import json
+import csv
+import azure.functions as func  # Import the Azure Functions library
 from azure.functions import HttpRequest, HttpResponse, FunctionApp
 from sklearn.impute import SimpleImputer
 
@@ -61,6 +64,48 @@ def extract_fighter_ids(fighter1_name, fighter2_name):
                 fighter_ids.append(row['fighter_id'])
     return fighter_ids
 
+def aggregate_fighter_stats(fighter_id, ufc_fight_data):
+    # Initialize dictionaries to hold the sums of each stat and the count of fights for averaging
+    stats_sum = {}
+    fight_count = 0
+    fighter_id_float = float(fighter_id)
+
+    # Define the stats we're interested in aggregating
+    stats_of_interest = ['fighter_id','knockdowns', 'total_strikes_att', 'total_strikes_succ',
+                         'sig_strikes_att', 'sig_strikes_succ', 'takedown_att',
+                         'takedown_succ', 'submission_att', 'reversals', 'ctrl_time']
+
+    for _, row in ufc_fight_data.iterrows():
+        # Determine if the fighter is f_1 or f_2 in this fight
+        if row['f_1'] == fighter_id_float:
+            prefix = 'x'
+        elif row['f_2'] == fighter_id_float:
+            prefix = 'y'
+        else:
+            continue  # This fight does not involve the fighter in question
+        
+        # Aggregate stats for the fighter
+        for stat in stats_of_interest:
+            key = f'{stat}_{prefix}'  # Construct the key name for this stat
+            # Special handling for 'ctrl_time' due to its string format 'MM:SS'
+            if stat == 'ctrl_time' and isinstance(row.get(key, '0:0'), str):
+                minutes, seconds = map(int, row.get(key, '0:0').split(':'))
+                total_seconds = minutes * 60 + seconds
+                stats_sum[stat] = stats_sum.get(stat, 0) + total_seconds
+            else:
+                # Directly aggregate other stats
+                stats_sum[stat] = stats_sum.get(stat, 0) + row.get(key, 0)
+        
+        fight_count += 1
+
+    # Calculate average stats
+    if fight_count == 0:
+        raise ValueError(f"No fight data found for fighter ID {fighter_id}")
+    
+    avg_stats = {stat: total / fight_count for stat, total in stats_sum.items()}
+    
+    return avg_stats
+
 def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
     fighter1_id, fighter2_id = extract_fighter_ids(fighter1_name, fighter2_name)
     
@@ -78,6 +123,54 @@ def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
     
     return features_df
 
+
+# Function returns a list of the names of all fighters
+def get_fighter_names():
+    fighter_names = []
+    names_count = {}
+    with open('archive/ufc_fighter_data.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            fighter_name = f"{row['fighter_f_name']} {row['fighter_l_name']}"
+            if fighter_name in fighter_names:
+                # If the name already exists, add the middle name or nickname
+                nickname = row.get('fighter_nickname', '')
+                if nickname:
+                    fighter_name += f" '{nickname}'"
+                # If both middle name and nickname are missing, add a unique identifier
+                else:
+                    if fighter_name in names_count:
+                        names_count[fighter_name] += 1
+                        fighter_name += f" {names_count[fighter_name]}"
+                    else:
+                        names_count[fighter_name] = 1
+            fighter_names.append(fighter_name)
+    return fighter_names
+
+@app.function_name(name="getFighters")
+@app.route(route="fighters", auth_level=func.AuthLevel.FUNCTION, methods=["GET", "OPTIONS"])
+def get_fighters(req: func.HttpRequest) -> func.HttpResponse:
+    if req.method == 'OPTIONS':
+        # Respond to preflight request
+        response = func.HttpResponse(
+            json.dumps({'message': 'Preflight request accepted.'}),
+            status_code=200,
+            mimetype="application/json"
+        )
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+        response.headers.add('Access-Control-Allow-Methods', 'GET')
+        return response
+    
+    fighters = get_fighter_names()  # Make sure you have this function defined somewhere
+    response = func.HttpResponse(
+        json.dumps(fighters),
+        status_code=200,
+        mimetype="application/json"
+    )
+    return response
+
+@app.function_name(name="fighterBackend")
 @app.route(route="fighterBackend", auth_level=func.AuthLevel.FUNCTION)
 def fighterBackend(req: HttpRequest) -> HttpResponse:
     logging.info('Processing a request in fighterBackend function.')

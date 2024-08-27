@@ -12,7 +12,7 @@ import joblib
 
 # Apply CORS globally to all routes, the simplest solution
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://fight-predictor.vercel.app/"}})
+CORS(app)
 
 # Load the trained model
 model = joblib.load('trained_model.pkl')
@@ -133,8 +133,8 @@ def extract_fighter_ids(fighter1_name, fighter2_name):
     return fighter_ids
 
 
+# Flask route for getting fighters
 @app.route('/fighters', methods=['GET', 'OPTIONS'])
-@cross_origin(origin='http://localhost:3000', headers=['Content-Type'], methods=['GET', 'OPTIONS'])
 def get_fighters():
     if request.method == 'OPTIONS':
         # Respond to preflight request
@@ -212,8 +212,8 @@ def extract_features_for_fighters(fighter1_name, fighter2_name, merged_data):
     return features_df
 
 
+# Flask route for predicting a fight
 @app.route('/predict', methods=['POST', 'OPTIONS'])
-@cross_origin(origin='http://localhost:3000', headers=['Content-Type'], methods=['POST', 'OPTIONS'])
 def predict_fight():
     if request.method == 'OPTIONS':
         # Respond to preflight request
@@ -271,7 +271,14 @@ def predict_fight():
         }), 200
 
 
+# Vercel's serverless function handler
+def handler(request, *args, **kwargs):
+    return app(request.environ, start_response)
 
+# Required for Vercel to start the serverless function
+def start_response(status, headers, exc_info=None):
+    return make_response((status, headers))
+    
 if __name__ == '__main__':
     # Ensure the app uses the PORT environment variable defined by Heroku
     port = int(os.environ.get('PORT', 5000))

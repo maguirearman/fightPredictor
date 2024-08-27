@@ -25,7 +25,7 @@
   "scripts": {
     "start": "concurrently \"npm run start-react\" \"npm run start-flask\"",
     "start-react": "react-scripts start",
-    "start-flask": "python3.11 backend.py",
+    "start-flask": "python3.11 api/backend.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

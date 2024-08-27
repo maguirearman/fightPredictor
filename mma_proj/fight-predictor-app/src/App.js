@@ -41,7 +41,7 @@ function App() {
       fighter2: selectedFighter2
     };
     // Make a POST request to the backend to predict the fight
-    fetch('https://fight-predictor-backend.herokuapp.com/fighters', {
+    fetch('/api/predict', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -66,7 +66,7 @@ function App() {
 
   // Fetch fighters data from the server on component mount
   useEffect(() => {
-    fetch('https://fight-predictor-backend.herokuapp.com/fighters')
+    fetch('/api/fighters')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
